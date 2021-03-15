@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: delete unregistered cluster",
+    "description": "cluster requires you to take action because it is no longer registering with Red Hat OpenShift Cluster Manager. Please delete this cluster.",
+    "internal_only": false
+}
