@@ -10,6 +10,9 @@ Select the corresopnding message and send as a `POST` to
 
 ### Examples
 
-osdctl
+Using [osdctl](https://github.com/openshift/osdctl)
+
+1. Authenticate at https://cloud.redhat.com/openshift/token
+1. Post servicelog
 
     osdctl servicelog post -t <notificationTemplateUrl> -p CLUSTER_UUID=<UUID>
