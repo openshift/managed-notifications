@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: update cluster build configuration",
+    "description": "cluster requires you to take action. Container image builds are failing and must be resolved. Please check the image build error logs and update your configuration. For more information refer to https://docs.openshift.com/dedicated/4/builds/understanding-image-builds.html",
+    "internal_only": false
+}

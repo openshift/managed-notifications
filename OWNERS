@@ -1,0 +1,15 @@
+approvers:
+  - wgordon17    # BU
+  - rh-wadhwani  # SREP mgmt
+  - cattias
+  - pyates86
+  - aweiteka
+  - billmvt
+  - c-e-brumm
+reviewers:
+  - mmazur       # RLs
+  - bdematte
+  - csheremeta
+  - iamkirkbater
+  - mrbarge
+  - bmeng
