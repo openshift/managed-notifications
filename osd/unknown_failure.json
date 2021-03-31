@@ -1,0 +1,9 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Cluster is malfunctioning",
+    "description": "cluster was identified to have an general failure regarding the alert names '${ALERT_NAME}'.\n
+                    If you intended for this alert to fire file a support request, if not a diagnosis of the issue is underway",
+    "internal_only": false
+}
