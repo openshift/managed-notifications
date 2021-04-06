@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Installation blocked, action required",
+    "description": "cluster's installation blocked on a misconfigured VPC. Please correct the error, and try recreating the cluster. Error: {$ERROR}",
+    "internal_only": false
+}
