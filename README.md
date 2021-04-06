@@ -15,4 +15,12 @@ Using [osdctl](https://github.com/openshift/osdctl)
 1. Authenticate at https://cloud.redhat.com/openshift/token
 1. Post servicelog
 
+    ```
     osdctl servicelog post -t <notificationTemplateUrl> -p CLUSTER_UUID=<UUID>
+    ```
+    
+    Example:
+    
+    ```
+    osdctl servicelog post -t https://raw.githubusercontent.com/openshift/managed-notifications/master/osd/aws/InstallFailed_TooManyBuckets.json -p CLUSTER_UUID=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
+    ```
