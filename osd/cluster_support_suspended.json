@@ -1,0 +1,8 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Cluster support suspended: none-authorised IaaS changes detected",
+    "description": "Openshift Dedicated SRE team has noticed some none-supported changes that were made to the underlying IaaS infrastructure. This cluster will no longer be monitored and managed by the SRE team. Possible causes may include stopping or removing instances, configuration changes to Load Balancers or Security Groups, etc. If you wish to resume support for this cluster, please submit a support ticket.",
+    "internal_only": false
+}
