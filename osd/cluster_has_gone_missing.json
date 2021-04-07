@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: delete unregistered cluster",
-    "description": "cluster requires you to take action because it is no longer registering with Red Hat OpenShift Cluster Manager. Possible causes include stopping instances or a networking misconfiguration. If you intended to terminate this cluster then please delete the cluster. Otherwise file a support request.",
+    "description": "Your cluster requires you to take action because it is no longer registering with Red Hat OpenShift Cluster Manager. Possible causes include stopping instances or a networking misconfiguration. If you intended to terminate this cluster then please delete the cluster. Otherwise file a support request.",
     "internal_only": false
 }

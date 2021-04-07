@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Installation blocked, action required",
-    "description": "cluster's installation blocked on AWS TooManyBuckets error. Please raise the S3 bucket quota or remove some buckets from the appropriate region of your AWS account for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
+    "description": "Your cluster's installation blocked on AWS TooManyBuckets error. Please raise the S3 bucket quota or remove some buckets from the appropriate region of your AWS account for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
     "internal_only": false
 }
