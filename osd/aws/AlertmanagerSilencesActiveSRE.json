@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Clear Alertmanager Silences",
-    "description": "cluster's monitoring stack has silenced alerts. This prevents Red Hat SRE from monitoring this cluster. Please clear alert silences immediately.",
+    "description": "Your cluster's monitoring stack has silenced alerts. This prevents Red Hat SRE from monitoring this cluster. Please clear alert silences immediately.",
     "internal_only": false
 }
