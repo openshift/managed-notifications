@@ -2,7 +2,7 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "configured identity provider ${IDP_PROVIDER} has problems connecting",
-    "description": "Please verify the status of your identity server to restore the cluster’s operation. Documentation: https://docs.openshift.com/dedicated/4/authentication/dedicated-understanding-authentication.html",
+    "summary": "Action required: update identity provider configuration",
+    "description": "Please verify the status of your identity server and update the IdP '${IDP_PROVIDER}' configuration to restore the cluster's operation. See documentation: https://docs.openshift.com/dedicated/4/authentication/dedicated-understanding-authentication.html",
     "internal_only": false
 }
