@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "SRE recovered master nodes",
-    "description" : "SRE have noticed that some master nodes of your cluster were stopped from the IaaS infrastructure. SRE have started back the nodes to recover the cluster. Please note that stopping master nodes manually is not a supported operation.",
+    "description" : "SRE have noticed a change in the state of one or more of the cluster's master nodes. SRE have restored the affected nodes. Please note that changing the running state on the master nodes directly from the cloud provider manually is not supported.",
     "internal_only": false
 }
