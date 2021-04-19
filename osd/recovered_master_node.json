@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "SRE recovered master nodes",
+    "description" : "SRE have noticed that some master nodes of your cluster were stopped from the IaaS infrastructure. SRE have started back the nodes to recover the cluster. Please note that stopping master nodes manually is not a supported operation.",
+    "internal_only": false
+}
