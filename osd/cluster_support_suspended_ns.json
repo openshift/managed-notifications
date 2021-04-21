@@ -2,7 +2,7 @@
     "severity": "Warning",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Cluster support suspended: none-authorised changes in openshift-* namespace detected",
-    "description": "Openshift Dedicated SRE team has noticed some none-supported changes that were made to the openshift-* namespace. This cluster will no longer be monitored and managed by the SRE team. Possible causes may include configuration changes to openshift-* namespaces, etc. If you wish to resume support for this cluster, please submit a support ticket.",
+    "summary": "Cluster support suspended: non-authorised changes in openshift-* namespace detected",
+    "description": "Openshift Dedicated SRE team has noticed some non-supported changes that were made to the openshift-* namespace. This cluster will no longer be monitored and managed by the SRE team. Possible causes may include configuration changes to openshift-* namespaces, etc. If you wish to resume support for this cluster, please submit a support ticket.",
     "internal_only": false
 }
