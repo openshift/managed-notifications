@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: remove second monitoring stack",
+    "description" : "Red Hat SRE have noticed a second monitoring stack installed in the ‘monitoring’ namespace. This is interfering with cluster operations and preventing Red Hat from monitoring the cluster. Please remove the adhoc monitoring stack and use User Workload Monitoring instead. See https://docs.openshift.com/rosa/monitoring/osd-understanding-the-monitoring-stack.html",
+    "internal_only": false
+}
