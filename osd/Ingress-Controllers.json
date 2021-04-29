@@ -2,7 +2,7 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Ingress controller blocked, action required",
-    "description": "Your cluster has a configuration problem with ingress-controllers. Ingress Operator configuration documentation can be found here - https://docs.openshift.com/container-platform/4.7/networking/ingress-operator.html#configuring-ingress-controller",
+    "summary": "Action required: Update ingress controller configuration",
+    "description": "Your cluster has a misconfigured ingress-controller. Please delete the ingress controller and create a new one that does not conflict. See ingress-controller documentation for details: https://docs.openshift.com/container-platform/4.7/networking/ingress-operator.html#configuring-ingress-controller",
     "internal_only": false
 }
