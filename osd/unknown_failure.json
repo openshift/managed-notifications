@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Cluster incident identified",
-    "description": "Your cluster is identified to have a general failure regarding the alert '${ALERT_NAME}'. The initial issue can be described as '${BRIEF_DESCRIPTION}'. A diagnosis of the issue is underway",
+    "description": "Your cluster is identified to have a general failure regarding the alert '${ALERT_NAME}'. The initial issue can be described as '${BRIEF_DESCRIPTION}'. A diagnosis of the issue is underway. If the cluster will keep alerting for the next 5 buisness days, we will put alerts for the cluster on hold until recieving a response from you",
     "internal_only": false
 }
