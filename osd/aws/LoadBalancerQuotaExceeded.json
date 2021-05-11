@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action Required: Increase AWS load balancer quota",
+    "description": "Your cluster has a degraded ingress controller due to AWS Load balancer quota being exceeded in your account. Please raise the related quota or free enough load balancer resources for the ingress controller to function normally. AWS account limits are described in this document - https://docs.openshift.com/container-platform/4.7/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
+    "internal_only": false
+}
