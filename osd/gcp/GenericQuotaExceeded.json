@@ -2,7 +2,7 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked on a GCP ${RESOURCE_QUOTA} error. Please raise the quota or free enough resources for the installation to succeed. GCP account limits are described in this document - https://docs.openshift.com/container-platform/4.6/installing/installing_gcp/installing-gcp-account.html#installation-gcp-limits_installing-gcp-account",
+    "summary": "Action required: review account quota",
+    "description": "Your cluster's ${CLUSTER_FUNCTION} is blocked on a GCP ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the action to succeed. GCP account limits are described in this document - https://docs.openshift.com/container-platform/4.7/installing/installing_gcp/installing-gcp-account.html#installation-gcp-limits_installing-gcp-account",
     "internal_only": false
 }
