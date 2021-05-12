@@ -10,6 +10,8 @@ Select the corresopnding message and send as a `POST` to
 
 > :warning: Please review each template before post to make sure all the parameters are passed with -p 
 
+> :books: If you are not sure which servicelog to send, you can use the generic one [here](./osd/unknown_failure.json)
+
 ### Examples
 
 Using [osdctl](https://github.com/openshift/osdctl)
