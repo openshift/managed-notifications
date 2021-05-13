@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. AWS VPC requirements are described in this document - https://docs.openshift.com/container-platform/4.7/installing/installing_aws/installing-aws-vpc.html",
+    "internal_only": false
+}
