@@ -2,7 +2,7 @@
     "severity": "Warning",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Action required: Upgrade cluster before 2021-99-99",
-    "description": "Your cluster is running a soon to be unsupported OSD version. Please upgrade to a supported version of OSD before 2021-99-99. Failing to upgrade will result in your cluster becoming unsupported and SRE monitoring of it being disabled, per our Life Cycle Policy, available at https://access.redhat.com/support/policy/updates/openshift/dedicated",
+    "summary": "Action required: Upgrade cluster before ${CUTOFF_DATE}",
+    "description": "Your cluster is running a soon to be unsupported OSD version. Please upgrade to a supported version of OSD before ${CUTOFF_DATE}. Failing to upgrade will result in your cluster becoming unsupported and SRE monitoring of it being disabled, per our Life Cycle Policy, available at https://access.redhat.com/support/policy/updates/openshift/dedicated",
     "internal_only": false
 }
