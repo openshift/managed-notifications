@@ -1,0 +1,8 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Upgrade cluster",
+    "description": "Your cluster is running an old OSD version. Please upgrade to a more recent minor version of OSD as soon as possible. Failing to upgrade will result in your cluster becoming unsupported and SRE monitoring of it being disabled, per our Life Cycle Policy, available here – https://access.redhat.com/support/policy/updates/openshift/dedicated",
+    "internal_only": false
+}
