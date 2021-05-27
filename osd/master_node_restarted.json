@@ -1,0 +1,8 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Master node restarted",
+    "description": "Your cluster was unstable due to a master node being stopped. We have restarted the master node and the cluster now appears healthy. Please avoid stopping your node instances in the future.",
+    "internal_only": false
+}
