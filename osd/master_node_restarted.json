@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Master node restarted",
-    "description": "Your cluster was unstable due to a master node being stopped. We have restarted the master node and the cluster now appears healthy. Please avoid stopping your node instances in the future.",
+    "description": "Red Hat SRE detected that one of the master nodes was manually stopped. In order to restore the full resiliency feature of our control plane we have restarted that node. Please make sure to never manually stop any management infrastructure (master or infra nodes) as it will decrease the resiliency of your cluster and breach our support model.",
     "internal_only": false
 }
