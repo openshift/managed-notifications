@@ -6,6 +6,8 @@ approvers:
   - aweiteka
   - billmvt
   - c-e-brumm
+	- jasonrhunter
+	- tbeckham
 reviewers:
   - mmazur       # RLs
   - bdematte
