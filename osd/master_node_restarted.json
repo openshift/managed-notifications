@@ -4,6 +4,5 @@
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Master node restarted",
     "description": "Red Hat SRE has detected that one of the master nodes was manually stopped. In order to restore the full resiliency of our control plane we have restarted that node. Please make sure to never manually stop any management infrastructure (master or infra nodes) as it will decrease the resiliency of the cluster and prevent Red Hat from delivering on the SLA guarantee. If you require support, please file a support ticket.",
-",
     "internal_only": false
 }
