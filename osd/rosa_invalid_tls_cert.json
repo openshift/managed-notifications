@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Invalid TLS certificate",
+    "description" : "Your cluster uses an invalid TLS certificate. To use a custom domain please follow the documentation on setting up custom application domains for OpenShift Dedicated at https://access.redhat.com/articles/5599621.",
+    "internal_only": false
+}
