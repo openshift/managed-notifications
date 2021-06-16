@@ -1,0 +1,8 @@
+{
+ "severity": "Warning",
+ "service_name": "SREManualAction",
+ "cluster_uuid": "${CLUSTER_UUID}",
+ "summary": "Action required: Resources overloaded",
+ "description": "Your OpenShift Dedicated cluster does not have enough resources and requires you to take action. You need to either reduce application load or increase worker nodes. See the following documentation for scaling up worker nodes: https://docs.openshift.com/dedicated/4/getting_started/scaling-your-cluster.html",
+ "internal_only": false
+}
