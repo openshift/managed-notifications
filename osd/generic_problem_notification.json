@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: ${PROBLEM_SUMMARY}",
-    "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with any ability to upgrade. Please refer to this documentation for more information: ${DOCUMENTATION}. If you require assistance, please file a support request.",
+    "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: ${DOCUMENTATION}. If you require assistance, please file a support request.",
     "internal_only": false
 }
