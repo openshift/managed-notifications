@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: DNS misconfigration",
+    "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to DNS configuration which impacts normal working of the cluster. Please revert changes or contact support for more assistance.",
+    "internal_only": false
+}
