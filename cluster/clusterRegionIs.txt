@@ -1,0 +1,1 @@
+region.id is '${CLUSTER_REGION}'
