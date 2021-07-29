@@ -1,0 +1,8 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "cluster_uuid": "${CLUSTER_UUID}",
+  "summary": "Action required: update cluster OIDC thumbprint",
+  "description": "OpenShift SREs have detected your OpenIDConnect Provider thumbprint has changed. Please follow the documentation to update your thumbprint: https://docs.openshift.com/rosa/rosa_getting_started/rosa-sts-creating-cluster.html#rosa-sts-creating-cluster under OIDC 1.a Create the OIDC provider. Update the OIDC thumbprint with the command 'aws iam update-open-id-connect-provider-thumbprint', or through the AWS Console under IAM -> Identity Providers.",
+  "internal_only": false
+ }
