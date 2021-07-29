@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Persistent Volume/s Resized",
+    "description" : "SRE has resized the capacity of the ${VOLUME_DESCRIPTION} persistent volumes to accommodate cluster load",
+    "internal_only": false
+}
