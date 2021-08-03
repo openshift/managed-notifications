@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "{$DATE} Cluster maintenance completed",
+    "description": "{$DATE} cluster maintenance is now completed.",
+    "internal_only": false
+}
