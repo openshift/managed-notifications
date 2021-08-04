@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Platform protections removed by non-Red Hat user",
+    "description": "A user on your system has removed a platform protection webhook. This protection has already been automatically replaced, and no further action is required. Tampering with platform protections can endanger SLAs. Please open a support case so that we can better understand your goals and use cases, https://access.redhat.com/support.",
+    "internal_only": false
+}
