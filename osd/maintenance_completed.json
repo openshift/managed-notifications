@@ -2,7 +2,7 @@
     "severity": "Info",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "{$DATE} Cluster maintenance completed",
-    "description": "{$DATE} cluster maintenance is now completed.",
+    "summary": "{$DATE} Cluster maintenance successfully completed",
+    "description": "{$DATE} cluster maintenance is now successfully completed. If you require support, please file a support ticket",
     "internal_only": false
 }
