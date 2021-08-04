@@ -2,7 +2,7 @@
     "severity": "Info",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "{$DATE} Cluster maintenance successfully completed",
-    "description": "{$DATE} cluster maintenance is now successfully completed. Your cluster services are now fully back online, if you require any assistance from Red Hat please open a support ticket.",
+    "summary": "${DATE} Cluster maintenance successfully completed",
+    "description": "${DATE} cluster maintenance is now successfully completed. Your cluster services are now fully back online, if you require any assistance from Red Hat please open a support ticket.",
     "internal_only": false
 }
