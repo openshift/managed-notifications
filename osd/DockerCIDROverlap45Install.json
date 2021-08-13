@@ -1,0 +1,8 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "cluster_uuid": "${CLUSTER_UUID}",
+  "summary": "Installation failed: Your cluster's CIDR ranges overlap with the default Docker Bridge subnet",
+  "description": "Your cluster's installation has failed due to an overlap with the default Docker Bridge subnet, 172.17.0.0/16. This failure is only present on 4.5 cluster installs. Please install a new cluster on a supported OpenShift Dedicated version (https://docs.openshift.com/dedicated/osd_policy/osd-life-cycle.html#rosa-life-cycle-dates_osd-life-cycle). For more details, see https://bugzilla.redhat.com/show_bug.cgi?id=1858342",
+  "internal_only": false
+}
