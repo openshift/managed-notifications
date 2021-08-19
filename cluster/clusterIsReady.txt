@@ -1,0 +1,1 @@
+(status.state is 'ready') and (status.state is not 'unknown')
