@@ -2,7 +2,7 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Platform component accessed by non-Red Hat user",
-    "description": "A user on your system has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat. Tampering with platform components can endanger SLAs. Please refer to https://www.openshift.com/products/dedicated/responsibility-assignment",
+    "summary": "Platform component accessed by non-Red Hat SRE user",
+    "description": "A user on your system has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat SRE. Tampering with platform components can endanger SLAs. Please refer to https://www.openshift.com/products/dedicated/responsibility-assignment",
     "internal_only": false
 }
