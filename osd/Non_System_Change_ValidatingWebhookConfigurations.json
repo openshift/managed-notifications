@@ -1,0 +1,8 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Non-System Change ValidatingWebhookConfigurations",
+    "description": "A Non-system user changed a ValidatingWebhookConfiguration, ${WEBHOOK}. ValidatingWebhooks are used to maintain the stability and security of OpenShift, this event can have an impact on SLAs. Red Hat will proactively repair the Webhook. Please refer to https://www.openshift.com/products/dedicated/responsibility-assignment",
+    "internal_only": false
+}
