@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Adjust trusted build configuration",
+    "description": "Your cluster requires you to take action because the cluster's image registry is in a degraded state due to a misconfiguration. A trusted CA ConfigMap has been added to the 'cluster' images.config.openshift.io resource's 'additionalTrustedCA' section, but the corresponding ConfigMap does not exist in the openshift-config namespace. Please create that ConfigMap by following the product documentation: https://docs.openshift.com/container-platform/4.7/cicd/builds/setting-up-trusted-ca.html . Without action, the image registry will remain in a degraded state and will impact the cluster's ability to upgrade. If you require assistance, please file a support request.",
+    "internal_only": false
+}
