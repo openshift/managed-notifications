@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "AWS Outage Affecting Connectivity",
+    "description": "Your cluster is currently being affected by an AWS outage, which includes control plane and workload connectivity. To stay up to date with the current AWS status updates, please follow https://status.aws.amazon.com/",
+    "internal_only": false
+}
