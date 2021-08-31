@@ -2,7 +2,7 @@
     "severity": "Info",
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "GCP Outage Affecting Connectivity",
-    "description": "Your cluster is currently being affected by a GCP outage, which includes control plane and workload connectivity. To stay up to date with the current GCP status updates, please follow https://status.cloud.google.com/",
+    "summary": "GCP Outage Impacting Your Cluster",
+    "description": "Red Hat has identified a GCP issue that may impact your cluster. For more details, including incident resolution, see https://status.cloud.google.com/",
     "internal_only": false
 }
