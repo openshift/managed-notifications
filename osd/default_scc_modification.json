@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Revert modifications to default Security Context Contraints",
+    "description": "The cluster's default Security Context Constraints (SCC) have been modified. Please revert the changes to the default SCC or contact support for more assistance. Your cluster's SLA and ability to upgrade may be impacted if you do not take action. Instead of modifying default SCC, it is recommended to create new SCC as described here: https://docs.openshift.com/container-platform/4.8/authentication/managing-security-context-constraints.html.",
+    "internal_only": false
+}
