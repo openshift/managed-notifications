@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: update cluster proxy configuration",
+    "description": "The clusterwide openshift proxy is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. See documentation: https://access.redhat.com/documentation/en-us/openshift_container_platform/4.8/html/networking/enable-cluster-wide-proxy",
+    "internal_only": false
+}
