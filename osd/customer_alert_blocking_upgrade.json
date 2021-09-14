@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Alert is blocking a cluster upgrade",
+    "description": "Your cluster requires you to take action because ${PROBLEM} is generating an alert, blocking a cluster upgrade. Without action, your cluster's SLA may be impacted. If you require assistance, please file a support request.",
+    "internal_only": false
+}
