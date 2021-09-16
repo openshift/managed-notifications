@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Installation failed, please try again",
+    "description" : "The installation of this cluster could not complete due to ${REASON}. Please remove this cluster and create a new one. If you require assistance, please file a support ticket.",
+    "internal_only": false
+}
