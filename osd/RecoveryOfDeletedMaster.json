@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Recovery of deleted master nodes is not supported.",
-    "description" : "SRE have noticed that one or more master nodes have been deleted manually. Please note that recovery of deleted master nodes is not supported if you change the running state of one of the master nodes manually then SRE won't be able to support your cluster anymore, we suggest you to reinstall cluster to get back to the desired state.",
+    "description" : "SRE have noticed that one or more master nodes have been deleted manually. Please note that recovery of deleted master nodes is not supported. Changing the running state of one of the master nodes manually will result in loss of cluster functionality and will impact your cluster's SLAs. SRE kindly suggests that you reinstall the cluster to return it to the desired state.",
     "internal_only": false
 }
