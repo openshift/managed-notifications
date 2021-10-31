@@ -1,0 +1,8 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action Required: Cluster upgrade paused, requires acknowledgement",
+    "description": "Your cluster's upgrade cannot proceed because manual acknowledgement is required concerning the removal of deprecated APIs. Please review the Knowledge Base article at https://access.redhat.com/articles/6329921 and perform the recommended acknowledgement procedure if you are not using workloads that require the deprecated APIs and wish to proceed with the upgrade - the upgrade will then proceed as normal. If you require any assistance, please file a support request.",
+    "internal_only": false
+}
