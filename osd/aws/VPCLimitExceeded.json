@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation blocked on AWS VpcLimitExceeded error. Please raise the VPC quota or remove some VPCs from the appropriate region of your AWS account for the installation to succeed. AWS account limits are described in this document -  https://docs.openshift.com/container-platform/4.6/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
+    "description": "Your cluster's installation blocked on AWS VpcLimitExceeded error. Please raise the VPC quota or remove some VPCs from the appropriate region of your AWS account for the installation to succeed. AWS account limits are described in this document -  https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
     "internal_only": false
 }

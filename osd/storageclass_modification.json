@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: Address storageclass configuration",
-    "description": "Your cluster requires you to take action because its StorageClass resources have been customized in a way that is resulting in components of the cluster's monitoring stack from failing to provision Persistent Volumes, which impacts the availability of your cluster's monitoring stack. Please restore 'gp2' as the cluster's default storage class by following the 'Storage Class Annotations' instructions in the OpenShift documentation: https://docs.openshift.com/container-platform/4.8/post_installation_configuration/storage-configuration.html If you require further assistance, please file a support request.",
+    "description": "Your cluster requires you to take action because its StorageClass resources have been customized in a way that is resulting in components of the cluster's monitoring stack from failing to provision Persistent Volumes, which impacts the availability of your cluster's monitoring stack. Please restore 'gp2' as the cluster's default storage class by following the 'Storage Class Annotations' instructions in the OpenShift documentation: https://docs.openshift.com/container-platform/latest/post_installation_configuration/storage-configuration.html If you require further assistance, please file a support request.",
     "internal_only": false
 }
