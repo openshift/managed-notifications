@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked due to ${MSG}. Please review the network configuration, and try re-installing the cluster. Please refer to the following firewall pre-requisites which are required for PrivateLink clusters: https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html#osd-aws-privatelink-firewall-prerequisites If you require further assistance please open a support case.",
+    "internal_only": false
+}
