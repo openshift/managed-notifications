@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Elevated rate of failed authorization events on your Managed OpenShift cluster",
-    "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of API calls that failed authorization for a certain user(s) on your cluster(s) ${USERNAME}. Because the user(s) belong to your organization, Red Hat SRE is sending this notice to you for further analysis.",
+    "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of API calls that failed authorization for the following users on your cluster: ${USERNAME}. Because the users belong to your organization, Red Hat SRE is sending this notice to you for further analysis.",
     "internal_only": false
 }
