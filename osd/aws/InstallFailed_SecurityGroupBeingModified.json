@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked as security groups used to provision the cluster on the AWS account were modified during installation. Please review any scripts which would modify the AWS resources automatically on the AWS account. Please make sure the required ports/protocols are allowed at all times. For more information please consult the documentation: https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html#rosa-security-groups_prerequisites.  If you require further assistance please file a support request.",
+    "description": "Your cluster's installation is blocked as security groups used to provision the cluster on the AWS account were modified during installation. Please review any scripts which would modify the AWS resources automatically on the AWS account. Please make sure the required ports/protocols are allowed at all times. For more information please consult the documentation: https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html#rosa-security-groups_prerequisites.",
     "internal_only": false
 }
