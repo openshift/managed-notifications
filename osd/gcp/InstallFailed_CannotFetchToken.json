@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked on a GCP token error: 'oauth2: cannot fetch token https://oauth2.googleapis.com/token'. Please try the installation again. If you require assistance or if the error recurs, please file a support request at https://access.redhat.com/support.",
+    "internal_only": false
+}
