@@ -1,7 +1,6 @@
 {
  "severity": "Error",
  "service_name": "SREManualAction",
- "cluster_uuid": "${CLUSTER_UUID}",
  "summary": "Action required: Elasticsearch impacted by cluster resource limits",
  "description": "Your cluster requires you to take action. Your OpenShift Dedicated cluster does not have enough resources to run Elasticsearch. Please refer to the following documentation for detailed instructions: https://docs.openshift.com/container-platform/latest/logging/config/cluster-logging-log-store.html#cluster-logging-logstore-limits_cluster-logging-store",
  "internal_only": false

@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Installation failed",
     "description": "Your cluster's installation has failed related to an invalid CIDR configuration. The Machine CIDR range is invalid and causing an error 'The subnet's CIDR range start 10.1.100.0 is outside of the specified machine networks'. You must delete this cluster, and recreate it with a larger Machine CIDR that includes all of the subnets CIDR ranges.",
     "internal_only": false

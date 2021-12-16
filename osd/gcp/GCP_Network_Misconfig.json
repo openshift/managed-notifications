@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: Failed Openshift Installation on GCP",
     "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. GCP VPC requirements are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_gcp/installing-restricted-networks-gcp-installer-provisioned.html",
     "internal_only": false

@@ -1,7 +1,6 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Master nodes resized",
     "description" : "SRE has resized the master nodes of your cluster to ${INSTANCE_TYPE} to accomodate cluster load",
     "internal_only": false

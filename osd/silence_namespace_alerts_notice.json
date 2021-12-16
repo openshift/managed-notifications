@@ -1,7 +1,6 @@
 {
     "severity": "Warning",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "NOTICE: Silencing alerts for 'openshift-*' user namespaces",
     "description": "The Red Hat SRE team monitors all OpenShift Dedicated namespaces matching pattern 'openshift-*'. This namespace prefix is reserved for infrastructure use. Red Hat SRE does not monitor user namespaces matching this pattern. Alerts for namespace '${NAMESPACE}' have been silenced and will not be re-enabled. Cluster metrics and alerts may still be accessed from the cluster console.",
     "internal_only": false

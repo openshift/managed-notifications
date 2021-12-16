@@ -2,7 +2,6 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "cluster_uuid": "${CLUSTER_UUID}",
   "summary": "Action required: Fix AWS Role to maintain SRE support",
   "description": "Your cluster requires you to take action because Red Hat OpenShift SRE are not able to access your AWS account due to ${REASON} in ${IAM_ROLE_NAME} IAM role that prevents SRE from supporting your cluster. Please fix the IAM role to maintain ongoing cluster support. If you intended to terminate this cluster then please delete the cluster, otherwise file a support request.",
   "internal_only": false

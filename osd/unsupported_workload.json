@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: Remove custom workload from control plane/infra nodes",
     "description": "Your cluster requires you to take action because there is a custom workload scheduled on control plane/infra nodes. As per Red Hat OpenShift Dedicated Service Definition, the control plane and infrastructure nodes are strictly for Red Hat workloads to operate the service. Please refer https://www.openshift.com/products/dedicated/service-definition#compute-instances.",
     "internal_only": false
