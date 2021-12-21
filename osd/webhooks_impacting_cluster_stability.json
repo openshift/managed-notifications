@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: review platform webhook configurations",
-    "description": "Your cluster requires you to take action because custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster. Please review the webhooks installed and verify they are running correctly. Without action, your cluster's SLA may be impacted, along with your ability to upgrade.",
+    "description": "Your cluster requires you to take action because the following custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster: ${WEBHOOK_NAMES}. Please review the webhooks installed and verify they are running correctly. Without action, your cluster's SLA may be impacted, along with your ability to upgrade.",
     "internal_only": false
 }
