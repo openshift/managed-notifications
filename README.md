@@ -15,8 +15,9 @@ Select the corresponding message and send it as a `POST` to
 
 Using [osdctl](https://github.com/openshift/osdctl)
 
-1. Authenticate at https://cloud.redhat.com/openshift/token
-1. Post servicelog
+1. Upgrade your osdctl installation to 0.8.0 or higher. 
+2. Authenticate at https://cloud.redhat.com/openshift/token
+3. Post servicelog
 
     ```
     osdctl servicelog post <clusterID> -t <notificationTemplateUrl> 
