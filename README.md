@@ -4,9 +4,8 @@ Notification templates for OpenShift Managed services
 
 ## Usage
 
-Select the corresopnding message and send as a `POST` to
+Select the corresponding message and send it as a `POST` to
 [api.openshift.com servicelog](https://api.openshift.com/?urls.primaryName=Service%20logs#/default/post_api_service_logs_v1_cluster_logs).
-`CLUSTER_UUID` is a required parameter.
 
 > :warning: Please review each template before post to make sure all the parameters are passed with -p 
 
@@ -20,11 +19,13 @@ Using [osdctl](https://github.com/openshift/osdctl)
 1. Post servicelog
 
     ```
-    osdctl servicelog post -t <notificationTemplateUrl> -p CLUSTER_UUID=<UUID>
+    osdctl servicelog post <clusterID> -t <notificationTemplateUrl> 
     ```
 
     Example:
 
     ```
-    osdctl servicelog post -t https://raw.githubusercontent.com/openshift/managed-notifications/master/osd/aws/InstallFailed_TooManyBuckets.json -p CLUSTER_UUID=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
+    osdctl servicelog post aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee -t https://raw.githubusercontent.com/openshift/managed-notifications/master/osd/aws/InstallFailed_TooManyBuckets.json
     ```
+
+Note: `Osdctl` supports the usage of the unique cluster name, or the internal- and external ID as clusterID.

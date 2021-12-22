@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Urgent action required: update cluster logging configuration",
     "description": "Your cluster requires you to take action. Elasticsearch is at ${PERCENT}% load. Red Hat SRE strongly recommends immediately reducing application logging on your cluster to ensure logging continues to function in the near future. If logging stack stops functioning the logging stack will need reprovisioned to recover and application logs will be lost.",
     "internal_only": false

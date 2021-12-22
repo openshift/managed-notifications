@@ -1,7 +1,6 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "cluster_uuid": "${CLUSTER_UUID}",
   "summary": "Installation blocked, action required",
   "description": "Your cluster's installation was blocked. The cluster installer was not able to delete the roles it used during the installation. To unblock, please ensure that no policies are added to new roles by default.",
   "internal_only": false

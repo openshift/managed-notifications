@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Important security update available",
     "description": "Your cluster has an important security update available. Details are available at ${ADVISORY_URL}",
     "internal_only": false

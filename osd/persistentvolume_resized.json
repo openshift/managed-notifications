@@ -1,7 +1,6 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Persistent Volume/s Resized",
     "description": "Red Hat SRE have detected a high usage of storage on the ${STORAGE_LOCATION} due to ${REASON_FOR_USAGE} so to avoid losing data Red Hat SRE have reduced the retention to ${NEW_RETENTION_DURATION}. Please take action if you wish to increase the retention again.",
     "internal_only": false

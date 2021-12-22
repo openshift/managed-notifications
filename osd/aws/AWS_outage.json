@@ -1,7 +1,6 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "AWS Outage Impacting Your Cluster",
     "description": "Red Hat has identified an AWS issue that may impact your cluster. For more details, including incident resolution, see https://status.aws.amazon.com/",
     "internal_only": false

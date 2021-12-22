@@ -1,7 +1,6 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Cluster incident resolved",
     "description": "cluster incident '${ALERT_NAME}' is resolved.",
     "internal_only": false

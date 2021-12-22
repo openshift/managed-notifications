@@ -1,7 +1,6 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "cluster_uuid": "${CLUSTER_UUID}",
   "summary": "Action required: Fix workload deployed in a restricted project",
   "description": "Your cluster requires you to take action. The ${CUSTOMER_WORKLOAD} has been deployed in the ${RESTRICTED_PROJECT} project which is a reserved project for cluster's infrastructure components. Other components are unlikely to function properly in this reserved project and should be installed to a different one. Please refer to https://docs.openshift.com/dedicated/4/applications/projects/working-with-projects.html to learn more about working with projects",
   "internal_only": false

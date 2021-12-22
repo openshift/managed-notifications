@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: Network misconfigration",
     "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impacts normal working of the cluster: ${CHANGE}.",
     "internal_only": false

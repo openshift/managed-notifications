@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: cluster not checking in",
     "description": "Your cluster requires you to take action because it is no longer checking in with Red Hat OpenShift Cluster Manager. Possible causes include stopping instances or a networking misconfiguration. If you have stopped the cluster instances, please start them again - stopping instances is not supported. If you intended to terminate this cluster then please delete the cluster in the Red Hat console.",
     "internal_only": false

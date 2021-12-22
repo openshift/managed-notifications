@@ -1,7 +1,6 @@
 {
   "severity": "Info",
   "service_name": "SREManualAction",
-  "cluster_uuid": "${CLUSTER_UUID}",
   "summary": "RESOLVED: AWS Outage Impacting Your Cluster",
   "description": "The AWS outage impacting your cluster has been resolved. For more details, including incident resolution, see https://status.aws.amazon.com/",
   "internal_only": false

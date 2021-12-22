@@ -1,7 +1,6 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Cluster ingress degraded",
     "description": "The cluster ingress operator for your cluster is currently degraded due to Service Mesh. This may cause instability in the service and may impact the supportability of your cluster.",
     "internal_only": false

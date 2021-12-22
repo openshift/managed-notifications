@@ -1,7 +1,6 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "${DATE} Upcoming Maintenance: OpenShift Cluster Manager actions will be unavailable during this maintenance",
     "description": "The ability to modify your cluster through OpenShift Cluster Manager will be affected by an upcoming maintenance on ${DATE} at ${TIME} UTC. We expect this maintenance to last ${DURATION}. During this maintenance, you will be unable to perform actions such as add or remove nodes, configure administrators, add or remove identity providers, etc. We recommend that you perform any such actions prior to this maintenance.",
     "internal_only": false
