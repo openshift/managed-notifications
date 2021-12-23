@@ -11,12 +11,13 @@ Select the corresponding message and send it as a `POST` to
 
 > :books: If you are not sure which servicelog to send, you can use the generic one [here](./osd/unknown_failure.json)
 
+> :information_source: Upgrade your osdctl installation to 0.9.0 or higher. 
 ### Examples
 
 Using [osdctl](https://github.com/openshift/osdctl)
 
 1. Authenticate at https://cloud.redhat.com/openshift/token
-1. Post servicelog
+2. Post servicelog
 
     ```
     osdctl servicelog post <clusterID> -t <notificationTemplateUrl> 
