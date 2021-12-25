@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: update cluster proxy state/configuration",
+    "description": "The cluster-wide proxy configured for your OpenShift cluster is currently reporting as unavailable to the cluster: ${REASON}. This impacts your cluster's network egress, including ability to pull system images, run cluster operators, manage instances and perform upgrade-related actions. Please review your proxy server's state and configuration to restore the cluster's functionality. If you require further assistance, please file a support request.",
+    "internal_only": false
+}
