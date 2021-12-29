@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Cluster proxy CA Expiring",
+    "description": "Your cluster requires you to take action because 'Additional Trusted CA Bundle' used for proxy server will not be valid after ${DATE}. Ensure renewing certificate prior to expiration to avoid cluster degredation and/or unavailability.",
+    "internal_only": false
+}
