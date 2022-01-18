@@ -1,0 +1,7 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Fix AWS Role to maintain SRE support",
+  "description": "Your cluster requires you to take action because the OpenIDConnect provider for this cluster could not be found. Please revert any changes to the OIDC provider to maintain ongoing cluster support.",
+  "internal_only": false
+}
