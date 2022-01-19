@@ -1,7 +1,7 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-		"event_stream_id": "${JIRA_ID}",
+    "event_stream_id": "${JIRA_ID}",
     "summary": "Control plane resized",
     "description" : "SRE has observed ${JUSTIFICATION}. SRE has resized the control plane nodes of your cluster to ${INSTANCE_TYPE} to accomodate cluster load",
     "internal_only": false
