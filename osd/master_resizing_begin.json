@@ -1,0 +1,7 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "summary": "Master nodes resizing to begin",
+    "description" : "Master nodes of your cluster are being vertically resized to ${INSTANCE_TYPE} to support the current cluster workload.",
+    "internal_only": false
+}
