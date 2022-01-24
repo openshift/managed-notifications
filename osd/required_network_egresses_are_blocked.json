@@ -1,7 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "summary": "Action required: Network misconfigration",
+    "summary": "Action required: Network misconfiguration",
     "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impacts normal working of the cluster, including lack of network egress to Internet-based resources which are required for cluster operation and support. The ability to pull pod images is impacted, as is SRE's ability to monitor and support your cluster. Please refer to the following firewall pre-requisites which are required for PrivateLink clusters: https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html#osd-aws-privatelink-firewall-prerequisites. Please revert changes.",
     "internal_only": false
 }
