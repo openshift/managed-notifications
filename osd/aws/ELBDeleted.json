@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Cluster Operators degraded",
+    "description": "The cluster ingress operator for your cluster is currently degraded due to the deletion of an AWS Elastic Load Balancer used by OpenShift. This may cause instability in the service and may impact the supportability of your cluster. Please work with Red Hat support to help remediate this issue.",
+    "internal_only": false
+}
