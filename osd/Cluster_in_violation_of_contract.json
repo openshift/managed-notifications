@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Your Cluster Has Been Silenced",
+    "description": "Your cluster has been deemed in violation of the Red Hat Online Subscriptions agreement, Appendix 4: https://www.redhat.com/licenses/Appendix_4_Red_Hat_Online_Services_Global_20210222.pdf for ${REASON}. Your cluster has been silenced for 24h. Please contact Red Hat Support for further guidance.",
+    "internal_only": false
+}
+
