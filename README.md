@@ -20,7 +20,7 @@ Using [osdctl](https://github.com/openshift/osdctl)
 2. Post servicelog
 
     ```
-    osdctl servicelog post <clusterID> -t <notificationTemplateUrl> 
+    osdctl servicelog post <cluster UUID> -t <notificationTemplateUrl> 
     ```
 
     Example:
