@@ -2,6 +2,6 @@
  "severity": "Warning",
  "service_name": "SREManualAction",
  "summary": "Action required: Pod emptydir storage preventing Node Drain",
- "description": "Your OpenShift Dedicated cluster is attempting to drain a node but there is a pod using emptydir storage that is preventing the drain. The OSD SRE team has identified the pod as ${POD} running in ${NAMESPACE}. Please re-schedule this pod so that the node can drain. For more information on ephemeral storage please see https://docs.openshift.com/dedicated/4/storage/understanding-ephemeral-storage.html#storage-ephemeral-storage-typesunderstanding-ephemeral-storage",
+ "description": "Your OpenShift Dedicated cluster is attempting to drain a node but there is a pod using emptydir storage that is preventing the drain. The OSD SRE team has identified the pod as ${POD} running in ${NAMESPACE}. Please re-schedule this pod so that the node can drain. For more information on ephemeral storage please see https://docs.openshift.com/container-platform/latest/storage/understanding-ephemeral-storage.html",
  "internal_only": false
 }
