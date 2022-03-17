@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "OCM3018 Installation blocked, action required",
-    "description": "Your ROSA STS cluster installation is blocked due to a problem with one of the STS roles used to provision the cluster. No worker nodes could be created. Verify that the trusted entity in your \"openshift-machine-api-aws-cloud-credentials\" role references the correct cluster id, ${CLUSTER_OCM_ID}, and try again. See https://docs.openshift.com/rosa/rosa_planning/rosa-aws-prereqs.html for more information.",
+    "description": "Your ROSA STS cluster installation is blocked due to a problem with one of the STS roles used to provision the cluster. No worker nodes could be created. Verify that the trusted entity in your \"openshift-machine-api-aws-cloud-credentials\" role references the correct cluster id, ${CLUSTER_OCM_ID}, and try again. See https://docs.openshift.com/rosa/rosa_getting_started/rosa-sts-about-iam-resources.html for more information.",
     "internal_only": false
 }
