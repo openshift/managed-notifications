@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Cluster destroyed, cannot be recovered",
-    "description" : "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, therefore SRE will take actions to completely remove the cluster. In the future when you need to delete a cluster, please follow the documentation guidelines for deleting a cluster: https://docs.openshift.com/rosa/rosa_getting_started/rosa-deleting-cluster.html",
+    "description" : "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, therefore SRE will take actions to completely remove the cluster. In the future when you need to delete a cluster, please follow the documentation guidelines for deleting a cluster: https://docs.openshift.com/rosa/rosa_getting_started/rosa_getting_started_iam/rosa-deleting-cluster.html",
     "internal_only": false
 }

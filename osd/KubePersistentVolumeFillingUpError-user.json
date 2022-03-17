@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: Persistent Volume filling",
-    "description": "Your cluster is currently alerting with 'KubePersistentVolumeFillingUp' in '${NAMESPACE}'. This is not an actionable alert for the SRE team. Please address this PV capacity issue using this reference documentation: https://docs.openshift.com/dedicated/4/storage/expanding-persistent-volumes.html",
+    "description": "Your cluster is currently alerting with 'KubePersistentVolumeFillingUp' in '${NAMESPACE}'. This is not an actionable alert for the SRE team. Please address this PV capacity issue using this reference documentation: https://docs.openshift.com/container-platform/latest/storage/expanding-persistent-volumes.html",
     "internal_only": false
 }
