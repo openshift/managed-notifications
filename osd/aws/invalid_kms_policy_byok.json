@@ -1,0 +1,7 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Review KMS policy for master instance role",
+  "description": "Your cluster requires you to take action because SRE monitoring stack persistent volume claims are failing to provision, resulting in Red Hat SRE not being able to monitor your cluster. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://access.redhat.com/articles/6155612.",
+  "internal_only": false
+}
