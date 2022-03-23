@@ -1,0 +1,8 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked: Missing route to internet",
+  "description": "Your cluster's installation is blocked because of the missing route to internet in the route table(s) associated with the supplied subnet(s) for cluster installation. Please review and validate the routes by following documentation and re-install the cluster: https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-vpc.html#installation-custom-aws-vpc-requirements_installing-aws-vpc.",
+  "internal_only": false,
+  "event_stream_id": ""
+}
