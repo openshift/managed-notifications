@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Deprovision failed, action required",
+    "description": "Your cluster's deprovision is blocked because ${PROBLEM}. Please review and validate the following documentation to enable the deprovision to succeed: ${DOCUMENTATION}.",
+    "internal_only": false
+}
