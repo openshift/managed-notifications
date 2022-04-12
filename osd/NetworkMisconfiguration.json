@@ -1,7 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "summary": "Action required: Network misconfigration",
+    "summary": "Action required: Network misconfiguration",
     "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impact normal working of the cluster: ${CHANGE}.",
     "internal_only": false
 }
