@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Action required: Control Plane nodes too small",
+    "description": "We have noticed that your cluster’s control plane instances have been sized too small. This is impacting normal cluster operation. See the following documentation for recommended control plane sizing: https://docs.openshift.com/rosa/rosa_planning/rosa-limits-scalability.html",
+    "internal_only": false
+}
