@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Incorrect MachinePool Configuration",
+    "description": "Your cluster requires you to take action. SRE has observed that there have been unsupported changes made to one of the cluster MachinePools. This prevents changes made to taints or labels to be propagated to nodes, which can impact scheduling of your workloads. ${REASON}. Please revert the changes.",
+    "internal_only": false
+}
