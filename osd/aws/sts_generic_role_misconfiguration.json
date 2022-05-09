@@ -1,0 +1,6 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Verify AWS Roles to maintain SRE support",
+  "description": "Openshift SRE is experiencing trouble performing this action for cluster maintenance: '${ACTION}' . Please verify that your AWS IAM policies are in accordance with this documentation to maintain ongoing cluster support: https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html",
+ }
