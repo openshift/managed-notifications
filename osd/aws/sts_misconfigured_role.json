@@ -2,6 +2,6 @@
   "severity": "Error",
   "service_name": "SREManualAction",
   "summary": "Action required: Fix AWS Role to maintain SRE support",
-  "description": "Your cluster requires you to take action because the ${ROLE} IAM role has been modified in AWS, which is ${EFFECT}. Please revert the change to the IAM role to maintain ongoing cluster support.",
+  "description": "Your cluster requires you to take action because the IAM role `${ROLE}` has been modified in AWS, which is causing the following effect: `${EFFECT}`. Please revert the change to the IAM role to maintain ongoing cluster support.",
   "internal_only": false
 }
