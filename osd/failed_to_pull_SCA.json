@@ -1,0 +1,8 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation is blocked because it failed to pull SCA certs. Please review and validate the following documentation to enable the installation to succeed: https://access.redhat.com/articles/simple-content-access where you can enable SCA.",
+  "internal_only": false,
+  "event_stream_id": ""
+}
