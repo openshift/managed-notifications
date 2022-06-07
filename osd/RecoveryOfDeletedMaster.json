@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Recovery of deleted master nodes is not supported.",
-    "description" : "SRE have noticed that one or more master nodes have been terminated manually. Please note that recovery of terminated master nodes is not possible in some cases. Changing the running state of one of the master nodes manually will result in loss of cluster functionality and impact your cluster's SLAs. SRE kindly suggests that you reinstall the cluster to return it to the desired state. If you require further assistance, please file a support request.",
+    "description" : "SRE have noticed that one or more master nodes have been terminated manually. Please note that recovery of terminated master nodes is not possible in some cases. Changing the running state of one of the master nodes manually will result in loss of cluster functionality and impact your cluster's SLAs. SRE suggests that you reinstall the cluster to return it to the desired state. If you require further assistance, please file a support request.",
     "internal_only": false
 }
