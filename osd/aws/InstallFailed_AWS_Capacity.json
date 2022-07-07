@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked on an AWS datacenter capacity issue. AWS does not have capacity for ${INSTANCE_TYPE} in ${REGION} at the moment. Please retry installation in another region or select a different instance type.",
+    "internal_only": false
+}
