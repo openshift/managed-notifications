@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Installed ServiceQuotas in openshift namespaces breaks cluster operation",
+    "description": "Your cluster requires you to take action because an installed ServiceQuota '${SERVICEQUOTA}', is preventing cluster workloads from running. Please remove the quota from all openshift namespaces. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/container-platform/4.10/applications/quotas/quotas-setting-per-project.html.",
+    "internal_only": false
+}
