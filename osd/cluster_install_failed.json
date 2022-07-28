@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "ClusterInstallFailed",
+    "summary": "Cluster installation failed",
+    "description": "Your cluster named '${CLUSTER_NAME}' did not successfully install and a retry is required. If you require further assistance, please file a support request.",
+    "internal_only": false
+}
