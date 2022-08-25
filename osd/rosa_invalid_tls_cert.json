@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Invalid TLS certificate",
-    "description" : "Your cluster uses an invalid TLS certificate. Invalid TLS certificates result in failing requests to applications deployed to the cluster (for example the OpenShift Console) and will impact Red Hat's ability to monitor and support your cluster. To use a custom domain please follow the documentation on setting up custom application domains for OpenShift Dedicated at https://access.redhat.com/articles/5599621.",
+    "description" : "Your cluster uses an invalid TLS certificate. Invalid TLS certificates result in failing requests to applications deployed to the cluster (for example the OpenShift Console) and will impact Red Hat's ability to monitor and support your cluster. To use a custom domain please follow the documentation on setting up custom application domains at https://access.redhat.com/articles/5599621.",
     "internal_only": false
 }
