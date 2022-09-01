@@ -1,0 +1,8 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: review firewall configuration",
+  "description": "Your cluster is failing to check in to our monitoring system since ${TIME}. Further investigation shows that the cluster is up and running but the VPC is unable to reach the essential domain/s `${ENDPOINTS}`. We believe the issue is occurring due to ${REASON}. Please review any recent configuration changes and ensure that the allowlist needs are satisfied per this documentation https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa_getting_started_iam/rosa-aws-prereqs.html#osd-aws-privatelink-firewall-prerequisites_prerequisites",
+  "internal_only": false,
+  "event_stream_id": ""
+}
