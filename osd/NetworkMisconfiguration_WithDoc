@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: Network misconfiguration",
-    "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which are causing the following issue:${SYMPTOM} This may impact normal working of the cluster. Please review any recent configuration changes and ensure that the allowlist needs are satisfied per this documentation https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa_getting_started_iam/rosa-aws-prereqs.html#osd-aws-privatelink-firewall-prerequisites.",
+    "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impact normal working of the cluster: ${CHANGE}. Please refer to the documentation regarding allowlist requirements: https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa_getting_started_iam/rosa-aws-prereqs.html#osd-aws-privatelink-firewall-prerequisites_prerequisites",
     "internal_only": false
 }
