@@ -1,0 +1,7 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation was blocked because the ELB Service Role does not exist. In AWS accounts that have never created a load balancer before, it is possible that the service role for ELB might not exist yet. Please refer to the troubleshooting doc: 'https://docs.openshift.com/rosa/rosa_support/rosa-troubleshooting-deployments.html#rosa-troubleshooting-elb-serivce-role_rosa-troubleshooting-cluster-deployments'",
+  "internal_only": false
+}
