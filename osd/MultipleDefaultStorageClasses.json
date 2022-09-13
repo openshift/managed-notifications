@@ -1,0 +1,9 @@
+
+
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Multiple Default Storage Classes Configured",
+    "description": "Your cluster requires you to take action. SRE has observed that there are more than one default Storage Classes configured for your cluster. Please use consistent storage classes for your persistent volume claims. Consult the documentation for details: https://docs.openshift.com/container-platform/4.11/storage/understanding-persistent-storage.html#pvc-storage-class_understanding-persistent-storage",
+    "internal_only": false
+}
