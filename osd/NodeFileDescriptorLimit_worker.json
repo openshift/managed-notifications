@@ -1,8 +1,8 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "summary": "Action required: Reaching file descriptor limit on worker node",
-  "description": "Your cluster requires you to take action because the file descriptors limit for worker node ${NODE} is currently at 90%, the kernel is predicted to exhaust file descriptors limit soon, resulting in applications on the node being no longer able to open and operate on files. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please reduce the number of files opened simultaneously by either adjusting application configuration or by moving some applications to other nodes.",
+  "summary": "Action required: Worker node file descriptor limit nearly exhausted",
+  "description": "Your cluster requires you to take action. The kernel file descriptor limit for worker node ${NODE} is currently at or above 90% and is predicted to be fully exhausted soon. This will prevent applications on the node from opening and operating on files. Without action, your cluster's SLA and ability to upgrade may be impacted. Please reduce the number of simultaneously-open files on this node, either by adjusting application configuration or by moving some applications to other nodes.",
   "internal_only": false,
   "event_stream_id": ""
 }
