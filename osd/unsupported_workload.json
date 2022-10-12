@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: Remove custom workload from control plane/infra nodes",
-    "description": "Your cluster requires you to take action because there is a custom workload scheduled on control plane/infra nodes. The control plane and infrastructure nodes are reserved for Red Hat workloads required to operate the service, as described in the Red Hat OpenShift Dedicated Service Definition. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/osd-service-definition.html#compute_osd-service-definition.",
+    "description": "Your cluster requires you to take action because there is a custom workload scheduled on control plane/infra nodes: ${WORKLOAD}. The control plane and infrastructure nodes are reserved for Red Hat workloads required to operate the service, as described in the Red Hat OpenShift Dedicated Service Definition. Custom workloads can negatively impact the availability/supportability of control plane and infrastructure nodes. Please ensure this workload does not schedule to these nodes. For more information please refer to https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-service-definition.html#rosa-sdpolicy-compute_rosa-service-definition",
     "internal_only": false
 }
