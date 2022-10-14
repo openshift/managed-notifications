@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Remove or address failing cluster operator",
+    "description": "Your cluster requires you to take action because there is a custom ClusterOperator named '${NAME}' installed on the cluster, which is failing to reach an Available state. Unavailable or degraded ClusterOperators can prevent your cluster's ability to upgrade to future versions successfully. Please address or remove the ClusterOperator to allow your cluster to remain in an upgradeable state.",
+    "internal_only": false
+}
