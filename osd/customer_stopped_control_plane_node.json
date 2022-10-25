@@ -2,6 +2,6 @@
  "severity": "Warning",
  "service_name": "SREManualAction",
  "summary": "Action required: Restart control plane node",
- "description": "Your cluster requires you to take action. Red Hat SRE have observed that a user `${USER}` has stopped one or more of your cluster's control plane instances: `${INSTANCE}`. Please note that stopping instances is not supported and may impact your cluster's SLA and ability to upgrade. Refer to the Responsibility Assignment guide for more information: https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-policy-responsibility-matrix.html",
+ "description": "Your cluster requires you to take action. Red Hat SRE have observed that a user `${USER}` has stopped one or more of your cluster's control plane instances: `${INSTANCE}`. Please note that stopping instances is not supported and may impact your cluster's SLA and ability to upgrade. Refer to the Responsibility Assignment guide for more information: https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html",
  "internal_only": false
 }
