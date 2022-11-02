@@ -1,0 +1,7 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "summary": "Product end-of-life date extended",
+    "description": "The end-of-life cycle date for ${PRODUCT} is being extended to ${EOLDATE}. Please refer to our life cycle policy document for further information: ${DOCUMENTATION}",
+    "internal_only": false
+}
