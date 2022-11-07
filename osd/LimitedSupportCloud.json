@@ -1,5 +1,5 @@
 {
     "summary": "Cluster is in Limited Support due to unsupported cloud provider configuration",
-    "description": "${CONFIGURATION}",
+    "details": "${CONFIGURATION}",
     "detection_type": "manual"
 }
