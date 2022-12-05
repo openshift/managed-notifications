@@ -1,7 +1,7 @@
 {
- "severity": "Error",
- "service_name": "SREManualAction",
- "summary": "Action required: Resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is triggering a alert",
- "description": "Your cluster requires you to take action. The resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is causing the alert ${ALERTNAME} to fire. Please ${ACTION_REQUIRED} in order to return the cluster back to normal operations",
- "internal_only": false
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is triggering a alert",
+    "description": "Your cluster requires you to take action. The resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is causing the alert ${ALERTNAME} to fire. Please ${ACTION_REQUIRED} in order to return the cluster back to normal operations.",
+    "internal_only": false
 }

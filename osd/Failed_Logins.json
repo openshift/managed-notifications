@@ -2,6 +2,6 @@
     "severity": "Warning",
     "service_name": "SREManualAction",
     "summary": "There are an elevated number of failed logins on your cluster",
-    "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of failed logins on your cluster(s) from user ${USERNAME}. Red Hat SRE is sending this notice to you for further analysis. Please review OpenShift Authentication for configuration information https://docs.openshift.com/container-platform/latest/authentication/understanding-authentication.html",
+    "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of failed logins on your cluster(s) from user ${USERNAME}. Red Hat SRE is sending this notice to you for further analysis. Please review OpenShift Authentication for configuration information https://docs.openshift.com/container-platform/latest/authentication/understanding-authentication.html.",
     "internal_only": false
 }
