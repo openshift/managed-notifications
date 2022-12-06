@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked on AWS AddressLimitExceeded error. Please raise the EIP addresses quota or remove some EIP addresses for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account",
+    "description": "Your cluster's installation is blocked on AWS AddressLimitExceeded error. Please raise the EIP addresses quota or remove some EIP addresses for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
     "internal_only": false
 }

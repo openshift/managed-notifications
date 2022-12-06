@@ -2,6 +2,6 @@
     "severity": "Info",
     "service_name": "SREManualAction",
     "summary": "Please ignore previous message",
-    "description" : "Previous message was sent in error. Please ignore it.",
+    "description": "Previous message was sent in error. Please ignore it.",
     "internal_only": false
 }

@@ -1,8 +1,8 @@
 {
- "severity": "Warning",
- "service_name": "SREManualAction",
- "event_stream_id": "${EVENT_STREAM_ID}",
- "summary": "Action required: update cluster logging configuration",
- "description": "Your cluster requires you to take action. Elasticsearch storage is greater than 85% utilized. If this goes above 95%, data might will be lost. SRE will increase capacity one time causing a period while Elasticsearch is unavailable. Old logs will be retained. Logs for pods deleted while migration is in progress may be lost. SRE recommends reducing application logging on your cluster to ensure logging continues to function smoothly in the future.",
- "internal_only": false
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "event_stream_id": "${EVENT_STREAM_ID}",
+    "summary": "Action required: update cluster logging configuration",
+    "description": "Your cluster requires you to take action. Elasticsearch storage is greater than 85% utilized. If this goes above 95%, data might will be lost. SRE will increase capacity one time causing a period while Elasticsearch is unavailable. Old logs will be retained. Logs for pods deleted while migration is in progress may be lost. SRE recommends reducing application logging on your cluster to ensure logging continues to function smoothly in the future.",
+    "internal_only": false
 }

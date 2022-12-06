@@ -6,4 +6,3 @@
     "description": "Your cluster does not have sufficient resources to install the Red Hat OpenShift API Management add-on. Please reference https://access.redhat.com/articles/5534341 and provide the necessary resources to complete the installation.",
     "internal_only": false
 }
-

@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: Support case ${CASE_ID}",
-    "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this customer support case https://access.redhat.com/support/cases/#/case/${CASE_ID} .",
+    "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this customer support case https://access.redhat.com/support/cases/#/case/${CASE_ID}.",
     "internal_only": false
 }

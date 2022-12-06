@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: Arrange new cluster owner",
-    "description": "Your cluster requires you to take action because it is no longer owned by a user with an enabled Red Hat account. This will impact the cluster's ability to upgrade to future versions. Please raise a support case with Red Hat to nominate a new owner for the cluster in https://cloud.redhat.com/openshift/",
+    "description": "Your cluster requires you to take action because it is no longer owned by a user with an enabled Red Hat account. This will impact the cluster's ability to upgrade to future versions. Please raise a support case with Red Hat to nominate a new owner for the cluster in https://cloud.redhat.com/openshift/.",
     "internal_only": false
 }
