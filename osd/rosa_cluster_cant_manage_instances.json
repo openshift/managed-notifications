@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Cluster degraded, action required",
-    "description": "Your cluster is unable to manage its AWS EC2 instances using AWS API operations such as ec2:RunInstances and ec2:TerminateInstances, which prevents critical cluster functions from operating. This can be caused by insufficient AWS IAM permissions, insufficient AWS quota or ABAC policies blocking AWS instance operations. Please review ROSA pre-requisites as described in this document - https://docs.openshift.com/rosa/rosa_planning/rosa-aws-prereqs.html",
+    "description": "Your cluster is unable to manage its AWS EC2 instances using AWS API operations such as ec2:RunInstances and ec2:TerminateInstances, which prevents critical cluster functions from operating. This can be caused by insufficient AWS IAM permissions, insufficient AWS quota or ABAC policies blocking AWS instance operations. Please review ROSA pre-requisites as described in this document - https://docs.openshift.com/rosa/rosa_planning/rosa-aws-prereqs.html.",
     "internal_only": false
 }
