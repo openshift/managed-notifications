@@ -1,7 +1,7 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
-    "summary": "$(date) Cluster maintenance is starting",
-    "description": "$(date) cluster maintenance is starting. We expect the cluster to be available during this time.",
+    "summary": "${DATE} Cluster maintenance is starting",
+    "description": "${DATE} cluster maintenance is starting. We expect the cluster to be available during this time.",
     "internal_only": false
 }
