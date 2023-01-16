@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Upgrade Blocked and Unable to Complete, Action Required",
+    "description": "Your cluster is unable to complete upgrade because ${REASON}. SRE has observed the following: ${OBSERVATION}. Please take steps to resolve the issue in order for your cluster to finish upgrading.",
+    "internal_only": false
+}
