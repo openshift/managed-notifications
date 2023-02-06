@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked because of an installation bug described in https://issues.redhat.com/browse/OCPBUGS-6494. There is currently no way to reliably ensure an installation will succeed until the bug is resolved. Red Hat's recommendation is to install your cluster on 4.11 and upgrade to 4.12 once a path is available, or to continue to retry your install on 4.12.",
+    "internal_only": false
+}
