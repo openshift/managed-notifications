@@ -1,0 +1,7 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Disable termination protection on cluster instances",
+    "description": "Your cluster is attempting to drain and replace worker node(s) `${NODE}` but cannot remove them due to EC2 termination protection being applied to the instances. Please modify the `disableApiTermination` instance attribute to allow the instances to be properly terminated and replaced. For more information, please review AWS documentation: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html .",
+    "internal_only": false
+}
