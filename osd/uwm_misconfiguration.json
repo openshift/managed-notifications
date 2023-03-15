@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: review user-workload-monitoring configuration",
-    "description": "Your cluster's user-workload-monitoring is misconfigured. ${REASON}. Please review your configuration according to ${DOCUMENTATION}.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: review user-workload-monitoring configuration",
+  "description": "Your cluster's user-workload-monitoring is misconfigured. ${REASON}. Please review your configuration according to ${DOCUMENTATION}.",
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }

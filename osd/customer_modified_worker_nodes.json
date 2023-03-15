@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Unsupported change to worker node instances",
-    "description": "Your cluster requires you to take action because an unsupported change to worker node(s) has been observed on your cluster: ${CHANGE}. Without action, your cluster's SLA may be impacted. ${REMEDIATION}.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Unsupported change to worker node instances",
+  "description": "Your cluster requires you to take action because an unsupported change to worker node(s) has been observed on your cluster: ${CHANGE}. Without action, your cluster's SLA may be impacted. ${REMEDIATION}.",
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }

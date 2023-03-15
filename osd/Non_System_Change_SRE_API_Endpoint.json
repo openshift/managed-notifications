@@ -1,7 +1,11 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Non-System Change SRE API Endpoint",
-    "description": "A Non-system user changed an SRE API endpoint, ${ENDPOINT}. This event can have an impact on SLAs. Red Hat will proactively repair API endpoint changes that were made. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Non-System Change SRE API Endpoint",
+  "description": "A Non-system user changed an SRE API endpoint, ${ENDPOINT}. This event can have an impact on SLAs. Red Hat will proactively repair API endpoint changes that were made. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
+  "internal_only": false,
+  "_tags": [
+    "t_network",
+    "t_config"
+  ]
 }

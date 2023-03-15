@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Remove or update pod security configuration",
-    "description": "Your cluster has a Pod Security Policy installed which is impacting the operation of Red Hat cluster workloads. Please review or remove the Pod Security Policies which have been installed. For more information on Pod Security Policy support in OpenShift, please refer to https://access.redhat.com/solutions/5622051.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Remove or update pod security configuration",
+  "description": "Your cluster has a Pod Security Policy installed which is impacting the operation of Red Hat cluster workloads. Please review or remove the Pod Security Policies which have been installed. For more information on Pod Security Policy support in OpenShift, please refer to https://access.redhat.com/solutions/5622051.",
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }
