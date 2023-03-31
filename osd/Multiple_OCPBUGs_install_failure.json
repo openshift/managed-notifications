@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked because of known installation bugs affecting the selected OpenShift version (${OCPBUGS_LINKS}). There is currently no way to reliably ensure an installation will succeed until these bugs are resolved. Red Hat is working on resolving the issue. Please retry your cluster installation or select a different OpenShift version.",
+    "internal_only": false
+}
