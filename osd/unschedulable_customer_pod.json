@@ -2,9 +2,7 @@
   "severity": "Warning",
   "service_name": "SREManualAction",
   "summary": "Action required: Unschedulable customer workload pod",
+  "_tags": ["t_config"],
   "description": "Your cluster is attempting to run a pod but ${REASON} that is preventing the pod from being scheduled. The OSD SRE team has identified the pod as ${POD} running in ${NAMESPACE}. Please ${FIX} so that the pod can run. For more information on pod scheduling please see https://docs.openshift.com/container-platform/latest/nodes/scheduling/nodes-scheduler-about.html.",
-  "internal_only": false,
-  "_tags": [
-    "t_config"
-  ]
+  "internal_only": false
 }

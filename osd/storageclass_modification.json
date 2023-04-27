@@ -2,9 +2,7 @@
   "severity": "Error",
   "service_name": "SREManualAction",
   "summary": "Action required: Address storageclass configuration",
+  "_tags": ["t_config"],
   "description": "Your cluster requires you to take action because its StorageClass resources have been customized in a way that is resulting in components of the cluster's monitoring stack from failing to provision Persistent Volumes, which impacts the availability of your cluster's monitoring stack. Please ensure to properly configure the cluster default storage class.",
-  "internal_only": false,
-  "_tags": [
-    "t_config"
-  ]
+  "internal_only": false
 }

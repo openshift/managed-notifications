@@ -2,9 +2,7 @@
   "severity": "Error",
   "service_name": "SREManualAction",
   "summary": "Action required: update cluster configuration",
+  "_tags": ["t_network"],
   "description": "Red Hat SRE have noticed a second ingress controller installed in the ‘openshift-ingress-operator’ namespace. This is currently not possible in Managed OpenShift. Please remove the second ingress controller. Custom Domains operator may address your usecase: https://docs.openshift.com/dedicated/applications/deployments/osd-config-custom-domains-applications.html.",
-  "internal_only": false,
-  "_tags": [
-    "t_network"
-  ]
+  "internal_only": false
 }

@@ -2,10 +2,7 @@
   "severity": "Error",
   "service_name": "SREManualAction",
   "summary": "Action required: update identity provider configuration",
+  "_tags": ["t_network", "t_config"],
   "description": "Please verify the status of your identity server and update the IdP '${IDP_PROVIDER}' configuration to restore the cluster's operation. See documentation: https://docs.openshift.com/dedicated/identity_providers/config-identity-providers.html.",
-  "internal_only": false,
-  "_tags": [
-    "t_network",
-    "t_config"
-  ]
+  "internal_only": false
 }
