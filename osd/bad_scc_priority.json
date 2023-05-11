@@ -1,8 +1,8 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "summary": "Action required: Address Security Context Constraint configuration",
   "_tags": ["t_config"],
+  "summary": "Action required: Address Security Context Constraint configuration",
   "description": "Your cluster requires you to take action because an incorrect Security Context Constraint (SCC) Priority exists on the cluster - ${SCC_NAME}. This SCC has been applied to an Openshift managed namespace and it is impacting cluster functions. Without action, your cluster's SLA may be impacted. Please remove or amend the SCC.",
   "internal_only": false
 }
