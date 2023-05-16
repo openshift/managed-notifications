@@ -1,7 +1,8 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: update cluster proxy configuration",
-    "description": "Your cluster requires you to take action. The cluster-wide proxy configuration for this cluster is missing a Certificate Authority that allows your cluster to trust HTTPS communications that go via the proxy. Please add your proxy's Certificate Authority certificate(s) to your cluster so that they can be used to verify proxy traffic. This process can be performed via the OCM CLI: https://docs.openshift.com/dedicated/networking/configuring-cluster-wide-proxy.html#cluster-wide-proxy-updates_cluster-wide-proxy-configuration.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "_tags": ["t_network"],
+  "summary": "Action required: update cluster proxy configuration",
+  "description": "Your cluster requires you to take action. The cluster-wide proxy configuration for this cluster is missing a Certificate Authority that allows your cluster to trust HTTPS communications that go via the proxy. Please add your proxy's Certificate Authority certificate(s) to your cluster so that they can be used to verify proxy traffic. This process can be performed via the OCM CLI: https://docs.openshift.com/dedicated/networking/configuring-cluster-wide-proxy.html#cluster-wide-proxy-updates_cluster-wide-proxy-configuration.",
+  "internal_only": false
 }

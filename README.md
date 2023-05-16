@@ -30,3 +30,8 @@ Using [osdctl](https://github.com/openshift/osdctl)
     ```
 
 Note: `Osdctl` supports the usage of the unique cluster name, or the internal- and external ID as clusterID.
+
+### Tags
+Some template files have a `_tag` field for easier searching.
+
+For example, in github, searching `t_network` will show you all the network related template files.
