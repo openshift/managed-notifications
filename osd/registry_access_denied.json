@@ -1,0 +1,7 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: image-registry gets AccessDenied error",
+  "description": "Your cluster requires you to take action because image-registry operator is degraded due to an access denied error, resulting in your cluster being unable to start pods requiring new images from the local registry. Please verify permissions to the S3 bucket (${S3_BUCKET}) and the operator role (${OPERATOR_ROLE}) to allow access from the role to the bucket. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-sts-operator-roles_rosa-sts-about-iam-resources.",
+  "internal_only": false
+}
