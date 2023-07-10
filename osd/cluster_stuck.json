@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Cluster Stuck",
+    "description": "SRE has observed that your cluster is stuck in an ${STATE} state. If you need assistance to fully remove and cleanup your cluster, please open a support case.",
+    "internal_only": false
+}
