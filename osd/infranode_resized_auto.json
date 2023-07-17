@@ -3,6 +3,6 @@
     "_tags": ["t_config"],
     "service_name": "SREManualAction",
     "summary": "Infra nodes resized",
-    "description": "SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load.",
+    "description": "SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load. For more information, please visit https://docs.openshift.com/rosa/rosa_planning/rosa-limits-scalability.html#node-scaling-after-installation_rosa-limits-scalability to learn more.",
     "internal_only": false
 }
