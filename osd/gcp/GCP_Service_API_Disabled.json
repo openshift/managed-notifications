@@ -1,7 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
-    "summary": "Action Required: enable requires service APIs",
+    "summary": "Action Required: enable required service APIs",
     "description": "Your cluster's ${CLUSTER_FUNCTION} is malfunctioning because required GCP service APIs are disabled. Please enable the following API(s) in your GCP account: ${SERVICE_APIS}. Please consult the documentation for more details: ${DOCS_LINK}.",
     "internal_only": false
 }
