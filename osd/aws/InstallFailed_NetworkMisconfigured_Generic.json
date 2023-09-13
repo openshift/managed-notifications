@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked by a networking misconfiguration. ${DETAILS} ${DOCSURL} Try re-installing the cluster after addressing the issue.",
+    "internal_only": false
+}
