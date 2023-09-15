@@ -1,0 +1,7 @@
+{
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Cluster impacted by OCPBUGS-16655, upgrade recommended",
+  "description": "Your cluster is impacted by https://issues.redhat.com/browse/OCPBUGS-16655, which results in nodes periodically being unable to run containers. Red Hat SRE has responded to and temporarily remediated impacts of this bug on this cluster and recommends that the cluster be upgraded to 4.13.10 or later as soon as convenient.",
+  "internal_only": false
+}
