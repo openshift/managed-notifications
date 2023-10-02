@@ -3,6 +3,6 @@
   "service_name": "SREManualAction",
   "_tags": ["t_config"],
   "summary": "Action required: review user-workload-monitoring configuration",
-  "description": "Your cluster's user-workload-monitoring is misconfigured. ${REASON}. Please review your configuration according to ${DOCUMENTATION}.",
+  "description": "Your cluster's user-workload-monitoring is misconfigured. ${REASON}. Please review your configuration according to https://docs.openshift.com/rosa/monitoring/configuring-the-monitoring-stack.html .",
   "internal_only": false
 }
