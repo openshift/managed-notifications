@@ -2,6 +2,6 @@
     "severity": "Error",
     "service_name": "SREManualAction",
     "summary": "Action required: review platform webhook configurations",
-    "description": "Your cluster requires you to take action because the following custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster: ${WEBHOOK_NAMES}. Please review the webhooks installed and verify they are running correctly or remove them. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information, please consult: https://docs.openshift.com/container-platform/latest/architecture/admission-plug-ins.html",
+    "description": "Your cluster requires you to take action because the following custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster: ${WEBHOOK_NAMES}. Please review the webhooks installed and verify they are running correctly or remove them. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information, please consult: https://docs.openshift.com/container-platform/latest/architecture/admission-plug-ins.html.",
     "internal_only": false
 }
