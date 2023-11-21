@@ -1,7 +1,11 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Platform component accessed by non-Red Hat SRE user",
-    "description": "A user on your system, ${USER}, has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat SRE. Tampering with platform components can endanger SLAs. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Platform component accessed by non-Red Hat SRE user",
+  "description": "A user on your system, ${USER}, has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat SRE. Tampering with platform components can endanger SLAs. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
+  "internal_only": false,
+  "_tags": [
+    "sop_SplunkNonRedHatAccessCoreSecrets",
+    "sop_SplunkNonSREAccessEtcdPods"
+  ]
 }

@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Cluster Upgrade Blocked",
-    "description": "Your cluster requires you to take action because ${PROBLEM}. This is blocking your cluster from upgrading successfully. Please ${REQUIRED_CUSTOMER_ACTION} so that your cluster upgrade can proceed. Without action, your cluster's SLA may be impacted. Please refer to this documentation for more information: ${DOCUMENTATION}.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Cluster Upgrade Blocked",
+  "description": "Your cluster requires you to take action because ${PROBLEM}. This is blocking your cluster from upgrading successfully. Please ${REQUIRED_CUSTOMER_ACTION} so that your cluster upgrade can proceed. Without action, your cluster's SLA may be impacted. Please refer to this documentation for more information: ${DOCUMENTATION}.",
+  "internal_only": false,
+  "_tags": [
+    "sop_UpgradeClusterCheckFailedSRE"
+  ]
 }

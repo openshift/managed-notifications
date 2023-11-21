@@ -1,7 +1,10 @@
 {
-    "severity": "Info",
-    "service_name": "SREManualAction",
-    "summary": "AlertManager Silences Identified",
-    "description": "Cluster has been identified with AlertManager silences. Silences prevent Red Hat from effectively monitoring this cluster and will be removed.",
-    "internal_only": false
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "summary": "AlertManager Silences Identified",
+  "description": "Cluster has been identified with AlertManager silences. Silences prevent Red Hat from effectively monitoring this cluster and will be removed.",
+  "internal_only": false,
+  "_tags": [
+    "sop_AlertmanagerSilencesActiveSRE"
+  ]
 }

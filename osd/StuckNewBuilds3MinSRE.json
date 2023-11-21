@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: update cluster build configuration",
-    "description": "Your cluster requires you to take action. Container image builds are failing and must be resolved. Please check the image build error logs and update your configuration. For more information refer to https://docs.openshift.com/container-platform/latest/cicd/builds/understanding-image-builds.html.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: update cluster build configuration",
+  "description": "Your cluster requires you to take action. Container image builds are failing and must be resolved. Please check the image build error logs and update your configuration. For more information refer to https://docs.openshift.com/container-platform/latest/cicd/builds/understanding-image-builds.html.",
+  "internal_only": false,
+  "_tags": [
+    "sop_StuckNewBuilds3MinSRE"
+  ]
 }

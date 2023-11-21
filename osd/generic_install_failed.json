@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked because ${PROBLEM}. Please review and validate the following documentation to enable the installation to succeed: ${DOCUMENTATION}.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation is blocked because ${PROBLEM}. Please review and validate the following documentation to enable the installation to succeed: ${DOCUMENTATION}.",
+  "internal_only": false,
+  "_tags": [
+    "sop_ClusterProvisioningFailure"
+  ]
 }

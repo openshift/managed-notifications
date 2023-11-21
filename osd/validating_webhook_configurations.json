@@ -1,7 +1,11 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Platform protections removed by non-Red Hat user",
-    "description": "A user on your system has removed a platform protection webhook. This protection has already been automatically replaced, and no further action is required. Tampering with platform protections can endanger SLAs.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Platform protections removed by non-Red Hat user",
+  "description": "A user on your system has removed a platform protection webhook. This protection has already been automatically replaced, and no further action is required. Tampering with platform protections can endanger SLAs.",
+  "internal_only": false,
+  "_tags": [
+    "sop_SplunkNonSystemChangeValidatingWebhookConfigurations",
+    "sop_SplunkNonSystemChangeValidatingWebhookConfigurations"
+  ]
 }
