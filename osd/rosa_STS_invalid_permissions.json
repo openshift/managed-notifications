@@ -1,8 +1,11 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_config"],
   "summary": "Installation blocked, action required",
   "description": "Your ROSA STS cluster installation is blocked due to missing or insufficient privileges on the AWS account used to provision the cluster. Please review and validate the pre-requisites required on your AWS account for the installation to succeed. Pre-requisites are described in this document - https://docs.openshift.com/rosa/rosa_planning/rosa-sts-aws-prereqs.html#rosa-sts-aws-prereqs.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_config",
+    "sop_ClusterProvisioningFailure"
+  ]
 }

@@ -1,8 +1,12 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_network", "t_config"],
   "summary": "Action required: update custom domain configuration",
   "description": "The custom application domain '${CUSTOM_DOMAIN}' is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. Please do not use reserved names: \"apps\", \"apps2\", or \"default\". See documentation: https://access.redhat.com/articles/5599621.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_network",
+    "t_config",
+    "sop_HAProxyDown"
+  ]
 }

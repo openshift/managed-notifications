@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation has failed due to an intermittent issue. Please install again.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation has failed due to an intermittent issue. Please install again.",
+  "internal_only": false,
+  "_tags": [
+    "sop_ClusterProvisioningFailure"
+  ]
 }

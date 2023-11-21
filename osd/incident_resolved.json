@@ -1,7 +1,10 @@
 {
-    "severity": "Info",
-    "service_name": "SREManualAction",
-    "summary": "Cluster incident resolved",
-    "description": "cluster incident '${ALERT_NAME}' is resolved.",
-    "internal_only": false
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "summary": "Cluster incident resolved",
+  "description": "cluster incident '${ALERT_NAME}' is resolved.",
+  "internal_only": false,
+  "_tags": [
+    "sop_KubeControllerManagerCrashloopingSRE"
+  ]
 }
