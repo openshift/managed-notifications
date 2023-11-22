@@ -1,0 +1,7 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "summary": "Action required: Cluster health impacted by High Pod PID Limits",
+    "description" : "Your cluster requires you to take action. SRE has detected that due to a high Pod PID Limit setting, one or more of your cluster's worker nodes are experiencing PID exhaustion preventing them from running critical workloads. As a result, your cluster's operation may be impaired. Please lower the Pod PID Limits to avoid overcommitting the worker nodes, and consider either reducing application process usage or increasing the size of or number of your worker nodes. For more information on capacity planning, please see https://docs.openshift.com/rosa/rosa_planning/rosa-planning-environment.html.",
+    "internal_only": false
+}
