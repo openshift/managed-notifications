@@ -1,7 +1,10 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Cluster health impacted by missing resource limits",
-    "description" : "Your cluster requires you to take action. One or more of your cluster's worker nodes do not have enough resources to run critical components. As a result, its operation may be impaired. Please ensure that your workloads have CPU and Memory limits set to avoid overcommitting the worker nodes, and consider either reducing application load or increasing worker nodes. For more information on managing resource consumption, please see https://docs.openshift.com/container-platform/latest/nodes/clusters/nodes-cluster-limit-ranges.html.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Cluster health impacted by missing resource limits",
+  "description": "Your cluster requires you to take action. One or more of your cluster's worker nodes do not have enough resources to run critical components. As a result, its operation may be impaired. Please ensure that your workloads have CPU and Memory limits set to avoid overcommitting the worker nodes, and consider either reducing application load or increasing worker nodes. For more information on managing resource consumption, please see https://docs.openshift.com/container-platform/latest/nodes/clusters/nodes-cluster-limit-ranges.html.",
+  "internal_only": false,
+  "_tags": [
+    "sop_ClusterMetricsMissing"
+  ]
 }
