@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Review Service Control Policy",
-    "description": "Your cluster requires you to take action because the '${CREDENTIAL_REQUEST}' credential request is failing to renew. This may be due to a Service Control Policy (SCP) applied at the AWS Organization level. This is currently impacting your cluster's ability to upgrade, and without action, your cluster's SLA may be impacted. Please refer to this documentation for more information:  https://access.redhat.com/solutions/5795441.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Review Service Control Policy",
+  "description": "Your cluster requires you to take action because the '${CREDENTIAL_REQUEST}' credential request is failing to renew. This may be due to a Service Control Policy (SCP) applied at the AWS Organization level. This is currently impacting your cluster's ability to upgrade, and without action, your cluster's SLA may be impacted. Please refer to this documentation for more information:  https://access.redhat.com/solutions/5795441.",
+  "internal_only": false
 }

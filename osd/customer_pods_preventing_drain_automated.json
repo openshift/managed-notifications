@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Pod(s) preventing Node Drain",
-    "description": "Your cluster is attempting to drain worker nodes but there are workloads preventing the drain. The SRE team has identified the affected nodes as `${NODELIST}` and the pod(s) as the following in 'namespace/pod-name' format: `${PODLIST}`. Please re-schedule the impacted pod(s) so that the node can drain.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Pod(s) preventing Node Drain",
+  "description": "Your cluster is attempting to drain worker nodes but there are workloads preventing the drain. The SRE team has identified the affected nodes as `${NODELIST}` and the pod(s) as the following in 'namespace/pod-name' format: `${PODLIST}`. Please re-schedule the impacted pod(s) so that the node can drain.",
+  "internal_only": false
 }

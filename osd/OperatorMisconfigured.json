@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_config"],
   "summary": "Action required: ${OPERATOR_NAME} is misconfigured",
   "description": "Your cluster requires you to take action. Installed operator ${OPERATOR_NAME} is failing due to ${REASON}. Please consult the relevant documentation for further assistance.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }

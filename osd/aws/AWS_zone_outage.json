@@ -1,8 +1,10 @@
 {
-    "severity": "Info",
-    "service_name": "SREManualAction",
-    "summary": "AWS Availability Zone Outage Impacting Your Cluster",
-    "description": "Red Hat has identified an outage in ${ZONE} that is affecting your cluster. For more details, including incident resolution, see https://health.aws.amazon.com/.",
-    "_tags": ["t_outage"],
-    "internal_only": false
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "summary": "AWS Availability Zone Outage Impacting Your Cluster",
+  "description": "Red Hat has identified an outage in ${ZONE} that is affecting your cluster. For more details, including incident resolution, see https://health.aws.amazon.com/.",
+  "internal_only": false,
+  "_tags": [
+    "t_outage"
+  ]
 }

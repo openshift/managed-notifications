@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Resources overloaded",
-    "description": "Your cluster does not have enough resources and requires you to take action. You need to either reduce application load or increase worker nodes. See the following documentation for scaling up worker nodes: https://docs.openshift.com/dedicated/nodes/rosa-managing-worker-nodes.html.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Resources overloaded",
+  "description": "Your cluster does not have enough resources and requires you to take action. You need to either reduce application load or increase worker nodes. See the following documentation for scaling up worker nodes: https://docs.openshift.com/dedicated/nodes/rosa-managing-worker-nodes.html.",
+  "internal_only": false
 }

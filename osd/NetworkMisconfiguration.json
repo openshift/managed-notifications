@@ -1,8 +1,11 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_config", "t_network"],
   "summary": "Action required: Network misconfiguration",
   "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impact normal working of the cluster: ${CHANGE}.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_config",
+    "t_network"
+  ]
 }

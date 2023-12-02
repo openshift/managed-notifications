@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Cluster installation failed",
-    "description": "Your cluster's installation failed due to a temporary AWS error while provisioning control plane instances. Please delete the cluster and retry installation.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster installation failed",
+  "description": "Your cluster's installation failed due to a temporary AWS error while provisioning control plane instances. Please delete the cluster and retry installation.",
+  "internal_only": false
 }

@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Cluster destroyed, cannot be recovered",
-    "description": "SRE have noticed that the core configuration of your cluster has been modified by a user leveraging cluster-admin permissions. The cluster cannot be restored to a managed state, please delete it following the documentation guidelines: https://docs.openshift.com/rosa/rosa_getting_started/rosa_getting_started_iam/rosa-deleting-cluster.html. Please open a support case if you need any assistance.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster destroyed, cannot be recovered",
+  "description": "SRE have noticed that the core configuration of your cluster has been modified by a user leveraging cluster-admin permissions. The cluster cannot be restored to a managed state, please delete it following the documentation guidelines: https://docs.openshift.com/rosa/rosa_getting_started/rosa_getting_started_iam/rosa-deleting-cluster.html. Please open a support case if you need any assistance.",
+  "internal_only": false
 }

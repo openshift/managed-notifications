@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_network"],
   "summary": "Invalid TLS certificate",
   "description": "Your cluster uses an invalid TLS certificate that is signed by an unknown authority. Invalid TLS certificates result in failing requests to applications deployed to the cluster (for example the OpenShift Console) and will impact Red Hat's ability to monitor and support your cluster. To use a custom domain please follow the documentation on setting up custom application domains at https://access.redhat.com/articles/5599621.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_network"
+  ]
 }

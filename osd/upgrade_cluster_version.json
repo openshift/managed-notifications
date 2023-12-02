@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Action Required: Upgrade cluster version",
-    "description": "Red Hat has identified a bug on the current version of your cluster, ${CURRENT_VERSION}. You can review the details of this bug at ${BZ_LINK}. Red Hat recommends you upgrade as soon as possible to the latest available ${LATEST_VERSION} release.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action Required: Upgrade cluster version",
+  "description": "Red Hat has identified a bug on the current version of your cluster, ${CURRENT_VERSION}. You can review the details of this bug at ${BZ_LINK}. Red Hat recommends you upgrade as soon as possible to the latest available ${LATEST_VERSION} release.",
+  "internal_only": false
 }

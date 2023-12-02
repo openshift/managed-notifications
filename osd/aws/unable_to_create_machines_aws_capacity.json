@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Cluster machine creation blocked, action required",
-    "description": "Your cluster is blocked on an AWS datacenter capacity issue. AWS does not have capacity for ${INSTANCE_TYPE} in ${REGION} at the moment. Please select a different instance type.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster machine creation blocked, action required",
+  "description": "Your cluster is blocked on an AWS datacenter capacity issue. AWS does not have capacity for ${INSTANCE_TYPE} in ${REGION} at the moment. Please select a different instance type.",
+  "internal_only": false
 }

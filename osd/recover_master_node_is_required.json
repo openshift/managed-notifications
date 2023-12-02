@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Cluster does not have sufficient number of master nodes",
-    "description": "SRE have noticed a change in the state of one or more of the cluster's master nodes. Please note that if you change the running state of one of the master nodes manually this may impact the stability of the cluster and the cluster's SLA. We suggest you to revert any changes made on master instances.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster does not have sufficient number of master nodes",
+  "description": "SRE have noticed a change in the state of one or more of the cluster's master nodes. Please note that if you change the running state of one of the master nodes manually this may impact the stability of the cluster and the cluster's SLA. We suggest you to revert any changes made on master instances.",
+  "internal_only": false
 }

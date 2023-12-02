@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "NOTICE: Silencing alerts for 'openshift-*' user namespaces",
-    "description": "The Red Hat SRE team monitors all namespaces matching pattern 'openshift-*' in the cluster. This namespace prefix is reserved for infrastructure use. Red Hat SRE does not monitor user namespaces matching this pattern. Alerts for namespace '${NAMESPACE}' have been silenced and will not be re-enabled. Cluster metrics and alerts may still be accessed from the cluster console.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "NOTICE: Silencing alerts for 'openshift-*' user namespaces",
+  "description": "The Red Hat SRE team monitors all namespaces matching pattern 'openshift-*' in the cluster. This namespace prefix is reserved for infrastructure use. Red Hat SRE does not monitor user namespaces matching this pattern. Alerts for namespace '${NAMESPACE}' have been silenced and will not be re-enabled. Cluster metrics and alerts may still be accessed from the cluster console.",
+  "internal_only": false
 }

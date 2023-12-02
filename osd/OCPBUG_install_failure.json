@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked because of an installation bug described in ${OCPBUGS_LINK}. There is currently no way to reliably ensure an installation will succeed until the bug is resolved. Red Hat is working on resolving the issue. ${DETAILS} Please retry your cluster installation.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation is blocked because of an installation bug described in ${OCPBUGS_LINK}. There is currently no way to reliably ensure an installation will succeed until the bug is resolved. Red Hat is working on resolving the issue. ${DETAILS} Please retry your cluster installation.",
+  "internal_only": false
 }

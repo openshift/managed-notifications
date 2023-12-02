@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Clear Alertmanager Silences",
-    "description": "Your cluster's monitoring stack has silenced alerts. This prevents Red Hat SRE from monitoring this cluster. Please clear alert silences immediately.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Clear Alertmanager Silences",
+  "description": "Your cluster's monitoring stack has silenced alerts. This prevents Red Hat SRE from monitoring this cluster. Please clear alert silences immediately.",
+  "internal_only": false
 }

@@ -1,7 +1,7 @@
 {
-    "severity": "Info",
-    "service_name": "SREManualAction",
-    "summary": "${DATE} Cluster maintenance successfully completed",
-    "description": "${DATE} cluster maintenance is now successfully completed. Your cluster services are now fully back online.",
-    "internal_only": false
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "summary": "${DATE} Cluster maintenance successfully completed",
+  "description": "${DATE} cluster maintenance is now successfully completed. Your cluster services are now fully back online.",
+  "internal_only": false
 }

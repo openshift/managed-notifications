@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked on an AWS ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation is blocked on an AWS ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
+  "internal_only": false
 }

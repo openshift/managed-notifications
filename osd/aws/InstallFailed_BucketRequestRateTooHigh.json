@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation blocked on AWS error: 'Error creating S3 bucket: SlowDown: Please reduce your request rate.' The S3 bucket request rate will need to be lowered to within AWS request limits in order for the installaiton to succeed. AWS S3 request limits are described in this document - https://aws.amazon.com/premiumsupport/knowledge-center/s3-resolve-503-slowdown-throttling/.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation blocked on AWS error: 'Error creating S3 bucket: SlowDown: Please reduce your request rate.' The S3 bucket request rate will need to be lowered to within AWS request limits in order for the installaiton to succeed. AWS S3 request limits are described in this document - https://aws.amazon.com/premiumsupport/knowledge-center/s3-resolve-503-slowdown-throttling/.",
+  "internal_only": false
 }

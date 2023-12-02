@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Update Cluster Logging configuration",
-    "description": "Your cluster requires you to take action. Your cluster has problems on the Cluster Logging service. Please verify your logging installation via 'Verification steps' section mentioned in doc: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_logging/rosa-install-logging.html.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Update Cluster Logging configuration",
+  "description": "Your cluster requires you to take action. Your cluster has problems on the Cluster Logging service. Please verify your logging installation via 'Verification steps' section mentioned in doc: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_logging/rosa-install-logging.html.",
+  "internal_only": false
 }

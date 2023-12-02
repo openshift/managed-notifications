@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Attention requested: Cluster account access unavailable",
-    "description": "SRE has been notified of problems on your cluster, but cannot investigate because cloud provider access has been removed. If you intended to terminate this cluster then please delete the cluster in the Red Hat console.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Attention requested: Cluster account access unavailable",
+  "description": "SRE has been notified of problems on your cluster, but cannot investigate because cloud provider access has been removed. If you intended to terminate this cluster then please delete the cluster in the Red Hat console.",
+  "internal_only": false
 }

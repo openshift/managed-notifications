@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. ROSA PrivateLink requirements are described in this document - https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa-aws-privatelink-creating-cluster.html.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. ROSA PrivateLink requirements are described in this document - https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa-aws-privatelink-creating-cluster.html.",
+  "internal_only": false
 }

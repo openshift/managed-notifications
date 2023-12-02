@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_config"],
   "summary": "Platform component monitoring accessed by non-Red Hat SRE user",
   "description": "A workload or user on your system has accessed or modified the configuration of the cluster monitoring stack, which is the responsibility of Red Hat SRE. Changes to the cluster-monitoring-config in the openshift-monitoring namespace can interfere with Red Hat's ability to monitor the cluster, and can endanger SLAs. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }

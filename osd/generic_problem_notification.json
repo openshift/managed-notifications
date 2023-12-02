@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: ${PROBLEM_SUMMARY}",
-    "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: ${DOCUMENTATION}.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: ${PROBLEM_SUMMARY}",
+  "description": "Your cluster requires you to take action because ${PROBLEM}, resulting in ${IMPACT}. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: ${DOCUMENTATION}.",
+  "internal_only": false
 }

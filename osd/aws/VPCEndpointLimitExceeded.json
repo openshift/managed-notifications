@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation blocked on AWS VpcEndpointLimitExceeded error in given region. Please attempt to install the cluster again in another region. Meanwhile, Red Hat SRE team is working on increasing VpcEndpoint limit in affected region. The AWS account limits are described in this document -  https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation blocked on AWS VpcEndpointLimitExceeded error in given region. Please attempt to install the cluster again in another region. Meanwhile, Red Hat SRE team is working on increasing VpcEndpoint limit in affected region. The AWS account limits are described in this document -  https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
+  "internal_only": false
 }

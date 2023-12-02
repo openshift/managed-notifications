@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Resources overloaded",
-    "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.openshift.com/container-platform/latest/cicd/pipelines/reducing-pipelines-resource-consumption.html.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Resources overloaded",
+  "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.openshift.com/container-platform/latest/cicd/pipelines/reducing-pipelines-resource-consumption.html.",
+  "internal_only": false
 }

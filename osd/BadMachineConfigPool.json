@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Bad MachineConfigPool Configuration",
-    "description": "Your cluster requires you to take action. SRE has observed that there have been unsupported changes made to the cluster MachineConfigPool. ${REASON}. Please revert these changes or consult the documentation: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html for details.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Bad MachineConfigPool Configuration",
+  "description": "Your cluster requires you to take action. SRE has observed that there have been unsupported changes made to the cluster MachineConfigPool. ${REASON}. Please revert these changes or consult the documentation: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html for details.",
+  "internal_only": false
 }

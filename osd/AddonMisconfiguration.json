@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "_tags": ["t_config"],
   "summary": "Action required: Add-on misconfiguration",
   "description": "Your cluster requires you to take action. SRE has observed that an add-on, ${ADDON}, is misconfigured which could impact normal working of the cluster. Please refer to the documentation ${DOC}.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
 }

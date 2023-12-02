@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Action required: correct failing API services",
-    "description": "The '${API_SERVICE}' extension API service installed on your cluster is currently failing. This failing service can impact your cluster's ongoing operation and resource management. Please validate and correct or otherwise remove the failing API Service.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Action required: correct failing API services",
+  "description": "The '${API_SERVICE}' extension API service installed on your cluster is currently failing. This failing service can impact your cluster's ongoing operation and resource management. Please validate and correct or otherwise remove the failing API Service.",
+  "internal_only": false
 }

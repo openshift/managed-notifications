@@ -1,7 +1,7 @@
 {
-    "severity": "Error",
-    "service_name": "SREManualAction",
-    "summary": "Cluster installation failed",
-    "description": "ROSA and OSD installations on AWS may fail due a recently changed AWS security policy. Red Hat is investigating the issue and updates will be posted to this KCS: https://access.redhat.com/solutions/7007136.",
-    "internal_only": false
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster installation failed",
+  "description": "ROSA and OSD installations on AWS may fail due a recently changed AWS security policy. Red Hat is investigating the issue and updates will be posted to this KCS: https://access.redhat.com/solutions/7007136.",
+  "internal_only": false
 }

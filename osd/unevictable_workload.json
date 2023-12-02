@@ -1,7 +1,7 @@
 {
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "summary": "Action required: Unevictable workload detected",
-    "description": "Your cluster is attempting to evict a pod from node ${NODE} but ${REASON} is blocking that. Please ensure that this issue is addressed in the configuration of your application. Otherwise, the ability to autoscale the cluster may be impacted.",
-    "internal_only": false
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Unevictable workload detected",
+  "description": "Your cluster is attempting to evict a pod from node ${NODE} but ${REASON} is blocking that. Please ensure that this issue is addressed in the configuration of your application. Otherwise, the ability to autoscale the cluster may be impacted.",
+  "internal_only": false
 }
