@@ -1,0 +1,11 @@
+{  
+  "severity": "Warning",
+  "service_name": "SREManualAction",
+  "summary": "Action required: Pod Disruption Budget preventing Node Drain",
+  "description": "Your cluster is attempting to drain node `${NODE}` but there is a pod disruption budget set that is preventing the drain. The OSD SRE team has identified the pod as `${POD}` running in the namespace: `${NAMESPACE}`. Please re-schedule this pod so that the node can drain. For more information on pod disruption budgets please see https://docs.openshift.com/rosa/nodes/pods/nodes-pods-configuring.html.",
+  "internal_only": false,
+  "_tags": [
+    "sop_KubeNodeUnschedulableSRE",
+    "sop_MCDDrainError"
+  ]
+}
