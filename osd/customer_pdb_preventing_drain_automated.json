@@ -2,6 +2,6 @@
     "severity": "Warning",
     "service_name": "SREManualAction",
     "summary": "Action required: Pod Disruption Budget(s) preventing Node Drain",
-    "description": "Your cluster is attempting to drain the node(s): `${NODELIST}` but there is a pod disruption budget set that is preventing the drain. The Managed OpenShift SRE team has identified the following workload(s) affected in namespace/pod-name format: `${PODLIST}`. Please re-schedule this pod so that the node can drain. For more information on pod disruption budgets please see https://docs.openshift.com/container-platform/latest/nodes/pods/nodes-pods-configuring.html#nodes-pods-configuring-pod-distruption-about_nodes-pods-configuring.",
+    "description": "Your cluster is attempting to drain the node(s): `${NODELIST}` but there is a pod disruption budget set that is preventing the drain. The Managed OpenShift SRE team has identified the following workload(s) affected in namespace/pod-name format: `${PODLIST}`. Please re-schedule this pod so that the node can drain. For more information on pod disruption budgets please see https://docs.openshift.com/dedicated/nodes/pods/nodes-pods-configuring.html.",
     "internal_only": false
 }
