@@ -1,8 +1,13 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
-  "summary": "Installation blocked: Missing route to internet",
-  "description": "Your cluster's installation is blocked because of the cluster-wide proxy configured is not reachable. Please review the network and proxy configuration before reattempting cluster installation process. - https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html.",
+  "summary": "Installation blocked: Unreachable proxy",
+  "description": "Your cluster's installation is blocked because the configured cluster-wide proxy is not reachable. Please review your network and proxy configuration and retry cluster installation. Please refer to the following documentation on cluster-wide proxies: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html.",
   "internal_only": false,
   "event_stream_id": ""
+  "_tags": [
+    "t_network",
+    "t_install",
+    "sop_ClusterProvisioningFailure"
+  ]
 }
