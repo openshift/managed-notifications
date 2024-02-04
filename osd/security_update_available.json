@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-security",
     "summary": "Important security update available",
     "description": "Your cluster has an important security update available. Details are available at ${ADVISORY_URL}.",
+    "doc_referencs": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/upgrading"],
     "internal_only": false
 }

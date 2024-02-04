@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
   "_tags": ["t_config"],
   "summary": "Action required: review user-workload-monitoring configuration",
   "description": "Your cluster's user-workload-monitoring is misconfigured. ${REASON}. Please review your configuration according to https://docs.openshift.com/rosa/monitoring/configuring-the-monitoring-stack.html .",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-the-monitoring-stack"],
   "internal_only": false
 }

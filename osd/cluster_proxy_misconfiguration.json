@@ -1,6 +1,7 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-networking",
   "summary": "Action required: update cluster proxy configuration",
   "description": "The clusterwide openshift proxy is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. See documentation: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html.",
   "internal_only": false,

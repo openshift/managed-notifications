@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-networking",
   "_tags": ["t_network", "t_config"],
   "summary": "Action required: Network misconfiguration",
   "description": "Your cluster requires you to take action. SRE has observed that there is no egress route defined in your cluster's private subnet which impacts normal working of the cluster. Please refer to the rosa documentation on how to setup the route tables for private subnets: https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa_getting_started_iam/rosa-aws-prereqs.html#sample-vpc-architecture .",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-aws-privatelink-creating-cluster#osd-aws-privatelink-required-resources.adoc_rosa-aws-privatelink-creating-cluster"],
   "internal_only": false
 }

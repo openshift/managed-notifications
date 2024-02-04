@@ -1,6 +1,7 @@
 {
   "severity": "Info",
   "service_name": "SREManualAction",
+  "log_type": "customer-support",
   "summary": "Cluster incident resolved",
   "description": "cluster incident '${ALERT_NAME}' is resolved.",
   "internal_only": false,

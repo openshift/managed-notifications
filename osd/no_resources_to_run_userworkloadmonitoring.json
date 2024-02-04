@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "capacity-management",
     "summary": "Action required: User Workload Monitoring impacted by cluster resource limits",
     "description": "Your cluster requires you to take action. Your cluster's worker nodes do not have enough resources to run the cluster's User Workload Monitoring monitoring stack. As a result, its operation may be impaired. Please ensure that your workloads have CPU and Memory limits set to avoid overcommitting the worker nodes, and consider either reducing application load or increasing worker nodes. For more information on managing resource consumption, please see https://docs.openshift.com/container-platform/latest/nodes/clusters/nodes-cluster-limit-ranges.html.",
+    "doc_referneces": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-clusters#nodes-cluster-limit-ranges"],
     "internal_only": false
 }

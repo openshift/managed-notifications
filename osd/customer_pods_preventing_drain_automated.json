@@ -1,7 +1,9 @@
 {
     "severity": "Warning",
     "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
     "summary": "Action required: Pod(s) preventing Node Drain",
     "description": "Your cluster is attempting to drain worker nodes but there are workloads preventing the drain. The SRE team has identified the affected nodes as `${NODELIST}` and the pod(s) as the following in 'namespace/pod-name' format: `${PODLIST}`. Please re-schedule the impacted pod(s) so that the node can drain.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-pod-distruption-about_nodes-pods-configuring"],
     "internal_only": false
 }

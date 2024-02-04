@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
   "summary": "Action required: Address storageclass configuration",
   "description": "Your cluster requires you to take action because its StorageClass resources have been customized in a way that is resulting in components of the cluster's monitoring stack from failing to provision Persistent Volumes, which impacts the availability of your cluster's monitoring stack. Please ensure to properly configure the cluster default storage class.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/storage/using-container-storage-interface-csi#persistent-storage-csi-sc-manage"],
   "internal_only": false,
   "_tags": [
     "t_config",
