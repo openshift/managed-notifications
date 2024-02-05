@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Worker node provisioning, action required",
     "description": "Your cluster's worker nodes are unable to provision due to ${REASON}. Please remediate the issue by ${REMEDIATION}.",
     "internal_only": false

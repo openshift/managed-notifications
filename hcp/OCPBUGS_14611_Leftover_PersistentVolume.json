@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Cluster uninstall left behind PersistentVolume(s)",
     "description": "The PersistentVolumeClaim(s) ${CLAIMS} with StorageClass ${STORAGECLASS} have been left behind after your ROSA HCP cluster's uninstall. It is safe to delete them if they are no longer needed for your workloads.",
     "internal_only": false
