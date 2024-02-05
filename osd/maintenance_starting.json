@@ -1,6 +1,7 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
+    "log_type": "cluster-updates",
     "summary": "${DATE} Cluster maintenance is starting",
     "description": "${DATE} cluster maintenance is starting. We expect the cluster to be available during this time.",
     "internal_only": false

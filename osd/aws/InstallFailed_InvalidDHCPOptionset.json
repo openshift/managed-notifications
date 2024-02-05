@@ -1,6 +1,7 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
   "summary": "Installation blocked, action required",
   "description": "Your cluster's installation was blocked by a misconfigured DHCP option set attached to your target VPC. DHCP option set ${OPTIONSET_ID} contains one or more spaces or capital letters in its `Domain name` field, which are not allowed by the DHCP protocol (see RFC 2132 section 3.17). Please remove all spaces and capital letters from the `Domain name` field and try re-installing the cluster.",
   "internal_only": false,

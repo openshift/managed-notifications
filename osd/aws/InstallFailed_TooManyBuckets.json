@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Installation blocked, action required",
     "description": "Your cluster's installation blocked on AWS TooManyBuckets error. Please raise the S3 bucket quota or remove some buckets from the appropriate region of your AWS account for the installation to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/prepare_your_environment/index#rosa-sts-required-aws-service-quotas"],
     "internal_only": false
 }

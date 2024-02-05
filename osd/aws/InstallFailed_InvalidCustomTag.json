@@ -1,11 +1,13 @@
 {
-  "severity": "Error",
-  "service_name": "SREManualAction",
-  "summary": "Installation blocked, action required",
-  "description": "Your cluster's installation is blocked due to an invalid user-defined tag. The tag provided for the cluster install with the key '${KEY}' is not allowed. Please change or remove the invalid tag and try re-installing the cluster.",
-  "internal_only": false,
-  "_tags": [
-    "t_install",
-    "sop_ClusterProvisioningFailure"
-  ]
-}
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "log_type" : "cluster-lifecycle",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked due to an invalid user-defined tag. The tag provided for the cluster install with the key '${KEY}' is not allowed. Please change or remove the invalid tag and try re-installing the cluster.",
+    "internal_only": false,
+    "_tags": [
+      "t_install",
+      "sop_ClusterProvisioningFailure"
+    ]
+  }
+

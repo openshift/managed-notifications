@@ -1,8 +1,10 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-add-ons",
   "summary": "Action required: Add resources to complete RHOAM installation",
   "description": "Your cluster does not have sufficient resources to install the Red Hat OpenShift API Management add-on. Please reference https://access.redhat.com/articles/5534341 and provide the necessary resources to complete the installation.",
+  "doc_references": ["https://access.redhat.com/articles/5534341#resource-requirements-16"],
   "internal_only": false,
   "event_stream_id": "${JIRA_ID}",
   "_tags": [

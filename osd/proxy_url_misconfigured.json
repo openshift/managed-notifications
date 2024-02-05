@@ -1,8 +1,10 @@
 {
   "severity": "Warning",
   "service_name": "SREManualAction",
+  "log_type": "cluster-networking",
   "_tags": ["t_network", "t_config"],
   "summary": "Action required: Cluster-wide proxy network requirements not met",
   "description": "Your cluster requires you to take action because the required URLs are not configured to be excluded from cluster-wide proxy re-encryption, resulting in cluster's monitoring stack not functioning correctly. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html#cluster-wide-proxy-prereqs_configuring-a-cluster-wide-proxy.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/networking/index#configuring-a-cluster-wide-proxy"],
   "internal_only": false
 }

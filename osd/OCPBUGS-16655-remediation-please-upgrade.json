@@ -1,8 +1,10 @@
 {
   "severity": "Warning",
   "service_name": "SREManualAction",
+  "log_type": "cluster-updates",
   "summary": "Cluster impacted by OCPBUGS-16655, upgrade recommended",
   "description": "Your cluster is impacted by https://issues.redhat.com/browse/OCPBUGS-16655, which results in nodes periodically being unable to run containers. Red Hat SRE has responded to and temporarily remediated impacts of this bug on this cluster and recommends that the cluster be upgraded to 4.13.10 or later as soon as convenient.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/upgrading/rosa-upgrading-sts"],
   "internal_only": false,
   "_tags": [
     "sop_PruningCronjobErrorSRE"

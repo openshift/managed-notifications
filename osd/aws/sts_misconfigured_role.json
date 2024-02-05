@@ -1,7 +1,9 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-access",
   "summary": "Action required: Fix AWS Role to maintain SRE support",
   "description": "Your cluster requires you to take action because the IAM role `${ROLE}` has been modified in AWS, which is causing the following effect: `${EFFECT}`. Please revert the change to the IAM role to maintain ongoing cluster support.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role"],
   "internal_only": false
 }

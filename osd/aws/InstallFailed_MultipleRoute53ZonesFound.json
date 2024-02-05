@@ -1,6 +1,7 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
   "summary": "Installation blocked: Duplicate hosted zones",
   "description": "Your cluster's installation is blocked because a duplicate Route53 HostedZone already exists in your account named '${ZONE_NAME}', ID '${ZONE_ID}'. If this hosted zone is no longer required, it can be removed and an installation re-attempted.",
   "internal_only": false,

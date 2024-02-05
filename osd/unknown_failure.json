@@ -1,6 +1,7 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
   "summary": "Cluster incident identified",
   "description": "Your cluster is identified to have a general failure regarding the alert '${ALERT_NAME}'. The initial issue can be described as '${BRIEF_DESCRIPTION}'. A diagnosis of the issue is underway.",
   "internal_only": false,

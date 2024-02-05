@@ -1,6 +1,7 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-add-ons",
   "_tags": ["t_config"],
   "summary": "Action required: ${OPERATOR_NAME} is misconfigured",
   "description": "Your cluster requires you to take action. Installed operator ${OPERATOR_NAME} is failing due to ${REASON}. Please consult the relevant documentation for further assistance.",

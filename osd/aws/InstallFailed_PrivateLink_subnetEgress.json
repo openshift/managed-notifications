@@ -1,7 +1,9 @@
 {
   "severity": "Error",
   "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
   "summary": "Installation blocked, action required",
   "description": "Your cluster's installation is blocked due to there being no egress route defined in your cluster's private subnet. Please review the network configuration, and try re-installing the cluster. You can also refer to the following documentation about the requirements for AWS PrivateLink clusters: https://docs.openshift.com/rosa/rosa_getting_started/rosa_getting_started_iam/rosa-aws-privatelink-creating-cluster.html#osd-aws-privatelink-required-resources.adoc_rosa-aws-privatelink-creating-cluster.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-aws-privatelink-creating-cluster#doc-wrapper"],
   "internal_only": false
 }

@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Installation blocked, action required",
     "description": "Your cluster's installation is blocked due to automation in your AWS account which is interfering with the installation. ${REASON} Please remove or prevent this automation to allow installation to succeed.",
     "internal_only": false

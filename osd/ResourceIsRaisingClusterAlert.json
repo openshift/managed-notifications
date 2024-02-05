@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
     "summary": "Action required: Resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is triggering a alert",
     "description": "Your cluster requires you to take action. The resource/s ${RESOURCE} in ${NAMESPACE_OR_CLUSTER_SCOPE} is causing the alert ${ALERTNAME} to fire. Please ${ACTION_REQUIRED} in order to return the cluster back to normal operations.",
     "internal_only": false

@@ -1,6 +1,7 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
+    "log_type": "customer-support",
     "summary": "GCP Outage Impacting Your Cluster",
     "description": "Red Hat has identified a GCP issue that may impact your cluster. For more details, including incident resolution, see https://status.cloud.google.com/.",
     "internal_only": false

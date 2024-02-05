@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "capacity-management",
     "event_stream_id": "${EVENT_STREAM_ID}",
     "summary": "Urgent action required: update cluster logging configuration",
     "description": "Your cluster requires you to take action. Elasticsearch storage is greater than 95% utilized, and data loss is imminent. Red Hat SRE strongly recommends reducing application logging on your cluster to ensure logging continues to function.",
