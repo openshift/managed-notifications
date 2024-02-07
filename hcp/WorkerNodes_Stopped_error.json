@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary": "Worker node(s) stopped, action required",
+    "description": "Your cluster's worker nodes are stopped due to manual action in AWS which is not supported. Please remediate the issue by starting the instances again. If you would like to change the number of worker instances, please refer documentation https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-scaling-worker-nodes_rosa-managing-worker-nodes.",
+    "internal_only": false
+}
