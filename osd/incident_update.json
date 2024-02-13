@@ -1,0 +1,10 @@
+{
+  "event_stream_id": "${INCIDENT_ID}",
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "log_type": "customer-support",
+  "summary": "Cluster incident update",
+  "description": "${INCIDENT_UPDATE_MESSAGE}. Please refer to support case ${CASE_ID} for communication with our team, where there is opportunity for ongoing dialogue.",
+  "internal_only": false,
+  "_tags": []
+}
