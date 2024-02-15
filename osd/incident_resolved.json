@@ -2,7 +2,6 @@
   "event_stream_id": "${INCIDENT_ID}",
   "severity": "Info",
   "service_name": "SREManualAction",
-  "log_type": "customer-support",
   "summary": "Cluster incident resolved",
   "description": "Cluster incident is resolved.",
   "internal_only": false,
