@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-access",
     "summary": "Attention requested: Cluster account access unavailable",
-    "description": "SRE has been notified of problems on your cluster, but cannot investigate because cloud provider access has been removed. If you intended to terminate this cluster then please delete the cluster in the Red Hat console.",
+    "description": "SRE has been notified of problems on your cluster, but cannot investigate because cloud provider access has been removed. If you intended to terminate this cluster then please delete the cluster in the Red Hat console. Otherwise, reconfigure cloud provider access to allow SRE to investigate: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/install_rosa_classic_clusters/index#rosa-sts-associating-your-aws-account_rosa-sts-creating-a-cluster-quickly",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#doc-wrapper"],
     "internal_only": false
 }
