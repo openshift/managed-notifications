@@ -1,0 +1,9 @@
+{
+  "event_stream_id": "${INCIDENT_ID}",
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "summary": "Cluster incident identified",
+  "description": "Your cluster is identified to have a failure that is currently under investigation. The initial issue can be described as '${BRIEF_DESCRIPTION}'.",
+  "internal_only": false,
+  "_tags": []
+}
