@@ -1,7 +1,9 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Product end-of-life date extended",
     "description": "The end-of-life cycle date for ${PRODUCT} is being extended to ${EOLDATE}. Please refer to our life cycle policy document for further information: ${DOCUMENTATION}.",
+    "doc_references" : ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#sd-life-cycle-dates_rosa-life-cycle"],
     "internal_only": false
 }

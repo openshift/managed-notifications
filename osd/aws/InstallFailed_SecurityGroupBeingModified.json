@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Installation blocked, action required",
     "description": "Your cluster's installation is blocked as security groups used to provision the cluster on the AWS account were modified during installation. Please review any scripts which would modify the AWS resources automatically on the AWS account. Please make sure the required ports/protocols are allowed at all times. For more information please consult the documentation: https://docs.openshift.com/rosa/rosa_planning/rosa-aws-prereqs.html#rosa-security-groups_prerequisites.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/prepare_your_environment/index#rosa-security-groups_rosa-sts-aws-prereqs"],
     "internal_only": false
 }

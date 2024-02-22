@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-updates",
     "summary": "Action required: Remove or address failing cluster operator",
     "description": "Your cluster requires you to take action because there is a custom ClusterOperator named '${NAME}' installed on the cluster, which is failing to reach an Available state. Unavailable or degraded ClusterOperators can prevent your cluster's ability to upgrade to future versions successfully. Please address or remove the ClusterOperator to allow your cluster to remain in an upgradeable state.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/operators/administrator-tasks#olm-troubleshooting-operator-issues"],
     "internal_only": false
 }

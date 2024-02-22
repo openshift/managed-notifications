@@ -1,8 +1,9 @@
 {
+  "event_stream_id": "${INCIDENT_ID}",
   "severity": "Info",
   "service_name": "SREManualAction",
   "summary": "Cluster incident resolved",
-  "description": "cluster incident '${ALERT_NAME}' is resolved.",
+  "description": "Cluster incident is resolved.",
   "internal_only": false,
   "_tags": [
     "sop_KubeControllerManagerCrashloopingSRE"

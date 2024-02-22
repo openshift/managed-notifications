@@ -1,7 +1,9 @@
 {
     "severity": "Warning",
     "service_name": "SREManualAction",
+    "log_type": "cluster-updates",
     "summary": "Action Required: Upgrade cluster version",
     "description": "Red Hat has identified a bug on the current version of your cluster, ${CURRENT_VERSION}. You can review the details of this bug at ${BZ_LINK}. Red Hat recommends you upgrade as soon as possible to the latest available ${LATEST_VERSION} release.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/upgrading/rosa-upgrading-sts"],
     "internal_only": false
 }

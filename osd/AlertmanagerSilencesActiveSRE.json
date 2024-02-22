@@ -1,8 +1,10 @@
 {
   "severity": "Info",
   "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
   "summary": "AlertManager Silences Identified",
   "description": "Cluster has been identified with AlertManager silences. Silences prevent Red Hat from effectively monitoring this cluster and will be removed.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/authentication_and_authorization/managing-pod-security-policies#scc-prioritization_configuring-internal-oauth"],
   "internal_only": false,
   "_tags": [
     "sop_AlertmanagerSilencesActiveSRE"

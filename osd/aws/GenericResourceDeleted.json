@@ -1,6 +1,7 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
     "summary": "Critical AWS Resource Has Been Deleted",
     "description": "SRE has found that a critical AWS resource has been deleted, which may impact the supportability of your cluster. ${REASON} Please work with Red Hat support to help remediate this issue.",
     "internal_only": false

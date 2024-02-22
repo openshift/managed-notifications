@@ -1,6 +1,7 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
+    "log_type": "cluster-scaling",
     "summary": "${DATE}: Control plane resize to ${INSTANCE_TYPE} beginning",
     "description":  "Cluster control plane is being proactively scaled up in response to https://bugzilla.redhat.com/show_bug.cgi?id=2068601. Cluster has been identified as having high resource utilization and is at risk of being affected by etcd fragmentation.",
     "internal_only": false

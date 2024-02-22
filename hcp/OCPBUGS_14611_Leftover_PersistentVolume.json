@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
     "summary": "Cluster uninstall left behind PersistentVolume(s)",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/storage/understanding-persistent-storage#reclaim-manual_understanding-persistent-storage"],
     "description": "The PersistentVolumeClaim(s) ${CLAIMS} with StorageClass ${STORAGECLASS} have been left behind after your ROSA HCP cluster's uninstall. It is safe to delete them if they are no longer needed for your workloads.",
     "internal_only": false
 }

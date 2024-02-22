@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
     "summary": "Action required: review cluster logging configuration",
     "description": "Your cluster's ElasticSearch deployment is misconfigured in a way that is impacting its operation. ${REASON} For more information, please consult the following documentation reference: https://docs.openshift.com/container-platform/latest/logging/cluster-logging.html.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/logging/troubleshooting-logging"],
     "internal_only": false
 }

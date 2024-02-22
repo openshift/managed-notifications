@@ -1,7 +1,9 @@
 {
     "severity": "Info",
     "service_name": "SREManualAction",
+    "log_type": "capacity-management",
     "summary": "Persistent Volume/s Resized",
     "description": "Red Hat SRE have detected a high usage of storage on the ${STORAGE_LOCATION} due to ${REASON_FOR_USAGE} so to avoid losing data Red Hat SRE have reduced the retention to ${NEW_RETENTION_DURATION}. Please take action if you wish to increase the retention again.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-the-monitoring-stack#modifying-retention-time-and-size-for-prometheus-metrics-data_configuring-the-monitoring-stack"],
     "internal_only": false
 }

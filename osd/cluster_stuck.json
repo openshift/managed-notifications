@@ -1,7 +1,9 @@
 {
     "severity": "Error",
     "service_name": "SREManualAction",
+    "log_type": "cluster-lifecyle",
     "summary": "Action required: Cluster Stuck",
     "description": "SRE has observed that your cluster is stuck in an ${STATE} state. If you need assistance to fully remove and cleanup your cluster, please open a support case.",
+    "doc_references": ["https://access.redhat.com/support/cases/new"],
     "internal_only": false
 }
