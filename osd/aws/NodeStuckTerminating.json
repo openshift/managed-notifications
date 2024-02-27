@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "AWS Delayed Instance Termination",
-    "description": "Red Hat has identified an AWS instance issue that may impact your cluster. The instance '${INSTANCE_ID}' is currently in a 'shutting-down' state for an extended period of time. This condition normally resolves itself in a few hours. For more details, see https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesShuttingDown.html#instance-stuck-terminating.",
+    "description": "Red Hat has identified an AWS instance issue that may impact your cluster. The instance '${INSTANCE_ID}' is currently in a 'shutting-down' state for an extended period of time. This condition normally resolves itself in a few hours. Refer to the AWS instance shutdown troubleshooting documentation for more information: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesShuttingDown.html#instance-stuck-terminating.",
     "doc_references": ["https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesShuttingDown.html#instance-stuck-terminating"],
     "internal_only": false
 }

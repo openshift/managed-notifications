@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Non-System Change SRE API Endpoint",
-  "description": "A Non-system user changed an SRE API endpoint, ${ENDPOINT}. This event can have an impact on SLAs. Red Hat will proactively repair API endpoint changes that were made. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html.",
+  "description": "A Non-system user changed an SRE API endpoint, ${ENDPOINT}. This event can have an impact on SLAs. Red Hat will proactively repair API endpoint changes that were made. Please refer to https://docs.openshift.com/dedicated/osd_architecture/osd_policy/policy-responsibility-matrix.html#.",
   "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-policy-responsibility-matrix"],
   "internal_only": false,
   "_tags": [

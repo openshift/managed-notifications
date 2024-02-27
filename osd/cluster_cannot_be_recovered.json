@@ -3,9 +3,9 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecycle",
   "summary": "Cluster destroyed, cannot be recovered",
-  "description": "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, therefore SRE will take actions to completely remove the cluster. In the future when you need to delete a cluster, please follow the documentation guidelines for deleting a cluster: https://docs.openshift.com/dedicated/osd_quickstart/osd-quickstart.html#deleting-cluster_osd-getting-started.",
+  "description": "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, therefore SRE will take actions to completely remove the cluster. In the future when you need to delete a cluster, please follow the documentation guidelines for deleting a cluster: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster","https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-deleting-a-cluster"],
   "internal_only": false,
-  "doc_references": ["https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-deleting-a-cluster"],
   "_tags": [
     "sop_cluster_has_gone_missing"
   ]

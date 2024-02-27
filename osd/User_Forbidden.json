@@ -4,6 +4,7 @@
   "log_type": "cluster-security",
   "summary": "Elevated rate of failed authorization events on your Managed OpenShift cluster",
   "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of API calls that failed authorization for the following users on your cluster: ${USERNAME}. Because the users belong to your organization, Red Hat SRE is sending this notice to you for further analysis.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/security_and_compliance/audit-log-view#gathering-data-audit-logs_audit-log-view"],
   "internal_only": false,
   "_tags": [
     "sop_SplunkUserForbidden"

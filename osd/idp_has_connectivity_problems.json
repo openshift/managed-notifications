@@ -4,6 +4,7 @@
   "log_type": "cluster-configuration",
   "_tags": ["t_network", "t_config"],
   "summary": "Action required: update identity provider configuration",
-  "description": "Please verify the status of your identity server and update the IdP '${IDP_PROVIDER}' configuration to restore the cluster's operation. See documentation: https://docs.openshift.com/dedicated/identity_providers/config-identity-providers.html.",
+  "description": "Please verify the status of your identity server and update the IdP '${IDP_PROVIDER}' configuration to restore the cluster's operation.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-config-identity-providers"],
   "internal_only": false
 }

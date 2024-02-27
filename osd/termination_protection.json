@@ -4,7 +4,7 @@
     "log_type": "cluster-configuration",
     "_tags": ["t_config"],
     "summary": "Action required: Disable termination protection on cluster instances",
-    "description": "Your cluster is attempting to drain and replace `${NODE_TYPE}` node(s) `${NODE}` but cannot remove them due to EC2 termination protection being applied to the instances. Please modify the `disableApiTermination` instance attribute to allow the instances to be properly terminated and replaced. For more information, please review AWS documentation: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html .",
-    "doc_references": ["https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html"],
+    "description": "Your cluster is attempting to drain and replace `${NODE_TYPE}` node(s) `${NODE}` but cannot remove them due to EC2 termination protection being applied to the instances. Please modify the `disableApiTermination` instance attribute to allow the instances to be properly terminated and replaced. For more information, please review AWS documentation on terminating EC2 instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminate-instances-considerations.html#.",
+    "doc_references": ["https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminate-instances-considerations.html"],
     "internal_only": false
 }

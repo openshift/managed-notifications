@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-networking",
   "summary": "Action required: update custom domain configuration",
-  "description": "The custom application domain '${CUSTOM_DOMAIN}' is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. Please do not use reserved names: \"apps\", \"apps2\", or \"default\". See documentation: https://access.redhat.com/articles/5599621.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/applications/deployments#rosa-applications-config-custom-domains_rosa-config-custom-domains-applications"],
+  "description": "The custom application domain '${CUSTOM_DOMAIN}' is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. Please do not use reserved names: \"apps\", \"apps2\", or \"default\". See documentation: https://access.redhat.com/articles/5599621#.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/building_applications/deployments#osd-config-custom-domains-applications","https://access.redhat.com/articles/5599621"],
   "internal_only": false,
   "_tags": [
     "t_network",

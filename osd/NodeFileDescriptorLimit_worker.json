@@ -4,6 +4,7 @@
   "log_type": "capacity-management",
   "summary": "Action required: Worker node file descriptor limit nearly exhausted",
   "description": "Your cluster requires you to take action. The kernel file descriptor limit for worker node ${NODE} is currently at or above 90% and is predicted to be fully exhausted soon. This will prevent applications on the node from opening and operating on files. Without action, your cluster's SLA and ability to upgrade may be impacted. Please reduce the number of simultaneously-open files on this node, either by adjusting application configuration or by moving some applications to other nodes.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-node-selectors"],
   "internal_only": false,
   "_tags": [
     "sop_NodeFileDescriptorLimit"

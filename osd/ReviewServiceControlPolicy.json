@@ -4,6 +4,6 @@
     "log_type": "cluster-updates",
     "summary": "Action required: Review Service Control Policy",
     "description": "Your cluster requires you to take action because the '${CREDENTIAL_REQUEST}' credential request is failing to renew. This may be due to a Service Control Policy (SCP) applied at the AWS Organization level. This is currently impacting your cluster's ability to upgrade, and without action, your cluster's SLA may be impacted. Please refer to this documentation for more information:  https://access.redhat.com/solutions/5795441.",
-    "doc_references": ["https://access.redhat.com/solutions/5795441"],
+    "doc_references": ["https://access.redhat.com/solutions/5795441","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-sts-about-iam-resources#rosa-minimum-scp_rosa-sts-about-iam-resources"],
     "internal_only": false
 }
