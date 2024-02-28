@@ -4,11 +4,11 @@
   "log_type": "cluster-configuration",
   "summary": "Action required: cluster not checking in",
   "description": "Your cluster requires you to take action because it is no longer checking in with Red Hat OpenShift Cluster Manager. Possible causes include stopping instances or a networking misconfiguration. If you have stopped the cluster instances, please start them again - stopping instances is not supported. If you intended to terminate this cluster then please delete the cluster in the Red Hat console.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#doc-wrapper"],
   "internal_only": false,
+  "doc_references": [
+    "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#doc-wrapper"
+  ],
   "_tags": [
-    "sop_cluster_has_gone_missing",
-    "sop_cluster_has_gone_missing",
     "sop_cluster_has_gone_missing"
   ]
 }
