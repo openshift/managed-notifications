@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: Update Cluster Logging configuration",
-    "description": "Your cluster requires you to take action. Your cluster has problems on the Cluster Logging service. Please verify your logging installation via 'Verification steps' section mentioned in doc: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_logging/rosa-install-logging.html.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/logging/cluster-logging-deploying"],
+    "description": "Your cluster requires you to take action. Your cluster has problems on the Cluster Logging service. Please verify your logging installation using the 'Verification' sections of this documentation: https://docs.openshift.com/rosa/logging/cluster-logging-deploying.html#cluster-logging-deploy-cli_cluster-logging-deploying.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/logging/cluster-logging"],
     "internal_only": false
 }
