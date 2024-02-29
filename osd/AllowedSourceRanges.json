@@ -1,0 +1,9 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
+    "summary": "Action required: Incorrect Default IngressController Configuration",
+    "description": "Your cluster requires you to take action. Your default ingresscontroller is misconfigured, generating alerts for Red Hat SRE and degrading cluster health. The Machine CIDR for the cluster, '${MACHINE_CIDR}', needs to be added to the allowlist.",
+    "internal_only": false,
+    "doc_references": ["https://access.redhat.com/documentation/en-us/openshift_container_platform/4.12/html/networking/configuring-ingress#nw-ingress-controller-configuration-parameters_configuring-ingress"]
+}
