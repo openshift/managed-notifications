@@ -6,7 +6,6 @@
   "log_type": "cluster-lifecycle",
   "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/networking/index#configuring-a-cluster-wide-proxy"],
   "internal_only": false,
-  "event_stream_id": ""
   "_tags": [
     "t_network",
     "t_install",
