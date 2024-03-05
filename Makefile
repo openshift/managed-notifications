@@ -4,7 +4,7 @@ SHELL := /bin/bash
 
 # Validates that managed-notification descriptions end with a period.
 # 1) Find files with .json extension that contain "description":
-# 	 grep -rnw '.' --include "*.json" -e "description" 
+# 	 grep -rnw '.' --include "*.json" -e "description"
 # 2) Pipe those files into another grep to find files that
 #    have a description ending with no period:
 # 	 grep -v '"description".*\."'
@@ -21,3 +21,7 @@ help:
 	@echo ''
 	@echo 'Targets:'
 	@echo ' validate - validates that managed-notification descriptions end with a period.'
+
+.PHONY: checklinks
+checklinks:
+	scripts/checklinks.sh
