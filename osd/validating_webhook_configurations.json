@@ -5,9 +5,7 @@
   "summary": "Platform protections removed by non-Red Hat user",
   "description": "A user on your system has removed a platform protection webhook. This protection has already been automatically replaced, and no further action is required. Tampering with platform protections can endanger SLAs.",
   "internal_only": false,
-  "doc_references": [
-    "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/troubleshooting/rosa-managed-resources#doc-wrapper"
-  ],
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/troubleshooting/rosa-managed-resources"],
   "_tags": [
     "sop_SplunkNonSystemChangeValidatingWebhookConfigurations"
   ]

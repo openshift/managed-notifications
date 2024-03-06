@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Action required: review account quota",
-    "description": "Your cluster's ${CLUSTER_FUNCTION} is blocked on a AWS ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the action to succeed. AWS account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installing-aws-account.html#installation-aws-limits_installing-aws-account.",
+    "description": "Your cluster's ${CLUSTER_FUNCTION} is blocked on a AWS ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the action to succeed. AWS account limits are described in the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-required-aws-service-quotas#.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-required-aws-service-quotas"],
     "internal_only": false
 }

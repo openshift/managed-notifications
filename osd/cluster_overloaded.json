@@ -4,6 +4,6 @@
     "log_type": "capacity-management",
     "summary": "Action required: Resources overloaded",
     "description": "Your cluster does not have enough resources and requires you to take action. You need to either reduce application load or increase worker nodes. See the following documentation for scaling up worker nodes: https://docs.openshift.com/dedicated/nodes/rosa-managing-worker-nodes.html.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#rosa-scaling-worker-nodes_rosa-managing-worker-nodes"],
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#rosa-scaling-worker-nodes_rosa-managing-worker-nodes","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#machine-pools"],
     "internal_only": false
 }

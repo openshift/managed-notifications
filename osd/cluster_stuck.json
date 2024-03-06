@@ -4,6 +4,6 @@
     "log_type": "cluster-lifecyle",
     "summary": "Action required: Cluster Stuck",
     "description": "SRE has observed that your cluster is stuck in an ${STATE} state. If you need assistance to fully remove and cleanup your cluster, please open a support case.",
-    "doc_references": ["https://access.redhat.com/support/cases/new"],
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster"],
     "internal_only": false
 }

@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Action required: Installed ServiceQuotas in openshift namespaces breaks cluster operation",
-  "description": "Your cluster requires you to take action because an installed ServiceQuota '${SERVICEQUOTA}', is preventing cluster workloads from running. Please remove the quota from all openshift namespaces. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/container-platform/4.10/applications/quotas/quotas-setting-per-project.html.",
-  "doc_references": ["https://docs.openshift.com/container-platform/4.14/applications/quotas/quotas-setting-per-project.html"],
+  "description": "Your cluster requires you to take action because an installed ServiceQuota '${SERVICEQUOTA}', is preventing cluster workloads from running. Please remove the quota from all openshift namespaces. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/building_applications/quotas#quotas-setting-per-project.",
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/building_applications/quotas#quotas-setting-per-project"],
   "internal_only": false,
   "_tags": [
     "sop_PruningCronjobErrorSRE"

@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action Required: Incorrect Pod Disruption Budget configuration",
-    "description": "SRE have noticed that your cluster's workload ${WORKLOAD} is using a Pod Disruption Budget (PDB) configuration which can affect the cluster's operation. A maxUnavailable of 0% or 0 or a minAvailable of 100% or equal to the number of replicas is permitted but can block nodes from being drained, hence cluster upgrades can also be impacted. We recommend reviewing your Pod Disruption Budget configurations using the documentation guidelines for setting PDB https://docs.openshift.com/container-platform/latest/nodes/pods/nodes-pods-configuring.html#nodes-pods-configuring-pod-distruption-about_nodes-pods-configuring.",
+    "description": "SRE have noticed that your cluster's workload ${WORKLOAD} is using a Pod Disruption Budget (PDB) configuration which can affect the cluster's operation. A maxUnavailable of 0% or 0 or a minAvailable of 100% or equal to the number of replicas is permitted but can block nodes from being drained, hence cluster upgrades can also be impacted. We recommend reviewing your Pod Disruption Budget configurations using the documentation guidelines for setting PDB https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-pod-distruption-about_nodes-pods-configuring#.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-pod-distruption-about_nodes-pods-configuring"]
 }
 

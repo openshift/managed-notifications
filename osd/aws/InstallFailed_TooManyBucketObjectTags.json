@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation blocked because S3 objects can only have 10 object tags. Please reduce the number of tags used on S3 objects in your AWS account and retry the installation. AWS S3 object tag limits are described in this document - https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html.",
+    "description": "Your cluster's installation blocked because S3 objects can only have 10 object tags. Please reduce the number of tags used on S3 objects in your AWS account and retry the installation. AWS S3 object tag limits are described in the documentation: https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html#.",
     "doc_references": ["https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html"],
     "internal_only": false
 }

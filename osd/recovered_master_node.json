@@ -4,5 +4,6 @@
     "log_type": "cluster-lifecyle",
     "summary": "SRE recovered master nodes",
     "description": "SRE has noticed a change in the state of one or more of the cluster's master nodes. SRE has restored the affected nodes. Please note that changing the running state of one of the master nodes manually will result in loss of cluster functionality and will impact your cluster's SLAs.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-policy-responsibility-matrix"],
     "internal_only": false
 }

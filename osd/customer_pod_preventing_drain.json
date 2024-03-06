@@ -4,7 +4,7 @@
   "log_type": "cluster-configuration",
   "summary": "Action required: Pod(s) preventing Node Drain",
   "description": "Your cluster is attempting to drain a node but there are pod(s) preventing the drain. The SRE team has identified the pod(s) as '${POD}' running in namespace(s) '${NAMESPACE}'. Please re-schedule the impacted pod(s) so that the node can drain.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-pod-distruption-about_nodes-pods-configuring"],
+  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-pod-distruption-about_nodes-pods-configuring","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/nodes/working-with-pods#nodes-pods-node-selectors"],
   "internal_only": false,
   "_tags": [
     "sop_KubeNodeUnschedulableSRE",
