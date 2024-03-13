@@ -1,9 +1,0 @@
-
-{
-    "severity": "Warning",
-    "service_name": "SREManualAction",
-    "cluster_uuid": "${CLUSTER_UUID}",
-    "summary": "Action required: update cluster monitoring configuration in ${NAMESPACE}",
-    "description": "Based on recent sampling, the PersistentVolume claimed by ${PVC} in Namespace ${NAMESPACE} is expected to fill up within ${DAYS} days. Currently ${PERCENT}% is available.SRE recommends reducing application logging on your cluster to ensure logging continues to function smoothly in the future.",
-    "internal_only": false
-}
