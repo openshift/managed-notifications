@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Action required: review account quota",
-    "description": "Your cluster's ${CLUSTER_FUNCTION} is blocked on a GCP ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the action to succeed. GCP account limits are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_gcp/installing-gcp-account.html#installation-gcp-limits_installing-gcp-account.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-required-aws-service-quotas"],
+    "description": "Your cluster's ${CLUSTER_FUNCTION} is blocked on a GCP ${RESOURCE_QUOTA} error. Please raise the related quota or free enough resources for the action to succeed. GCP account requirements are described in this document: https://docs.openshift.com/dedicated/osd_planning/gcp-ccs.html#ccs-gcp-customer-requirements_gcp-ccs.",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/planning_your_environment/gcp-ccs#ccs-gcp-customer-requirements_gcp-ccs"],
     "internal_only": false
 }
