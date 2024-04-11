@@ -1,5 +1,5 @@
 {
-    "severity": "Info",
+    "severity": "Warning",
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "AWS Delayed Instance Termination",

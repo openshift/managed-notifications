@@ -1,5 +1,5 @@
 {
-    "severity": "Error",
+    "severity": "Warning",
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Cluster installation failed",

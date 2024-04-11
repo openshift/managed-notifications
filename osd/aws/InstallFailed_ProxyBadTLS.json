@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Major",
   "service_name": "SREManualAction",
   "summary": "Installation blocked: Proxy malfunction",
   "description": "Your cluster's installation is blocked because the configured cluster-wide proxy is not properly initiating TLS handshakes for HTTPS connections. Please review your network and proxy configuration and retry cluster installation. Seet the following documentation for more details on cluster-wide proxies: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html#.",

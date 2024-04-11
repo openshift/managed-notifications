@@ -1,5 +1,5 @@
 {
-    "severity": "Info",
+    "severity": "Warning",
     "log_type": "cluster-configuration",
     "summary": "Cluster is in Limited Support due to unsupported cluster configuration",
     "details": "${CONFIGURATION}",

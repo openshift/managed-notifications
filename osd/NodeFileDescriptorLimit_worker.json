@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Critical",
   "service_name": "SREManualAction",
   "log_type": "capacity-management",
   "summary": "Action required: Worker node file descriptor limit nearly exhausted",

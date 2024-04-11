@@ -1,5 +1,5 @@
 {
-    "severity": "Error",
+    "severity": "Critical",
     "service_name": "SREManualAction",
     "log_type": "cluster-updates",
     "summary": "Action required: Review Service Control Policy",

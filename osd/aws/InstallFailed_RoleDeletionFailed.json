@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Major",
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecycle",
   "summary": "Installation blocked, action required",

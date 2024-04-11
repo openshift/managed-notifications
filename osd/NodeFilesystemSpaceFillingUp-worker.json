@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Major",
   "service_name": "SREManualAction",
   "log_type": "capacity-management",
   "summary": "Action required: Worker node mountpoint space nearly exhausted",

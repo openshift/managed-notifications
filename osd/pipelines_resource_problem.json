@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Action required: Resources overloaded",

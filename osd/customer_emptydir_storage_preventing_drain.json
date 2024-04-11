@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "cluster-scaling",
     "summary": "Action required: Pod emptydir storage preventing Node Drain",

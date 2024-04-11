@@ -1,5 +1,5 @@
 {
-    "severity": "Error",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "event_stream_id": "${EVENT_STREAM_ID}",

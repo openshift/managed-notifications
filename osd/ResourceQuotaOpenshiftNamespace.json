@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Critical",
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Action required: Installed ServiceQuotas in openshift namespaces breaks cluster operation",
