@@ -1,9 +1,9 @@
 {
-    "severity": "Error",
+    "severity": "Critical",
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: review platform webhook configurations",
-    "description": "Your cluster requires you to take action because the following custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster: ${WEBHOOK_NAMES}. Please review the webhooks installed and verify they are running correctly or remove them. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information, review the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-admission-plug-ins#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-admission-plug-ins"],
+    "description": "Your cluster requires you to take action because the following custom ${WEBHOOK_TYPE} webhook(s) that you have installed are negatively impacting successful API requests on your cluster: ${WEBHOOK_NAMES}. Please review the webhooks installed and verify they are running correctly or remove them. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information, review the documentation: https://docs.openshift.com/rosa/architecture/admission-plug-ins.html.",
+    "doc_references": ["https://docs.openshift.com/rosa/architecture/admission-plug-ins.html"],
     "internal_only": false
 }

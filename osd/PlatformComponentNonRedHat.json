@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Warning",
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Platform component accessed by non-Red Hat SRE user",

@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: Pod Disruption Budget(s) preventing Node Drain",

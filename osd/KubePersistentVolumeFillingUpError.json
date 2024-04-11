@@ -1,5 +1,5 @@
 {
-    "severity": "Error",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Urgent action required: update cluster logging configuration",

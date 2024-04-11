@@ -1,5 +1,5 @@
 {
-    "severity": "Info",
+    "severity": "Warning",
     "service_name": "SREManualAction",
     "log_type": "customer-support",
     "summary": "GCP Outage Impacting Your Cluster",

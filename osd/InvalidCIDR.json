@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Major",
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecycle",
   "_tags": ["t_network", "t_config"],

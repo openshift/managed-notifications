@@ -1,5 +1,5 @@
 {
-  "severity": "Error",
+  "severity": "Major",
   "service_name": "SREManualAction",
   "log_type": "cluster-add-ons",
   "summary": "Action required: Add resources to complete RHOAM installation",

@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Major",
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "_tags": ["t_config"],

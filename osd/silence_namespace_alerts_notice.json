@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Info",
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "NOTICE: Silencing alerts for 'openshift-*' user namespaces",

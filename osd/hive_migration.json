@@ -1,5 +1,5 @@
 {
-    "severity": "Info",
+    "severity": "Warning",
     "service_name": "SREManualAction",
     "log_type": "cluster-updates",
     "summary": "${DATE} Upcoming Maintenance: OpenShift Cluster Manager actions will be unavailable during this maintenance",
