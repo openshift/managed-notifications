@@ -1,0 +1,9 @@
+{
+    "severity": "Critical",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-networking",
+    "summary": "Cluster Operators degraded",
+    "description": "Red Hat has identified that your cluster's ingress is degraded due to missing tags on the subnets. For steps to address this issue, please refer to https://access.redhat.com/solutions/7059601.",
+    "doc_references": ["https://access.redhat.com/solutions/7059601"],
+    "internal_only": false
+}
