@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Platform component accessed by non-Red Hat SRE user",
-  "description": "A user on your system, ${USER}, has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat SRE. Tampering with platform components can endanger SLAs. Please refer to https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-policy-responsibility-matrix.html.",
+  "description": "A user on your system has accessed or modified a platform component, ${COMPONENT}, which is the responsibility of Red Hat SRE. Tampering with platform components can endanger SLAs. Please refer to https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-policy-responsibility-matrix.html. If you need assistance to have more informations on that user, please open a support case.",
   "doc_references": [
     "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-policy-responsibility-matrix"
   ],
