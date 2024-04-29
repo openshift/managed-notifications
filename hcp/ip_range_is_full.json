@@ -1,0 +1,9 @@
+{
+  "severity": "Error",
+  "service_name": "SREManualAction",
+  "log_type": "General Notification",
+  "_tags": ["t_network"],
+  "summary": "Action required: Cluster do not have enough IPs on nodes",
+  "description": "Your cluster requires you to take action because ${NUM_OF_WORKERS} worker nodes with ${CIDR_SIZE} subnet cannot handle all IPs/Pods for your workload, resulting in having many pods in ContainerCreating status. Please increase the number of worker nodes on your cluster, or recreate your cluster with larger subnets. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-scaling-worker-nodes_rosa-managing-worker-nodes .",
+  "internal_only": false
+}
