@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "summary": "Cluster granted end of life cycle exception until ${EXCEPTION_DATE}",
+    "log_type": "end-of-life",
+    "details": "This cluster has been granted an end of life cycle exception until ${EXCEPTION_DATE}. If this cluster has not been upgraded to a supported version by ${EXCEPTION_DATE}, it will re-enter a Limited Support Status",
+    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-limited-support_rosa-life-cycle"],
+    "detection_type": "manual"
+}
