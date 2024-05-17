@@ -2,8 +2,8 @@
   "severity": "Info",
   "service_name": "SREManualAction",
   "log_type": "end-of-life-extension",
-  "summary": "Cluster granted end of life cycle exception until ${EXCEPTION_DATE}",
-  "description": "This cluster has been granted an end of life cycle exception until ${EXCEPTION_DATE}. If this cluster has not been upgraded to a supported version by ${EXCEPTION_DATE}, it will re-enter a Limited Support Status.",
+  "summary": "Cluster is fully supported and has been granted end of life cycle extension until ${EXTENSION_DATE}",
+  "description": "This cluster is fully supported and has been granted an end of life cycle extension until ${EXTENSION_DATE}. If this cluster does not upgrade to a supported version by ${EXTENSION_DATE}, it will re-enter a Limited Support Status.",
   "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-limited-support_rosa-life-cycle"],
   "internal_only": false
 }
