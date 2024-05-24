@@ -1,0 +1,11 @@
+{
+    "severity":"Critical",
+    "service_name":"SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary":"Monitoring Cluster Operator down",
+    "description":"The cluster monitoring operator for your cluster is currently down. Red Hat SRE has observed that the volumes mounted to the Red Hat owned Prometheus pods have been deleted. This may cause instability in the service and may impact the supportability of your cluster. Please refrain from deleting cloud resources required by the cluster platform components in the future. Please refer to https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-policy-responsibility-matrix.",
+    "internal_only":false,
+    "doc_references": [
+      "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-policy-responsibility-matrix"
+    ]
+  }
