@@ -1,0 +1,8 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "log_type": "capacity-management",
+    "summary": "Action required: Terminating User Workload Consuming Resources",
+    "description": "Your cluster requires you to take action. Your cluster's worker nodes do not have enough resources to run the following workloads ${REQUIRED_WORKLOAD} due to terminiating pods ${PODS} in namespaces ${NAMESPACES} consuming resources. Please ensure that all pods are properly terminated",
+    "internal_only": false
+}
