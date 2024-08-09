@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "end-of-life-extension",
   "summary": "Cluster is fully supported and has been granted end of life cycle extension",
-  "description": "This cluster is fully supported and has been granted an end of life cycle extension. Please disregard any messages that display this cluster as being in Limited Support, the cluster remains fully monitored and supported. All Limited Support banner messages will removed by 11 August 2024.",
+  "description": "This cluster is fully supported and has been granted an end of life cycle extension. Please disregard any messages that display this cluster as being in Limited Support, the cluster remains fully monitored and supported.",
   "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-limited-support_rosa-life-cycle"],
   "internal_only": false
 }
