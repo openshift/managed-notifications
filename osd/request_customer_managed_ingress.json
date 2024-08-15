@@ -1,0 +1,13 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type":"cluster-networking",
+  "summary": "Action required: update cluster configuration",
+  "description": "Red Hat noticed a customized IngressController in the ‘openshift-ingress-operator’ namespace. This is currently not supported in Managed OpenShift v4.13. If you wish to utilize customizable IngressControllers on Managed Openshift, please upgrade your cluster to version 4.14 or open a support case to request early access. For more information on customizable IngressControllers, see https://access.redhat.com/articles/7028653.",
+  "doc_references": ["https://access.redhat.com/articles/7028653"],
+  "internal_only": false,
+  "_tags": [
+    "t_network",
+    "sop_HAProxyDown"
+  ]
+}
