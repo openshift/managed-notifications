@@ -1,7 +1,8 @@
 {
   "severity": "Warning",
   "service_name": "SREManualAction",
-  "summary": "Potential issue investigation",
+  "summary": "Potential cluster issue identified",
   "description": "We have identified a potential issue with your cluster that is currently being investigated by SRE.  No further action is required at this time.",
-  "internal_only": false
+  "internal_only": false,
+  "_tags": []
 }
