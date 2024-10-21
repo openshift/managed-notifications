@@ -1,0 +1,8 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
+    "summary": "Action Required: Invalid ingress component route(s)",
+    "description": "One or more of your cluster's ingress component routes are misconfigured. Please review the ingress component routes configuration. For more information, see https://docs.openshift.com/rosa/cloud_experts_tutorials/cloud-experts-update-component-routes.html.",
+    "doc_references": ["https://docs.openshift.com/rosa/cloud_experts_tutorials/cloud-experts-update-component-routes.html"]
+}
