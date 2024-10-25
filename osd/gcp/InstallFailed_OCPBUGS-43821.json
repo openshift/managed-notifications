@@ -1,0 +1,11 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked due to a recent change to Google Cloud Platform (GCP) that impacts provisioning of OpenShift Dedicated clusters on GCP for OpenShift versions 4.14 and below. Please enable the Backup and DR API (backupdr.googleapis.com) in your GCP account, if not already enabled, and try your installation again. Please see https://access.redhat.com/solutions/7092988 for further details.",
+    "internal_only": false,
+    "doc_references": [
+      "https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/planning_your_environment/gcp-ccs#ccs-gcp-customer-requirements_gcp-ccs"
+    ]
+}
