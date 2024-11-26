@@ -4,7 +4,7 @@
   "log_type": "cluster-networking",
   "_tags": ["t_network", "t_config"],
   "summary": "Action required: update ingress controller configuration",
-  "description": "The application domain '${DOMAIN}' has a missing or misconfigured certificate. Please review the configuration of the '${INGRESS_CONTROLLER}' IngressController in the 'openshift-ingress-operator' namespace and ensure the specified certificate is present and valid in order to restore functionality to your cluster. For additional information, refer to the following documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/networking/configuring-ingress#nw-ingress-setting-a-custom-default-certificate_configuring-ingress.",
-  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/networking/configuring-ingress#nw-create-custom-ingress-controller_configuring-ingress"],
+  "description": "The application domain '${DOMAIN}' has a missing or misconfigured certificate. Please review the configuration of the '${INGRESS_CONTROLLER}' IngressController in the 'openshift-ingress-operator' namespace and ensure the specified certificate is present and valid in order to restore functionality to your cluster. For additional information, refer to the following documentation: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking/networking-operators#configuring-ingress-controller.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking/networking-operators#configuring-ingress-controller"],
   "internal_only": false
 }

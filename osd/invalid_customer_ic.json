@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action Required: Invalid ingress configuration",
-    "description": "Your cluster's ingress ${INGRESS} cannot mount the volumes required for it to run. Please review the ingress configuration and create the necessary objects for it to run. For more information, see https://docs.openshift.com/rosa/networking/ingress-operator.html.",
-    "doc_references": ["https://docs.openshift.com/rosa/networking/ingress-operator.html"]
+    "description": "Your cluster's ingress ${INGRESS} cannot mount the volumes required for it to run. Please review the ingress configuration and create the necessary objects for it to run. For more information, see https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking/networking-operators#nw-ne-openshift-ingress_configuring-ingress.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking/networking-operators#nw-ne-openshift-ingress_configuring-ingress"]
 }
