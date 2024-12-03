@@ -1,0 +1,13 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-access",
+  "summary": "Installation blocked, action required",
+  "description": "Your GCP WIF cluster installation is blocked due to missing or insufficient privileges on the GCP project used to provision the cluster. Please review and validate the prerequisites required on your GCP project for the installation to succeed. For further information see the documentation: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-creating-a-cluster-on-gcp-with-workload-identity-federation.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-creating-a-cluster-on-gcp-with-workload-identity-federation"],
+  "internal_only": false,
+  "_tags": [
+    "t_config",
+    "sop_ClusterProvisioningFailure"
+  ]
+}
