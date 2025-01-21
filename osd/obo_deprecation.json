@@ -1,0 +1,9 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-configuration",
+    "summary": "Deprecation Notice: Observability Operator",
+    "description": "As part of our platform monitoring efforts, Red Hat has installed the Observability Operator (OBO) in your cluster. On January 30, 2025, this operator will be removed from your cluster. Most customers will not need to take any action resulting from this removal. If you are currently using this operator for your own standalone monitoring stacks, you must install the Red Hat Cluster Observability Operator (COO) from OperatorHub to continue the automated management of those monitoring stacks. Please see the linked article for additional information or open a support case for additional assistance.",
+    "doc_references": ["https://access.redhat.com/articles/7103797"],
+    "internal_only": false
+}
