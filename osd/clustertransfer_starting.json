@@ -1,0 +1,8 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-updates",
+    "summary": "Cluster Ownership Transfer Initiated",
+    "description": "Your requested cluster ownership transfer has been initiated. We expect the cluster to be available during this time.",
+    "internal_only": false
+}
