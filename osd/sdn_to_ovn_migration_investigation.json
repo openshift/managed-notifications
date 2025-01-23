@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "SRE is investigating delays in SDN to OVN migration",
-    "description": "Your cluster's SDN to OVN migration is taking longer than expected. SRE is actively investigating this issue, please see the referenced documenation for more information.",
+    "description": "Your cluster's SDN to OVN migration is taking longer than expected. SRE is actively investigating this issue. Please see the referenced documentation for further information.",
     "doc_references": ["https://access.redhat.com/articles/7104155"],
     "internal_only": false
   }
