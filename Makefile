@@ -25,3 +25,7 @@ help:
 .PHONY: checklinks
 checklinks:
 	scripts/checklinks.sh
+
+.PHONY: checkseverity
+checkseverity:
+	scripts/checkseverity.sh
