@@ -11,7 +11,6 @@ Select the corresponding message and send it as a `POST` to
 
 > :books: If you are not sure which servicelog to send, you can use the generic one [here](./osd/unknown_failure.json)
 
-> :information_source: Upgrade your osdctl installation to 0.9.0 or higher. 
 ### Examples
 
 Using [osdctl](https://github.com/openshift/osdctl)
@@ -34,4 +33,8 @@ Note: `Osdctl` supports the usage of the unique cluster name, or the internal- a
 ### Tags
 Some template files have a `_tag` field for easier searching.
 
-For example, in github, searching `t_network` will show you all the network related template files.
+For example, in GitHub, searching `t_network` will show you all the network related template files.
+
+## Validating Managed Notifications
+
+Run `make validate` to perform basic validations against the notifications configured in this repo.
