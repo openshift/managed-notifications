@@ -1,0 +1,9 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-access",
+  "summary": "Action required: update cluster Workload Identity Federation (WIF) configuration",
+  "description": "Red Hat SRE has updated the required permissions for Workload Identity Federation (WIF) clusters. Please follow the documentation: https://docs.openshift.com/dedicated/osd_gcp_clusters/creating-a-gcp-cluster-with-workload-identity-federation.html#wif-configuration-update_osd-creating-a-cluster-on-gcp-with-workload-identity-federation. Apply the new changes to your Workload Identity Federation (WIF) configuration with the command 'ocm gcp update wif-config'.",
+  "doc_references": ["https://docs.openshift.com/dedicated/osd_gcp_clusters/creating-a-gcp-cluster-with-workload-identity-federation.html#wif-configuration-update_osd-creating-a-cluster-on-gcp-with-workload-identity-federation"],
+  "internal_only": false
+}
