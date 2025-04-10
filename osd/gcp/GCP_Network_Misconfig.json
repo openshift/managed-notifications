@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Action required: Failed Openshift Installation on GCP",
-    "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. GCP VPC requirements are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_gcp/installing-restricted-networks-gcp-installer-provisioned.html#.",
+    "description": "Your cluster's installation is blocked by a networking misconfiguration. Please review the network configuration, and try re-installing the cluster. This is the error found in the logs pointing to the specific failing resource - `${LOG}`. GCP VPC requirements are described in this document - https://docs.openshift.com/container-platform/latest/installing/installing_gcp/installing-restricted-networks-gcp-installer-provisioned.html#.",
     "internal_only": false
 }
