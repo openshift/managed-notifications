@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type":"cluster-networking",
   "summary": "Action required: update cluster configuration",
-  "description": "Red Hat SRE have noticed custom ingress controllers installed in the ${NAME} 'openshift-ingress' namespace is misconfigured and causing interruptions in regular cluster operations. Please review the non-default IngressController configuration. For more information, please refer to:https://docs.openshift.com/rosa/networking/networking_operators/ingress-operator.html#nw-create-custom-ingress-controller_configuring-ingress.",
+  "description": "Red Hat SRE have noticed custom ingress controllers ${NAME} installed in the 'openshift-ingress' namespace is misconfigured and causing interruptions in regular cluster operations. Please review the non-default IngressController configuration. For more information, please refer to:https://docs.openshift.com/rosa/networking/networking_operators/ingress-operator.html#nw-create-custom-ingress-controller_configuring-ingress.",
   "doc_references": ["https://access.redhat.com/solutions/6970094"],
   "internal_only": false,
   "_tags": [
