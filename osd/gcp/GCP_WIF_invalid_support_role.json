@@ -1,0 +1,9 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-access",
+  "summary": "Action required: fix Workload Identity Federation (WIF) support role to maintain SRE support",
+  "description": "Your Workload Identity Federation (WIF) cluster requires you to take action because Red Hat OpenShift SRE are not able to access your GCP account due to missing permissions ${PERMISSIONS} in the support role that prevents SRE from supporting your cluster. Please fix the support role to maintain ongoing cluster support by running 'ocm gcp update wif-config'.",
+  "doc_references": ["https://docs.openshift.com/dedicated/osd_gcp_clusters/creating-a-gcp-cluster-with-workload-identity-federation.html#wif-configuration-update_osd-creating-a-cluster-on-gcp-with-workload-identity-federation."],
+  "internal_only": false
+}
