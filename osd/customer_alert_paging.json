@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: a custom alert is paging Red Hat",
-    "description": "Your cluster requires you to take action. The custom alert '${ALERT_NAME}' is firing and paging Red Hat's SRE team. Please ensure Alert Routing is correctly configured to not page Red Hat for custom alerts. See: https://docs.openshift.com/rosa/observability/monitoring/enabling-alert-routing-for-user-defined-projects.html.",
+    "description": "Your cluster requires you to take action. The custom alert '${ALERT_NAME}' is firing and paging Red Hat's SRE team. Please ensure Alert Routing is correctly configured to not page Red Hat for custom alerts. See: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/monitoring/enabling-alert-routing-for-user-defined-projects.",
     "internal_only": false
 }
