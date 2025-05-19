@@ -1,0 +1,7 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "summary": "Cluster degraded, action required",
+    "description": "Your cluster requires action because the machine-api operator is unable to provision new instances. Red Hat has determined that an AWS Tag Policy is causing the issue. Please remove the tag policy that enforces the 'ProductOwnerEmail' tag key to restore full functionality.",
+    "internal_only": false
+}
