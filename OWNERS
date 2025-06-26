@@ -1,7 +1,6 @@
 approvers:
   - wgordon17
   - rh-wadhwani
-  - cattias
   - pyates86
   - aweiteka
   - billmvt
@@ -16,6 +15,7 @@ approvers:
   - sajeelirkal
   - geowa4
   - jessesarn
+  - ayoung929
 reviewers:
   - weherdh
   - Tessg22
