@@ -1,0 +1,8 @@
+{
+    "severity": "Critical",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary": "Worker node provisioning, action required",
+    "description": "Your cluster's worker nodes are unable to provision because the required permission to perform 'ec2:RunInstances' is explicitly denied by an AWS Organizations service control policy. To resolve this issue, review and update the relevant service control policies to allow the necessary permissions for instance creation. This is currently impacting your cluster's ability to upgrade, and without action, your cluster's SLA may be impacted. ",
+    "internal_only": false
+}
