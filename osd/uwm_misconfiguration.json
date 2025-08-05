@@ -4,7 +4,7 @@
   "log_type": "cluster-configuration",
   "_tags": ["t_config"],
   "summary": "Action required: review user-workload-monitoring configuration",
-  "description": "Your cluster's user workload monitoring is misconfigured. ${REASON}. Please review your configuration alongside the product documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-the-monitoring-stack#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-the-monitoring-stack"],
+  "description": "Your cluster's user workload monitoring is misconfigured. ${REASON}. Please review your configuration alongside the product documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-user-workload-monitoring#.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/monitoring/configuring-user-workload-monitoring"],
   "internal_only": false
 }
