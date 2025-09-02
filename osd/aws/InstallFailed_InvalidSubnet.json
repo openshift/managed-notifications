@@ -3,6 +3,6 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecycle",
   "summary": "Installation blocked, action required",
-  "description": "Your cluster's installation was blocked by an invalid subnet selection error. The error was: '${HIVE_INSTALL_ERROR}' Please check the subnets provided in the platform.aws.subnets parameter during installation. AWS VPC/Subnet requirements are described in this document, Table 4: Optional AWS Parameters - https://docs.openshift.com/container-platform/latest/installing/installing_aws/installation-config-parameters-aws.html#installation-configuration-parameters-optional-aws_installation-config-parameters-aws.",
+  "description": "Your cluster's installation was blocked by an invalid subnet selection error. The error was: '${HIVE_INSTALL_ERROR}' Please check the subnets provided in the platform.aws.subnets parameter during installation. AWS VPC/Subnet requirements are described in this document, Table 4: Optional AWS Parameters - https://docs.redhat.com/container-platform/latest/installing/installing_aws/installation-config-parameters-aws.html#installation-configuration-parameters-optional-aws_installation-config-parameters-aws.",
   "internal_only": false
 }

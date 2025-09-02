@@ -4,7 +4,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-scaling",
     "summary": "Infra nodes resized",
-    "description": "SRE has observed ${JUSTIFICATION}. SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load. For more information, please visit https://docs.openshift.com/dedicated/osd_planning/osd-limits-scalability.html#node-scaling-after-installation_osd-limits-scalability to learn more.",
+    "description": "SRE has observed ${JUSTIFICATION}. SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load. For more information, please visit https://docs.redhat.com/dedicated/osd_planning/osd-limits-scalability.html#node-scaling-after-installation_osd-limits-scalability to learn more.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/planning_your_environment/osd-limits-scalability"],
     "internal_only": false
 }

@@ -4,7 +4,7 @@
     "log_type": "cluster-networking",
     "_tags": ["t_network"],
     "summary": "Action required: update cluster proxy state/configuration",
-    "description": "The cluster-wide proxy configured for your OpenShift cluster is currently reporting as unavailable to the cluster: ${REASON}. This impacts your cluster's network egress, including ability to pull system images, run cluster operators, manage instances and perform upgrade-related actions. Please review your proxy server's state and configuration to restore the cluster's functionality. Please refer to the documentation for further information: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html#cluster-wide-proxy-prereqs_configuring-a-cluster-wide-proxy.",
+    "description": "The cluster-wide proxy configured for your OpenShift cluster is currently reporting as unavailable to the cluster: ${REASON}. This impacts your cluster's network egress, including ability to pull system images, run cluster operators, manage instances and perform upgrade-related actions. Please review your proxy server's state and configuration to restore the cluster's functionality. Please refer to the documentation for further information: https://docs.redhat.com/rosa/networking/configuring-cluster-wide-proxy.html#cluster-wide-proxy-prereqs_configuring-a-cluster-wide-proxy.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#configuring-a-proxy-after-installation_configuring-a-cluster-wide-proxy"],
     "internal_only": false
 }

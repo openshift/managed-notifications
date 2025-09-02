@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Action required: Resources overloaded",
-    "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.openshift.com/container-platform/latest/cicd/pipelines/reducing-pipelines-resource-consumption.html#.",
-    "doc_references": ["https://docs.openshift.com/pipelines/latest/resource/reducing-pipelines-resource-consumption.html#.","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#rosa-scaling-worker-nodes_rosa-managing-worker-nodes","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#machine-pools"],
+    "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.redhat.com/container-platform/latest/cicd/pipelines/reducing-pipelines-resource-consumption.html#.",
+    "doc_references": ["https://docs.redhat.com/pipelines/latest/resource/reducing-pipelines-resource-consumption.html#.","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#rosa-scaling-worker-nodes_rosa-managing-worker-nodes","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/cluster_administration/manage-nodes-using-machine-pools#machine-pools"],
     "internal_only": false
 }

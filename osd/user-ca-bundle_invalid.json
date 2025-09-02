@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-networking",
   "summary": "Action required: Misconfigured additional Trusted CA bundle",
-  "description": "Your cluster requires you to take action because the Additional Trusted CA Bundle that you have applied to your cluster is corrupt or cannot be correctly parsed. This may impact your cluster's ability to communicate with any external resources that require that bundle, including those accessible via a cluster-wide proxy. Please remove or update the Additional Trusted CA Bundle to ensure it is in a parseable, plaintext PEM-formatted format. See the documentation for more information: https://docs.openshift.com/container-platform/latest/networking/configuring-a-custom-pki.html#.",
-  "doc_references": ["https://docs.openshift.com/container-platform/latest/networking/configuring-a-custom-pki.html"],
+  "description": "Your cluster requires you to take action because the Additional Trusted CA Bundle that you have applied to your cluster is corrupt or cannot be correctly parsed. This may impact your cluster's ability to communicate with any external resources that require that bundle, including those accessible via a cluster-wide proxy. Please remove or update the Additional Trusted CA Bundle to ensure it is in a parseable, plaintext PEM-formatted format. See the documentation for more information: https://docs.redhat.com/container-platform/latest/networking/configuring-a-custom-pki.html#.",
+  "doc_references": ["https://docs.redhat.com/container-platform/latest/networking/configuring-a-custom-pki.html"],
   "internal_only": false,
   "_tags": [
     "t_config",

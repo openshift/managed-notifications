@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-scaling",
     "summary": "Action required: Pod emptydir storage preventing Node Drain",
-    "description": "Your cluster is attempting to drain a node but there is a pod using emptydir storage that is preventing the drain. The OSD SRE team has identified the pod as ${POD} running in ${NAMESPACE}. Please re-schedule this pod so that the node can drain. For more information on ephemeral storage please see https://docs.openshift.com/container-platform/latest/storage/understanding-ephemeral-storage.html#.",
+    "description": "Your cluster is attempting to drain a node but there is a pod using emptydir storage that is preventing the drain. The OSD SRE team has identified the pod as ${POD} running in ${NAMESPACE}. Please re-schedule this pod so that the node can drain. For more information on ephemeral storage please see https://docs.redhat.com/container-platform/latest/storage/understanding-ephemeral-storage.html#.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/storage/understanding-ephemeral-storage"],
     "internal_only": false
 }

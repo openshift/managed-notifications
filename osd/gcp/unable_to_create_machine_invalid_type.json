@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Cluster machine creation blocked, action required",
-    "description": "Action Required: Your cluster is unable to create a machine with type '${INVALID_MACHINE_TYPE}' due to ${REASON}. Please ${REMEDIATION} in order to restore your cluster to full functionality. For more information on supported machine types, refer to: https://docs.openshift.com/dedicated/osd_architecture/osd_policy/osd-service-definition.html#gcp-compute-types_osd-service-definition.",
+    "description": "Action Required: Your cluster is unable to create a machine with type '${INVALID_MACHINE_TYPE}' due to ${REASON}. Please ${REMEDIATION} in order to restore your cluster to full functionality. For more information on supported machine types, refer to: https://docs.redhat.com/dedicated/osd_architecture/osd_policy/osd-service-definition.html#gcp-compute-types_osd-service-definition.",
     "internal_only": false,
-    "doc_references": ["https://docs.openshift.com/dedicated/osd_architecture/osd_policy/osd-service-definition.html#gcp-compute-types_osd-service-definition"]
+    "doc_references": ["https://docs.redhat.com/dedicated/osd_architecture/osd_policy/osd-service-definition.html#gcp-compute-types_osd-service-definition"]
 }

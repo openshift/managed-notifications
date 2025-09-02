@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Cluster machine creation blocked, action required",
-    "description": "Action Required: Your cluster is unable to create a machine with type '${INVALID_MACHINE_TYPE}' due to ${REASON}. Please ${REMEDIATION} in order to restore your cluster to full functionality. For more information on machines, refer to: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html.",
+    "description": "Action Required: Your cluster is unable to create a machine with type '${INVALID_MACHINE_TYPE}' due to ${REASON}. Please ${REMEDIATION} in order to restore your cluster to full functionality. For more information on machines, refer to: https://docs.redhat.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html.",
     "internal_only": false,
-		"doc_references": ["https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html"]
+		"doc_references": ["https://docs.redhat.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html"]
 }

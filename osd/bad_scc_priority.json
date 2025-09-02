@@ -4,7 +4,7 @@
   "log_type": "cluster-configuration",
   "_tags": ["t_config"],
   "summary": "Action required: Address Incorrect Security Context Constraint Configuration",
-  "description": "Your cluster requires you to take action because an incorrect Security Context Constraint (SCC) Priority exists on the cluster - ${SCC_NAME}. This SCC has been applied to an Openshift managed namespace and it is impacting cluster functions. Without action, your cluster's SLA may be impacted. Please remove or amend the SCC by following the documentation - https://docs.openshift.com/dedicated/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth.",
+  "description": "Your cluster requires you to take action because an incorrect Security Context Constraint (SCC) Priority exists on the cluster - ${SCC_NAME}. This SCC has been applied to an Openshift managed namespace and it is impacting cluster functions. Without action, your cluster's SLA may be impacted. Please remove or amend the SCC by following the documentation - https://docs.redhat.com/dedicated/authentication/managing-security-context-constraints.html#role-based-access-to-ssc_configuring-internal-oauth.",
   "doc_references" : ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/authentication_and_authorization/managing-pod-security-policies#scc-prioritization_configuring-internal-oauth","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/authentication_and_authorization/managing-pod-security-policies#role-based-access-to-ssc_configuring-internal-oauth"],
   "internal_only": false
 }

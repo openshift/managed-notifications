@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Action required: container registry policy invalid",
-  "description": "Your cluster requires you to take action because the image.config.openshift.io/cluster object on your cluster does not allow workloads to pull from a required container registry. Please update this object to allow nodes to pull from ${REGISTRY}. For more information, see https://docs.openshift.com/rosa/openshift_images/image-configuration.html#.",
-  "doc_references": ["https://docs.openshift.com/rosa/openshift_images/image-configuration.html"],
+  "description": "Your cluster requires you to take action because the image.config.openshift.io/cluster object on your cluster does not allow workloads to pull from a required container registry. Please update this object to allow nodes to pull from ${REGISTRY}. For more information, see https://docs.redhat.com/rosa/openshift_images/image-configuration.html#.",
+  "doc_references": ["https://docs.redhat.com/rosa/openshift_images/image-configuration.html"],
   "internal_only": false
 }

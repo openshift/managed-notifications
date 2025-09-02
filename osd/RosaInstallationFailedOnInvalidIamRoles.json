@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Installation failed (invalid IAM roles)",
-    "description": "Your cluster's installation has failed related to an invalid IAM roles. You must delete this cluster, and recreate it with valid iam roles, see reference in https://docs.openshift.com/rosa/rosa_planning/rosa-aws-prereqs.html#rosa-policy-iam_prerequisites.",
+    "description": "Your cluster's installation has failed related to an invalid IAM roles. You must delete this cluster, and recreate it with valid iam roles, see reference in https://docs.redhat.com/rosa/rosa_planning/rosa-aws-prereqs.html#rosa-policy-iam_prerequisites.",
     "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role"],
     "internal_only": false
 }
