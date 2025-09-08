@@ -4,7 +4,7 @@
   "log_type": "cluster-configuration",
   "_tags": ["t_config"],
   "summary": "Cluster Degraded, action required",
-  "description": "Your cluster's health is degraded due a Service Control Policy (SCP) preventing administrator access in the AWS action. Please review and validate the minimum required SCP on your AWS account to restore the cluster health. Refer to the product documentation for the minimum required SCP: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-sts-about-iam-resources#rosa-minimum-scp_rosa-sts-about-iam-resources#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-cloud-expert-prereq-checklist#scp-prerequisites","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-sts-about-iam-resources#rosa-minimum-scp_rosa-sts-about-iam-resources"],
+  "description": "Your cluster's health is degraded due a Service Control Policy (SCP) preventing administrator access in the AWS action. Please review and validate the minimum required SCP on your AWS account to restore the cluster health. Refer to the product documentation for the minimum required SCP: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/introduction_to_rosa/index#rosa-minimum-scp_rosa-sts-about-iam-resources.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/tutorials/rosa-mobb-verify-permissions-sts-deployment","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/introduction_to_rosa/index#rosa-minimum-scp_rosa-sts-about-iam-resources"],
   "internal_only": false
 }
