@@ -3,8 +3,8 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked due to missing or insufficient privileges required by ROSA to access/use the customer-managed KMS key that has been supplied for encrypting instances. Please ensure that the appropriate IAM permissions are granted to the ManagedOpenShift roles to allow use of the key. For more information, please review the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations#rosa-sts-creating-cluster-customizations-cli_rosa-sts-creating-a-cluster-with-customizations#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations#rosa-sts-creating-cluster-customizations-cli_rosa-sts-creating-a-cluster-with-customizations"],
+    "description": "Your cluster's installation is blocked due to missing or insufficient privileges required by ROSA to access/use the customer-managed KMS key that has been supplied for encrypting instances. Please ensure that the appropriate IAM permissions are granted to the ManagedOpenShift roles to allow use of the key. For more information, please review the documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations"],
     "internal_only": false,
     "_tags": [
       "sop_ClusterMetricsMissing"
