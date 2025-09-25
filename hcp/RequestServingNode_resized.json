@@ -1,0 +1,8 @@
+{
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-scaling",
+  "summary": "Request Serving Node Resize",
+  "description": "SRE has resized request serving nodes to ${INSTANCE_TYPE} to accommodate cluster load.",
+  "internal_only": true
+}
