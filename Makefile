@@ -21,6 +21,7 @@ help:
 	@echo ''
 	@echo 'Targets:'
 	@echo ' validate - validates that managed-notification descriptions end with a period.'
+	@echo ' build-container - builds the MCP server container with podman.'
 
 .PHONY: checklinks
 checklinks:
@@ -29,3 +30,12 @@ checklinks:
 .PHONY: checkseverity
 checkseverity:
 	scripts/checkseverity.sh
+
+.PHONY: build-container
+build-container:
+	@echo "Setting up managed-notifications directory for container build..."
+	@rm -rf mcp/managed-notifications
+	@mkdir -p mcp/managed-notifications
+	@cp -r cluster hcp ocm osd rosa scripts mcp/managed-notifications/
+	@echo "Building container with podman..."
+	cd mcp && podman build --no-cache -t managed-notifications-search .
