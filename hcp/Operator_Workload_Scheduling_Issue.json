@@ -1,0 +1,9 @@
+{
+      "severity": "Major",
+      "service_name": "SREManualAction",
+      "log_type": "cluster-lifecycle",
+      "summary": "Operator workload scheduling issue requires action",
+      "description": "Your cluster's ${CLUSTER_OPERATOR} operator cannot schedule ${WORKLOAD} due to ${REASON}. To resolve this issue, please ensure your cluster has adequate capacity to schedule the workload.",
+      "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/cluster_administration/managing-compute-nodes-using-machine-pools"],
+      "internal_only": false
+}
