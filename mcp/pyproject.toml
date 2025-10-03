@@ -1,0 +1,20 @@
+[project]
+name = "managed-notifications-mcp"
+version = "0.1.0"
+description = "MCP server for searching OpenShift service notification logs using semantic search"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp",
+    "sentence-transformers",
+    "chromadb",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.1",
+    "python-lsp-server>=1.13.1",
+    "ruff>=0.13.0",
+    "watchdog>=6.0.0",
+]
+

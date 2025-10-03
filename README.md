@@ -35,6 +35,10 @@ Some template files have a `_tag` field for easier searching.
 
 For example, in GitHub, searching `t_network` will show you all the network related template files.
 
+## MCP Search Server
+
+This repository includes an MCP (Model Context Protocol) server that provides semantic search capabilities over the notification templates. See [mcp/README.md](mcp/README.md) for setup and usage instructions.
+
 ## Validating Managed Notifications
 
 Run `make validate` to perform basic validations against the notifications configured in this repo.
