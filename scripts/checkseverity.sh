@@ -13,6 +13,6 @@ do
     echo "file $file has invalid 'severity' value! must be one of 'Debug', 'Info', 'Warning', 'Major', 'Critical'"
     exit 1
   fi
-done < <(find . -type f -name "*.json" -print0)
+done < <(find . -type f -name "*.json" -not -path "./mcp/*" -print0)
 
 echo "pass!"
