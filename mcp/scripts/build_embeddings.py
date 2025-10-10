@@ -182,9 +182,9 @@ def main() -> None:
     """Main function to build embeddings database."""
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    
+
     notifications_dir = project_root / "managed-notifications"
-    db_path = project_root / "chroma_db"
+    db_path = Path(os.getenv("CHROMA_DB_PATH", str(project_root / "chroma_db")))
     
     if not notifications_dir.exists():
         print(f"Error: Managed notifications directory not found at {notifications_dir}")

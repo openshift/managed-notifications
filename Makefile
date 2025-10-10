@@ -38,4 +38,4 @@ build-container:
 	@mkdir -p mcp/managed-notifications
 	@cp -r cluster hcp ocm osd rosa scripts mcp/managed-notifications/
 	@echo "Building container with podman..."
-	cd mcp && podman build --no-cache -t managed-notifications-search .
+	cd mcp && podman build --no-cache $(shell [ "$$(uname)" = "Darwin" ] && echo "--platform linux/amd64") -t managed-notifications-search:latest -f Containerfile .
