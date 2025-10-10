@@ -26,19 +26,18 @@ ENV HOST=0.0.0.0
 ENV PORT=8000
 ENV HF_HOME=/tmp/huggingface
 ENV TRANSFORMERS_CACHE=/tmp/huggingface
+ENV CHROMA_DB_PATH=/tmp/chroma_db
 
 # Copy mcp server code
 COPY main.py ./
 
 # Create startup script that builds embeddings and starts server
-# Make /app writable so embeddings can be built at runtime
 RUN echo '#!/bin/sh\n\
 echo "Building embeddings database (this may take 2-5 minutes)..."\n\
 uv run --no-sync scripts/build_embeddings.py\n\
 echo "Embeddings built, starting MCP server..."\n\
 exec uv run --no-sync main.py' > /app/start.sh && \
-    chmod 755 /app/start.sh && \
-    chmod 777 /app
+    chmod 755 /app/start.sh
 
 # Expose port for MCP server
 EXPOSE 8000
