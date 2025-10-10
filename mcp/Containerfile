@@ -1,12 +1,14 @@
-# Multi-stage build for Managed Notifications Search MCP Server
-# Stage 1: Build embeddings (only rebuilds when notifications or script changes)
-FROM python:3.13-slim as embeddings-builder
+# Alternative Containerfile that downloads model and builds embeddings at runtime
+# This reduces image size significantly but adds 2-5 minutes to startup time
+
+FROM python:3.13-slim
 
 # Install uv
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 # Set working directory
 WORKDIR /app
+ENV UV_NO_CACHE=1
 
 # Copy all source files
 COPY pyproject.toml ./
@@ -15,50 +17,31 @@ COPY uv.lock ./
 # Install dependencies and project
 RUN uv sync --frozen --no-dev
 
-# Pre-download the sentence transformer model
-RUN uv run python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
-
-# Build embeddings database
+# Copy notification templates and scripts (embeddings built at runtime)
 COPY scripts/ ./scripts/
 COPY managed-notifications/ ./managed-notifications/
-RUN uv run scripts/build_embeddings.py
-
-# Stage 2: Runtime image with MCP server
-FROM python:3.13-slim as runtime
-
-# Install uv
-COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
-
-# Set working directory
-WORKDIR /app
-
-# Copy all source files
-COPY pyproject.toml ./
-COPY uv.lock ./
-
-# Install dependencies and project
-RUN uv sync --frozen --no-dev
-
-# Pre-download the sentence transformer model
-RUN uv run python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
-
-# Copy pre-built embeddings database from builder stage
-COPY --from=embeddings-builder /app/chroma_db/ ./chroma_db/
 
 # Set environment variables for MCP server
 ENV HOST=0.0.0.0
 ENV PORT=8000
+ENV HF_HOME=/tmp/huggingface
+ENV TRANSFORMERS_CACHE=/tmp/huggingface
 
 # Copy mcp server code
 COPY main.py ./
 
-# Create non-root user for security
-RUN useradd --create-home --shell /bin/bash mcp
-RUN chown -R mcp:mcp /app
-USER mcp
+# Create startup script that builds embeddings and starts server
+# Make /app writable so embeddings can be built at runtime
+RUN echo '#!/bin/sh\n\
+echo "Building embeddings database (this may take 2-5 minutes)..."\n\
+uv run --no-sync scripts/build_embeddings.py\n\
+echo "Embeddings built, starting MCP server..."\n\
+exec uv run --no-sync main.py' > /app/start.sh && \
+    chmod 755 /app/start.sh && \
+    chmod 777 /app
 
 # Expose port for MCP server
 EXPOSE 8000
 
 # Default command
-CMD ["uv", "run", "main.py"]
+CMD ["/app/start.sh"]
