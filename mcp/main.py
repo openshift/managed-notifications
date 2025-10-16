@@ -1,6 +1,7 @@
 """MCP server for searching managed service notification logs."""
 
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -113,7 +114,7 @@ mcp = FastMCP("Managed Notifications Search")
 
 # Initialize the search server
 project_root = Path(__file__).parent
-db_path = project_root / "chroma_db"
+db_path = Path(os.getenv("CHROMA_DB_PATH", str(project_root / "chroma_db")))
 search_server = NotificationSearchServer(db_path)
 
 
