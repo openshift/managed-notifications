@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecyle",
   "summary": "Cluster destroyed, cannot be recovered",
-  "description": "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, please take action to delete this cluster. Please follow the process outlined in the product documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster","https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-deleting-a-cluster"],
+  "description": "SRE have noticed that your cluster was deleted from the IaaS infrastructure. The cluster cannot be restored, please take action to delete this cluster. Please follow the process outlined in the product documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/openshift_dedicated_clusters_on_aws/osd-deleting-a-cluster", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/openshift_dedicated_clusters_on_gcp/osd-deleting-a-cluster"],
   "internal_only": false,
   "_tags": [
     "sop_cluster_has_gone_missing"

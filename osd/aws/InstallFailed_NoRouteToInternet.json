@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-lifecycle",
   "summary": "Installation blocked: Missing route to internet",
-  "description": "Your cluster's installation is blocked because of the missing route to internet in the route table(s) associated with the supplied subnet(s) for cluster installation. Please review and validate the routes using the product documentation, and then re-install the cluster: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-aws-prereqs#rosa-vpc_rosa-sts-aws-prereqs.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-aws-prereqs#rosa-vpc_rosa-sts-aws-prereqs"],
+  "description": "Your cluster's installation is blocked because of the missing route to internet in the route table(s) associated with the supplied subnet(s) for cluster installation. Please review and validate the routes using the product documentation, and then re-install the cluster: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/prepare_your_environment/rosa-sts-aws-prereqs.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/prepare_your_environment/rosa-sts-aws-prereqs"],
   "internal_only": false,
   "event_stream_id": ""
 }

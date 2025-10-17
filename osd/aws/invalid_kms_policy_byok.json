@@ -4,7 +4,7 @@
   "log_type": "cluster-configuration",
   "summary": "Action required: Review KMS policy for master instance role",
   "description": "Your cluster requires you to take action because SRE monitoring stack persistent volume claims are failing to provision, resulting in Red Hat SRE not being able to monitor your cluster. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Refer to the documentation for more information: https://access.redhat.com/articles/6155612#.",
-  "doc_references": ["https://access.redhat.com/articles/6155612","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations#rosa-sts-creating-cluster-customizations-cli_rosa-sts-creating-a-cluster-with-customizations"],
+  "doc_references": ["https://access.redhat.com/articles/6155612","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations"],
   "internal_only": false,
   "_tags": [
     "sop_cluster_has_gone_missing"

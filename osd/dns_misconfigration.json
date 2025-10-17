@@ -4,7 +4,7 @@
   "log_type": "cluster-networking",
   "summary": "Action required: DNS misconfiguration",
   "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to DNS configuration which impact normal working of the cluster. Please revert these changes.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/rosa-network-verification_openshift-sdn-enabling-multicast#running-network-verification-manually_network-verification"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/network_security/osd-network-verification_multitenant-network-policy#running-network-verification-manually_network-verification"],
   "internal_only": false,
   "_tags": [
     "t_network",

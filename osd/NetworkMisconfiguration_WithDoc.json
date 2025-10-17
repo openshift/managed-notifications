@@ -4,7 +4,7 @@
   "log_type": "cluster-networking",
   "_tags": ["t_network"],
   "summary": "Action required: Network misconfiguration",
-  "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impact normal working of the cluster: ${CHANGE}. Please refer to the documentation regarding allowlist requirements: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/prepare_your_environment/index#firewalls.",
-  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/prepare_your_environment/index#firewalls","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/deploying-rosa-without-aws-sts#rosa-vpc_prerequisites","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-aws-privatelink-creating-cluster#osd-aws-privatelink-required-resources.adoc_rosa-aws-privatelink-creating-cluster"],
+  "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to network configuration which impact normal working of the cluster: ${CHANGE}. Please refer to the documentation regarding allowlist requirements: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#osd-aws-privatelink-firewall-prerequisites_aws-ccs.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#aws-ccs-networking-prereqs_aws-ccs", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#osd-gcp-psc-firewall-prerequisites_gcp-ccs"],
   "internal_only": false
 }

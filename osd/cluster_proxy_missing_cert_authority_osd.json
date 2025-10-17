@@ -4,7 +4,7 @@
   "log_type": "cluster-networking",
   "_tags": ["t_network"],
   "summary": "Action required: update cluster proxy configuration",
-  "description": "Your cluster requires you to take action. The cluster-wide proxy configuration for this cluster is missing a Certificate Authority that allows your cluster to trust HTTPS communications that go via the proxy. Please add your proxy's Certificate Authority certificate(s) to your cluster so that they can be used to verify proxy traffic. This process can be performed via the OCM CLI: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#configuring-a-proxy-after-installation_configuring-a-cluster-wide-proxy.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#configuring-a-proxy-after-installation_configuring-a-cluster-wide-proxy"],
+  "description": "Your cluster requires you to take action. The cluster-wide proxy configuration for this cluster is missing a Certificate Authority that allows your cluster to trust HTTPS communications that go via the proxy. Please add your proxy's Certificate Authority certificate(s) to your cluster so that they can be used to verify proxy traffic. This process can be performed via the OCM CLI: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy"],
   "internal_only": false
 }

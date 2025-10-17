@@ -4,6 +4,6 @@
   "log_type": "cluster-configuration",
   "summary": "Action required: Review OpenIDConnect provider configuration",
   "description": "Your cluster requires you to take action because the OpenIDConnect provider for this cluster could not be found. Please revert any changes to the OIDC provider to maintain ongoing cluster support.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations#rosa-sts-byo-oidc_rosa-sts-creating-a-cluster-with-customizations"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations"],
   "internal_only": false
 }

@@ -4,7 +4,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-scaling",
     "summary": "Infra nodes resized",
-    "description": "SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load. For more information, see https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-limits-scalability#node-scaling-after-installation_rosa-limits-scalability#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-limits-scalability#node-scaling-after-installation_rosa-limits-scalability"],
+    "description": "SRE has resized the infra nodes of your cluster to ${INSTANCE_TYPE} to accommodate cluster load. For more information, see https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/planning_your_environment/osd-limits-scalability.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/prepare_your_environment/rosa-planning-environment#planning-environment-cluster-maximums_rosa-planning-environment", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/planning_your_environment/osd-limits-scalability"],
     "internal_only": false
 }

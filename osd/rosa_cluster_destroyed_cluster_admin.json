@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecycle",
     "summary": "Cluster destroyed, cannot be recovered",
-    "description": "SRE have noticed that the core configuration of your cluster has been modified by a user leveraging cluster-admin permissions. The cluster cannot be restored to a managed state; please delete the cluster by following the documentation guidelines: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster#. Please open a support case if you need any assistance.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster","https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-deleting-a-cluster"],
+    "description": "SRE have noticed that the core configuration of your cluster has been modified by a user leveraging cluster-admin permissions. The cluster cannot be restored to a managed state; please delete the cluster by following the documentation guidelines: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster. Please open a support case if you need any assistance.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-deleting-cluster","https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/installing_accessing_and_deleting_openshift_dedicated_clusters/osd-deleting-a-cluster"],
     "internal_only": false
 }

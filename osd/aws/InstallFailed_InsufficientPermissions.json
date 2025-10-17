@@ -3,8 +3,8 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-lifecyle",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is delayed and Red Hat SRE is unable to support, troubleshoot and resolve issues because ManagedOpenShift-Support-Role has insufficient permissions. Without action taken to fix the permissions, your cluster's SLA may be impacted, along with your ability to access the cluster. Please refer to the product documentation for more information: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role"],
+    "description": "Your cluster's installation is delayed and Red Hat SRE is unable to support, troubleshoot and resolve issues because ManagedOpenShift-Support-Role has insufficient permissions. Without action taken to fix the permissions, your cluster's SLA may be impacted, along with your ability to access the cluster. Please refer to the product documentation for more information: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/prepare_your_environment/index#rosa-sts-ocm-role.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/prepare_your_environment/index#rosa-sts-ocm-role"],
     "internal_only": false,
     "event_stream_id": ""
 }

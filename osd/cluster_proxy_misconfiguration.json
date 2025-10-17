@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-networking",
   "summary": "Action required: update cluster proxy configuration",
-  "description": "The clusterwide openshift proxy is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. See documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#configuring-a-proxy-after-installation_configuring-a-cluster-wide-proxy.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#configuring-a-proxy-after-installation_configuring-a-cluster-wide-proxy"],
+  "description": "The clusterwide openshift proxy is misconfigured, generating alerts to Red Hat SRE. Please review it to restore the cluster's operation. See documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy"],
   "internal_only": false,
   "_tags": [
     "t_network",
