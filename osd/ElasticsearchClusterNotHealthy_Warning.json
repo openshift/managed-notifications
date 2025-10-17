@@ -5,6 +5,6 @@
     "event_stream_id": "${EVENT_STREAM_ID}",
     "summary": "Action required: update cluster logging configuration",
     "description": "Your cluster requires you to take action. Elasticsearch storage is greater than 85% utilized. If this goes above 95%, data might will be lost. SRE will increase capacity one time causing a period while Elasticsearch is unavailable. Old logs will be retained. Logs for pods deleted while migration is in progress may be lost. SRE recommends reducing application logging on your cluster to ensure logging continues to function smoothly in the future.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/logging/log-storage#cluster-logging-elasticsearch-storage_logging-config-es-store"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/logging/log-storage#logging-config-es-store"],
     "internal_only": false
 }

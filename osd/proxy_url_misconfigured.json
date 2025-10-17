@@ -4,7 +4,7 @@
   "log_type": "cluster-networking",
   "_tags": ["t_network", "t_config"],
   "summary": "Action required: Cluster-wide proxy network requirements not met",
-  "description": "Your cluster requires you to take action because your cluster-wide proxy configuration re-encrypts egress traffic, and you have not excluded required URLs from re-encryption.  Your cluster's monitoring stack cannot function correctly until you exclude the required URLs from re-encryption. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information refer to the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/configuring-a-cluster-wide-proxy"],
+  "description": "Your cluster requires you to take action because your cluster-wide proxy configuration re-encrypts egress traffic, and you have not excluded required URLs from re-encryption.  Your cluster's monitoring stack cannot function correctly until you exclude the required URLs from re-encryption. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. For more information refer to the documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy"],
   "internal_only": false
 }

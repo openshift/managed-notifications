@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: remove second monitoring stack",
-    "description": "Red Hat SRE have noticed a second monitoring stack installed in the '${NAMESPACE}' namespace. This is interfering with cluster operations and preventing Red Hat from monitoring the cluster. Please remove the adhoc monitoring stack and use User Workload Monitoring instead. See the documentation for more information: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/monitoring-overview#understanding-the-monitoring-stack_monitoring-overview#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/monitoring-overview#understanding-the-monitoring-stack_monitoring-overview"],
+    "description": "Red Hat SRE have noticed a second monitoring stack installed in the '${NAMESPACE}' namespace. This is interfering with cluster operations and preventing Red Hat from monitoring the cluster. Please remove the adhoc monitoring stack and use User Workload Monitoring instead. See the documentation for more information: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/monitoring/about-monitoring#understanding-the-monitoring-stack_monitoring-stack-architecture.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/monitoring/about-monitoring#understanding-the-monitoring-stack_monitoring-stack-architecture"],
     "internal_only": false
 }

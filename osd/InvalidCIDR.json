@@ -5,6 +5,6 @@
   "_tags": ["t_network", "t_config"],
   "summary": "Installation failed",
   "description": "Your cluster's installation has failed related to an invalid CIDR configuration. The Machine CIDR range is invalid and causing an error 'The subnet's CIDR range start ${CIDR} is outside of the specified machine networks'. You must delete this cluster, and recreate it with a larger Machine CIDR that includes all of the subnets CIDR ranges.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/networking/cidr-range-definitions"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking_overview/cidr-range-definitions"],
   "internal_only": false
 }

@@ -4,6 +4,6 @@
     "log_type": "cluster-configuration",
     "summary": "Recovery of deleted master nodes is not supported",
     "description": "SRE have noticed that one or more master nodes have been terminated manually. Please note that recovery of terminated master nodes is not possible in some cases. Changing the running state of one of the master nodes manually will result in loss of cluster functionality and impact your cluster's SLAs. SRE suggests that you reinstall the cluster to return it to the desired state. If you require further assistance, please file a support request.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations#rosa-sts-creating-cluster-using-customizations_rosa-sts-creating-a-cluster-with-customizations"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/install_rosa_classic_clusters/rosa-sts-creating-a-cluster-with-customizations"],
     "internal_only": false
 }

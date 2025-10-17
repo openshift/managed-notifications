@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Action required: image-registry gets AccessDenied error",
-  "description": "Your cluster requires you to take action because image-registry operator is degraded due to an access denied error, resulting in your cluster being unable to start pods requiring new images from the local registry. Please verify permissions to the S3 bucket (${S3_BUCKET}) and the operator role (${OPERATOR_ROLE}) to allow access from the role to the bucket. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Refer to the documentation for more information: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-sts-about-iam-resources#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/rosa-sts-about-iam-resources"],
+  "description": "Your cluster requires you to take action because image-registry operator is degraded due to an access denied error, resulting in your cluster being unable to start pods requiring new images from the local registry. Please verify permissions to the S3 bucket (${S3_BUCKET}) and the operator role (${OPERATOR_ROLE}) to allow access from the role to the bucket. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Refer to the documentation for more information: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/introduction_to_rosa/rosa-sts-about-iam-resources.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/introduction_to_rosa/rosa-sts-about-iam-resources"],
   "internal_only": false
 }

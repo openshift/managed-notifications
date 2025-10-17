@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-access",
     "summary": "Installation blocked, action required",
-    "description": "Your cluster's installation is blocked due to missing or insufficient privileges on the AWS account used to provision the cluster. Please review and validate the pre-requisites required on your AWS account for the installation to succeed. Prerequisites are described in the product documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-aws-prereqs#.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-aws-prereqs"],
+    "description": "Your cluster's installation is blocked due to missing or insufficient privileges on the AWS account used to provision the cluster. Please review and validate the pre-requisites required on your AWS account for the installation to succeed. Prerequisites are described in the product documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/prepare_your_environment/rosa-sts-aws-prereqs.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/prepare_your_environment/rosa-sts-aws-prereqs"],
     "internal_only": false
 }

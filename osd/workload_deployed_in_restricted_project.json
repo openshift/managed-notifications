@@ -3,8 +3,8 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Action required: Fix workload deployed in a restricted project",
-  "description": "Your cluster requires you to take action. The workload '${CUSTOMER_WORKLOAD}' has been deployed in the '${RESTRICTED_PROJECT}' project  which is a reserved project for cluster's infrastructure components. Other components are unlikely to function properly in this reserved project and should be installed to a different one. To learn more about restricted projects, refer to the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/troubleshooting/rosa-managed-resources#.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/troubleshooting/rosa-managed-resources","https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/support/troubleshooting"],
+  "description": "Your cluster requires you to take action. The workload '${CUSTOMER_WORKLOAD}' has been deployed in the '${RESTRICTED_PROJECT}' project  which is a reserved project for cluster's infrastructure components. Other components are unlikely to function properly in this reserved project and should be installed to a different one. To learn more about restricted projects, refer to the documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/support/troubleshooting#sd-managed-resources.",
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/support/troubleshooting#sd-managed-resources","https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/support/troubleshooting"],
   "internal_only": false,
   "_tags": [
     "sop_PodDisruptionBudgetLimit"

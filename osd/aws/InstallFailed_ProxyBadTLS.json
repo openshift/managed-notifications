@@ -2,10 +2,10 @@
   "severity": "Major",
   "service_name": "SREManualAction",
   "summary": "Installation blocked: Proxy malfunction",
-  "description": "Your cluster's installation is blocked because the configured cluster-wide proxy is not properly initiating TLS handshakes for HTTPS connections. Please review your network and proxy configuration and retry cluster installation. Seet the following documentation for more details on cluster-wide proxies: https://docs.openshift.com/rosa/networking/configuring-cluster-wide-proxy.html#.",
+  "description": "Your cluster's installation is blocked because the configured cluster-wide proxy is not properly initiating TLS handshakes for HTTPS connections. Please review your network and proxy configuration and retry cluster installation. Seet the following documentation for more details on cluster-wide proxies: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy.",
   "log_type": "cluster-networking",
   "_tags": ["t_network", "t_install", "sop_ClusterProvisioningFailure"],
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html-single/networking/index#configuring-a-cluster-wide-proxy"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy", "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/configuring-a-cluster-wide-proxy"],
   "internal_only": false,
   "event_stream_id": ""
 }

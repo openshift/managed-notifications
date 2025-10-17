@@ -4,6 +4,6 @@
     "log_type": "cluster-updates",
     "summary": "Action required: Upgrade cluster before ${CUTOFF_DATE}",
     "description": "Your cluster is running a soon to be unsupported OSD version. Please upgrade to a supported version of OSD before ${CUTOFF_DATE}. Failing to upgrade will result in your cluster becoming unsupported and SRE monitoring of it being disabled, per our Life Cycle Policy.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/introduction_to_openshift_dedicated/policies-and-service-definition#osd-life-cycle","https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/upgrading","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-life-cycle","https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/upgrading/rosa-upgrading-sts"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/introduction_to_openshift_dedicated/policies-and-service-definition#osd-life-cycle","https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/upgrading/index","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/introduction_to_rosa/policies-and-service-definition#rosa-life-cycle","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/upgrading/rosa-upgrading-sts"],
     "internal_only": false
 }
