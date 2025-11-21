@@ -1,0 +1,15 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Log forwarding failed, action required",
+  "description": "Your cluster's log forwarding to CloudWatch is failing because the configured destination CloudWatch Log Group cannot be found. The log group may have been deleted or the log group name in the log forwarding configuration may be incorrect. Please verify that the destination CloudWatch Log Group exists in your AWS account. If the log group was deleted, please recreate it and ensure the log group resource policy allows the Red Hat log distribution role to perform CreateLogStream and PutLogEvents operations.",
+  "doc_references": [
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogsCrossAccountPolicy.html"
+  ],
+  "internal_only": false,
+  "_tags": [
+    "sop_LogForwarding_CloudWatchDeliveryFailures"
+  ]
+}
+
