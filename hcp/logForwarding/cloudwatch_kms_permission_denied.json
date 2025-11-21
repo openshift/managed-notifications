@@ -1,0 +1,16 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Log forwarding failed, action required",
+  "description": "Your cluster's log forwarding to CloudWatch is failing due to insufficient permissions on the KMS key used to encrypt your CloudWatch Log Group. The Red Hat log forwarding service is unable to write encrypted log events to your CloudWatch Log Group. Please ensure that your KMS key policy allows the Red Hat log distribution role to use the key for encryption operations (kms:Decrypt, kms:GenerateDataKey).",
+  "doc_references": [
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html",
+    "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-modifying-external-accounts.html"
+  ],
+  "internal_only": false,
+  "_tags": [
+    "sop_LogForwarding_CloudWatchDeliveryFailures"
+  ]
+}
+
