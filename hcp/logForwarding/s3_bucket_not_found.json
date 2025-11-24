@@ -5,7 +5,7 @@
   "summary": "Log forwarding failed, action required",
   "description": "Your cluster's log forwarding to S3 is failing because the configured destination S3 bucket cannot be found. The bucket may have been deleted or the bucket name in the log forwarding configuration may be incorrect. Please verify that the destination S3 bucket exists and is accessible. If the bucket was deleted, please recreate it and ensure the bucket policy allows the Red Hat log distribution role to perform PutObject and PutObjectAcl operations.",
   "doc_references": [
-    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html"
+    ""
   ],
   "internal_only": false,
   "_tags": [

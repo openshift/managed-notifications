@@ -5,7 +5,7 @@
   "summary": "Log forwarding failed, action required",
   "description": "Your cluster's log forwarding to S3 is failing due to insufficient permissions on your S3 bucket. Please ensure that your S3 bucket policy allows the Red Hat log distribution role to perform PutObject and PutObjectAcl operations. Your bucket policy must include a statement that grants access to the Red Hat management role ARN.",
   "doc_references": [
-    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html"
+    ""
   ],
   "internal_only": false,
   "_tags": [
