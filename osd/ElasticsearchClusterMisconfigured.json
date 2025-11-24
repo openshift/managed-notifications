@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: review cluster logging configuration",
-    "description": "Your cluster's ElasticSearch deployment is misconfigured in a way that is impacting its operation. ${REASON} For more information, please consult the following documentation reference: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/logging/troubleshooting-logging.",
-    "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/logging/troubleshooting-logging"],
+    "description": "Your cluster's ElasticSearch deployment is misconfigured in a way that is impacting its operation. ${REASON} For more information, please consult the following documentation reference: https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/html/configuring_logging/index.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/html/configuring_logging/index"],
     "internal_only": false
 }

@@ -1,0 +1,15 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Log forwarding failed, action required",
+  "description": "Red Hat log forwarding service is unable to deliver logs to your CloudWatch Log Group due to insufficient permissions on your CloudWatch Log Group. Please ensure that your CloudWatch Log Group resource policy allows the Red Hat log distribution role to perform CreateLogStream and PutLogEvents operations. For cross-account log delivery, a resource policy must be configured on your CloudWatch Log Group.",
+  "doc_references": [
+    ""
+  ],
+  "internal_only": false,
+  "_tags": [
+    "sop_LogForwarding_CloudWatchDeliveryFailures"
+  ]
+}
+
