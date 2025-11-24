@@ -4,6 +4,6 @@
     "log_type": "capacity-management",
     "summary": "Action required: Elasticsearch impacted by cluster resource limits",
     "description": "Your cluster requires you to take action. Your cluster does not have enough resources to run Elasticsearch.",
-    "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/logging/log-storage#configuring-log-storage-cr_logging-config-es-store"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/html/configuring_logging"],
     "internal_only": false
 }
