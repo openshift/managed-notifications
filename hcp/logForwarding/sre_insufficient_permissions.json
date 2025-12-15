@@ -1,0 +1,15 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Log forwarding issue requires customer action",
+  "description": "Red Hat SRE is unable to troubleshoot your cluster's log forwarding issue due to insufficient permissions on the SRE support role. Please review and ensure the correct permissions are granted to the SRE support role $ROLE_ARN. Without the necessary permissions, SRE cannot diagnose or resolve log forwarding problems on your behalf.",
+  "doc_references": [
+    ""
+  ],
+  "internal_only": false,
+  "_tags": [
+    "sop_LogForwarding_SREPermissionIssues"
+  ]
+}
+
