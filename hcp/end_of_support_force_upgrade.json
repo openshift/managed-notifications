@@ -3,6 +3,6 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-upgrades",
   "summary": "Hosted Control Plane end-of-life upgrade has been initiated",
-  "description": "As OpenShift version ${VERSION} has reached end-of-life, your cluster was automatically upgraded to the next supported OpenShift minor version to maintain security and receive critical updates. Your attention may be required if this impacts cluster components or workloads. See: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-minor-versions_rosa-hcp-life-cycle",
+  "description": "As OpenShift version ${VERSION} has reached end-of-life, your cluster was automatically upgraded to the next supported OpenShift minor version to maintain security and receive critical updates. Your attention may be required if this impacts cluster components or workloads. See: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-minor-versions_rosa-hcp-life-cycle.",
   "internal_only": false
 }
