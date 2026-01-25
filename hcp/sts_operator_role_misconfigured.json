@@ -1,0 +1,12 @@
+{
+  "severity": "Critical",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Action required: Fix ROSA HCP operator IAM role configuration",
+  "description": "Your ROSA HCP cluster requires you to take action because one or more operator IAM roles are misconfigured in AWS, preventing cluster components from functioning correctly. The affected role is: ${ROLE}. This is causing the following effect: ${EFFECT}. Please verify the role's trust policy allows the cluster's OIDC provider to assume the role, and ensure the permissions policy matches the required policy for ROSA HCP operator roles. Review the documentation below for details on configuring operator IAM roles and trust relationships.",
+  "doc_references": [
+    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_rosa_with_hcp_clusters/rosa-hcp-sts-creating-a-cluster-quickly#rosa-sts-creating-operator-roles-and-policies_rosa-hcp-sts-creating-a-cluster-quickly",
+    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_rosa_with_hcp_clusters/rosa-hcp-sts-creating-a-cluster-quickly#rosa-sts-byo-oidc_rosa-hcp-sts-creating-a-cluster-quickly"
+  ],
+  "internal_only": false
+}
