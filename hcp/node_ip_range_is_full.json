@@ -1,0 +1,9 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "General Notification",
+  "_tags": ["t_network"],
+  "summary": "Action required: Cluster does not have enough node IPs available",
+  "description": "Your cluster requires you to take action because there are ${NUM_OF_NODES} provisioned nodes with a max node count of ${MAX_NODE_COUNT}, which prevents new nodes from joining the cluster. Please decrease the number of worker nodes provisioned on your cluster or recreate your cluster with larger subnets. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-scaling-worker-nodes_rosa-managing-worker-nodes.",
+  "internal_only": false
+}
