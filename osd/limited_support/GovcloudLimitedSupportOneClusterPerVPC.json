@@ -2,7 +2,7 @@
   "severity": "Warning",
   "kind": "LimitedSupportReason",
   "summary": "Cluster is in Limited Support due to unsupported network configuration",
-  "details": "SRE has observed that there is >1 cluster within a single VPC in your AWS account. VPC sharing is not supported within AWS GovCloud Regions for ROSA Classic. Please use the ROSA UI or CLI to remove one of these clusters from the VPC for this cluster. If this cluster will be the one remaining in the VPC when completed, please open a ServiceNow case for SRE to review and remove this status.",
+  "details": "SRE has observed that there is more than 1 cluster within a single VPC in your AWS account. VPC sharing is not supported within AWS GovCloud Regions for ROSA Classic. Please use the ROSA UI or CLI to remove one of these clusters from the VPC for this cluster. If this cluster will be the one remaining in the VPC when completed, please open a ServiceNow case for SRE to review and remove this status",
   "doc_references": ["https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-rosa.html", "https://redhatgov.servicenowservices.com/kb_view.do?sysparm_article=KB0010022"],
   "detection_type": "manual"
 }
