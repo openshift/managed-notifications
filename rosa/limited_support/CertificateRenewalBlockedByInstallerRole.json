@@ -1,0 +1,8 @@
+{
+    "kind": "LimitedSupportReason",
+    "severity": "Warning",
+    "summary": "Cluster is in Limited Support due to Blocked Installer Role IAM Access",
+    "details": "Access to the Installer Role: ${ROLE_NAME} is currently being blocked. This can lead to failing important cluster management functions including but not limited to certificate renewals, which will cause loss of access to the cluster. Please remediate this issue in order to restore support",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/introduction_to_rosa/rosa-sts-about-iam-resources"],
+    "detection_type": "manual"
+}
