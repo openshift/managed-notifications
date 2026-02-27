@@ -1,0 +1,12 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Action required: Webhook blocking pod eviction during nodepool update",
+  "description": "Your cluster's nodepool `${NODEPOOL}` is unable to complete an update because a validating or mutating webhook `${WEBHOOK_NAME}` is preventing the eviction of pod `${POD}` in namespace `${NAMESPACE}`. Please review the webhook configuration and update it to allow pod evictions during node updates. Without action, your nodepool update may remain blocked. For more information on admission webhooks, see the documentation: https://docs.openshift.com/rosa/architecture/admission-plug-ins.html.",
+  "doc_references": [
+    "https://docs.openshift.com/rosa/architecture/admission-plug-ins.html",
+    "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/"
+  ],
+  "internal_only": false
+}
