@@ -1,7 +1,11 @@
 # Alternative Containerfile that downloads model and builds embeddings at runtime
 # This reduces image size significantly but adds 2-5 minutes to startup time
 
-FROM python:3.13-slim
+FROM registry.access.redhat.com/ubi10/ubi-minimal:latest
+
+# Install Python 3 and required packages
+RUN microdnf install -y python3 python3-pip python3-devel gcc util-linux && \
+    microdnf clean all
 
 # Install uv
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
@@ -11,15 +15,21 @@ WORKDIR /app
 ENV UV_NO_CACHE=1
 
 # Copy all source files
-COPY pyproject.toml ./
-COPY uv.lock ./
+COPY mcp/pyproject.toml ./
+COPY mcp/uv.lock ./
 
-# Install dependencies and project
-RUN uv sync --frozen --no-dev
+# Install dependencies with CPU-only PyTorch
+RUN uv sync --no-dev && \
+    uv pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio --force-reinstall
 
 # Copy notification templates and scripts (embeddings built at runtime)
-COPY scripts/ ./scripts/
-COPY managed-notifications/ ./managed-notifications/
+COPY mcp/scripts/ ./scripts/
+# Copy all notification directories to create the expected managed-notifications structure
+COPY cluster ./managed-notifications/cluster/
+COPY hcp ./managed-notifications/hcp/
+COPY osd ./managed-notifications/osd/
+COPY rosa ./managed-notifications/rosa/
+COPY ocm ./managed-notifications/ocm/
 
 # Set environment variables for MCP server
 ENV HOST=0.0.0.0
@@ -28,19 +38,12 @@ ENV HF_HOME=/tmp/huggingface
 ENV TRANSFORMERS_CACHE=/tmp/huggingface
 ENV CHROMA_DB_PATH=/tmp/chroma_db
 
-# Copy mcp server code
-COPY main.py ./
-
-# Create startup script that builds embeddings and starts server
-RUN echo '#!/bin/sh\n\
-echo "Building embeddings database (this may take 2-5 minutes)..."\n\
-uv run --no-sync scripts/build_embeddings.py\n\
-echo "Embeddings built, starting MCP server..."\n\
-exec uv run --no-sync main.py' > /app/start.sh && \
-    chmod 755 /app/start.sh
+# Copy mcp server code and startup script
+COPY mcp/main.py ./
+COPY mcp/start.sh ./
 
 # Expose port for MCP server
 EXPOSE 8000
 
 # Default command
-CMD ["/app/start.sh"]
+CMD ["./start.sh"]

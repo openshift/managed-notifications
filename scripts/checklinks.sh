@@ -2,7 +2,7 @@ ARTIFACT_DIR="${ARTIFACT_DIR:-/tmp/artifacts}"
 [ ! -d "$ARTIFACT_DIR" ] && mkdir -p "$ARTIFACT_DIR"
 TEMP_FILE=$(mktemp -p "$ARTIFACT_DIR" broken_links_XXXXXX)
 
-for file in $(find . -type f -print); do
+for file in $(find . -type f -not -path "./.tekton/*" -print); do
     grep -shEo "(http|https)://[a-zA-Z0-9./?=_-]*" $file | sort -u | while IFS= read -r URL; do
     cleanurl=${URL%.}
     s=$(curl "$cleanurl" -L --head --silent --max-time 10 --write-out '%{response_code}' -o /dev/null)
