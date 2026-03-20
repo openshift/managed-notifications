@@ -1,0 +1,92 @@
+---
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: managed-notifications-mcp
+  annotations:
+    description: "MCP server for semantic search over OpenShift Managed Services notification templates"
+    tags: "mcp,notifications,search,ai"
+objects:
+
+# Deployment
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: managed-notifications-mcp
+    labels:
+      app: managed-notifications-mcp
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: managed-notifications-mcp
+    template:
+      metadata:
+        labels:
+          app: managed-notifications-mcp
+      spec:
+        containers:
+        - name: managed-notifications-mcp
+          image: quay.io/openshift/managed-notifications-mcp:latest
+          ports:
+          - containerPort: 8000
+          env:
+          - name: HOST
+            value: "0.0.0.0"
+          - name: PORT
+            value: "8000"
+          - name: HF_HOME
+            value: "/tmp/huggingface"
+          - name: TRANSFORMERS_CACHE
+            value: "/tmp/huggingface"
+          - name: CHROMA_DB_PATH
+            value: "/tmp/chroma_db"
+          - name: EMBEDDING_MODEL
+            value: "all-MiniLM-L6-v2"
+          resources:
+            requests:
+              memory: 1Gi
+              cpu: 500m
+            limits:
+              memory: 2Gi
+              cpu: 1000m
+          volumeMounts:
+          - name: tmp-volume
+            mountPath: /tmp
+        volumes:
+        - name: tmp-volume
+          emptyDir:
+            sizeLimit: 2Gi
+
+# Service
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: managed-notifications-mcp-service
+    labels:
+      app: managed-notifications-mcp
+  spec:
+    selector:
+      app: managed-notifications-mcp
+    ports:
+    - name: http
+      protocol: TCP
+      port: 8000
+      targetPort: 8000
+
+# Route
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    name: managed-notifications-mcp-route
+    labels:
+      app: managed-notifications-mcp
+  spec:
+    to:
+      kind: Service
+      name: managed-notifications-mcp-service
+    port:
+      targetPort: 8000
+    tls:
+      termination: edge
+      insecureEdgeTerminationPolicy: Redirect
