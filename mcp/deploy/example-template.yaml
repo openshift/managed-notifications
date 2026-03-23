@@ -1,0 +1,123 @@
+---
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: jira-ready-for-work
+  annotations:
+    description: "JIRA Automation Webhook"
+    tags: "ai,jira-ready-for-work"
+objects:
+
+# Deployment
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: jira-bot
+    namespace: jira-bot
+    labels:
+      app: jira-bot
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: jira-bot
+    template:
+      metadata:
+        labels:
+          app: jira-bot
+      spec:
+        containers:
+        - name: jira-bot
+          image: quay.io/redhat-services-prod/ohss-ai-triage-tenant/ohss-ai-triage/jira-ready-for-work
+          ports:
+            - containerPort: 8080
+          env:
+          - name: JIRA_PAT
+            valueFrom:
+              secretKeyRef:
+                name: jira-token
+                key: token
+          - name: WEBHOOK_SECRET
+            valueFrom:
+              secretKeyRef:
+                name: webhook-secret
+                key: secret
+          - name: MODEL_API_KEY
+            valueFrom:
+              secretKeyRef:
+                name: model-api-key
+                key: key
+          - name: MODEL_PROVIDER_BASE_URL
+            valueFrom:
+              configMapKeyRef:
+                name: jira-bot-config
+                key: model.provider
+          - name: MODEL_NAME
+            valueFrom:
+              configMapKeyRef:
+                name: jira-bot-config
+                key: model.name
+          - name: JIRA_URL
+            valueFrom:
+              configMapKeyRef:
+                name: jira-bot-config
+                key: jira.url
+          - name: CLIENT_ID
+            valueFrom:
+              secretKeyRef:
+                name: ocm-service-account
+                key: client_id
+          - name: CLIENT_SECRET
+            valueFrom:
+              secretKeyRef:
+                name: ocm-service-account
+                key: client_secret
+          - name: OCM_URL
+            value: "https://api.openshift.com"
+
+# Service
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: jira-bot
+    name: jira-bot-service
+  spec:
+    selector:
+      app: jira-bot
+    ports:
+      - name: http
+        protocol: TCP
+        port: 8080
+        targetPort: 8000
+    sessionAffinity: ClientIP
+    sessionAffinityConfig:
+      clientIP:
+        timeoutSeconds: 10800
+
+# Route
+# Route
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    labels:
+      app: jira-bot
+    name: jira-bot-route
+    annotations:
+      haproxy.router.openshift.io/timeout-connect: "5s"
+      haproxy.router.openshift.io/timeout-server: "300s"
+      haproxy.router.openshift.io/timeout-client: "300s"
+      haproxy.router.openshift.io/timeout-http-request: "300s"
+      haproxy.router.openshift.io/timeout-http-keep-alive: "300s"
+      haproxy.router.openshift.io/balance: source
+  spec:
+    to:
+      kind: Service
+      name: jira-bot-service
+    port:
+      targetPort: 8000
+    tls:
+      termination: edge
+      insecureEdgeTerminationPolicy: Redirect
+
+
