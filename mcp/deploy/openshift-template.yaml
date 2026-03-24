@@ -27,7 +27,7 @@ objects:
       spec:
         containers:
         - name: managed-notifications-mcp
-          image: quay.io/openshift/managed-notifications-mcp:latest
+          image: quay.io/redhat-services-prod/managed-notifications-tenant/managed-notifications/managed-notifications-mcp
           ports:
           - containerPort: 8000
           env:
