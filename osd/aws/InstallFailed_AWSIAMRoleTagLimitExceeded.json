@@ -1,0 +1,12 @@
+{
+  "severity":"Critical",
+  "service_name":"SREManualAction",
+  "log_type": "cluster-lifecyle",
+  "summary":"Installation blocked, action required",
+  "description":"Your cluster installation is blocked by an AWS IAM role tag limit error. One or more IAM roles associated with your cluster have reached the maximum allowed limit of 50 tags. Please reduce the number of tags on these roles, reconfigure any automation adding tags, and retry the installation. AWS account limits are described in the documentation: https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-required-aws-service-quotas#.",
+  "internal_only":false,
+  "event_stream_id":"",
+  "doc_references": [
+    "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-required-aws-service-quotas"
+  ]
+}
