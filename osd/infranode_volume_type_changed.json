@@ -1,0 +1,9 @@
+{
+    "severity": "Info",
+    "service_name": "SREManualAction",
+    "log_type": "capacity-management",
+    "summary": "Infra Node EBS Volume Type Changed",
+    "description": "Red Hat SRE have changed the EBS volume type for the cluster's infra nodes from ${PREVIOUS_VOLUME_TYPE} to ${NEW_VOLUME_TYPE}. Reason: ${REASON}. Infra nodes were replaced using the standard machinepool replacement procedure. No customer action is required.",
+    "doc_references": ["https://access.redhat.com/solutions/6969126"],
+    "internal_only": false
+}
