@@ -1,0 +1,8 @@
+{
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-upgrades",
+  "summary": "Attempted transition to EUS channel - Resolution in progress",
+  "description": "An attempt was made to transition your cluster from the Stable update channel to the Extended Update Support (EUS) channel to maintain continued support. During this process, your cluster's recurring upgrade policy was temporarily removed and then restored to its original settings. However, technical issues were encountered during the channel transition. Our team is currently working on a resolution to complete the EUS transition. Your cluster's upgrade policy configuration has been preserved at its original settings, and no further action is required from you at this time. For more information about EUS, see: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-minor-versions_rosa-hcp-life-cycle.",
+  "internal_only": false
+}

@@ -1,0 +1,8 @@
+{
+  "severity": "Info",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-upgrades",
+  "summary": "Cluster transitioned to EUS channel to extend support lifecycle",
+  "description": "Your cluster has been transitioned from the stable update channel to the Extended Update Support (EUS) channel to extend its support lifecycle. This provides additional time for planning your upgrade to a newer OpenShift version. For more information about EUS, see: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-minor-versions_rosa-hcp-life-cycle.",
+  "internal_only": false
+}
