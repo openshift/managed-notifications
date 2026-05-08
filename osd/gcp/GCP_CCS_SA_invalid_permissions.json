@@ -3,7 +3,7 @@
   "service_name": "SREManualAction",
   "log_type": "cluster-access",
   "summary": "Cluster reporting errors",
-  "description": "Your GCP cluster reporting errors due to missing or insufficient privileges on the GCP project used to provision the cluster. Please review and validate the prerequisites required on your GCP project. For further information see the documentation: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#ccs-gcp-customer-procedure-sa_gcp-ccs",
+  "description": "Your GCP cluster is reporting errors due to missing or insufficient privileges on the GCP project used to provision the cluster. Please review and validate the prerequisites required on your GCP project. For further information see the documentation: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#ccs-gcp-customer-procedure-sa_gcp-ccs.",
   "doc_references": ["https://docs.redhat.com/en/documentation/openshift_dedicated/4/html-single/planning_your_environment/index#ccs-gcp-customer-procedure-sa_gcp-ccs"],
   "internal_only": false
 }
