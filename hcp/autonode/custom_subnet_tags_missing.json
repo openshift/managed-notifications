@@ -1,0 +1,10 @@
+{
+    "severity": "Warning",
+    "service_name": "SREManualAction",
+    "summary": "Action required: AutoNode OpenShiftEC2NodeClass not ready due to subnet selector mismatch",
+    "description": "Red Hat has identified that your cluster's AutoNode OpenShiftEC2NodeClass ${NODECLASS_NAME} is not ready because the subnet selectors defined in your custom OpenShiftEC2NodeClass do not match any subnets in your VPC. Please ensure the subnet tags in your VPC match the selectors specified in your OpenShiftEC2NodeClass. Without matching subnets, AutoNode cannot provision new nodes.",
+    "internal_only": false,
+    "doc_references": [
+        "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_clusters/rosa-hcp-sts-creating-a-cluster-quickly#rosa-hcp-vpc-subnet-tagging_rosa-hcp-sts-creating-a-cluster-quickly"
+    ]
+}
