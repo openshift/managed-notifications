@@ -1,0 +1,8 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary": "Cluster machine creation blocked, action required",
+    "description": "Your cluster is blocked on AWS, when launching machine instances. In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit ${AWS_MARKETPLACE_URL}",
+    "internal_only": false
+}
