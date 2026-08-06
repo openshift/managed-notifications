@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-configuration",
     "summary": "Action required: Please upgrade your cluster",
-    "description": "Your cluster version ${CURRENT_CLUSTER_VERSION}, does not support custom timezone configuration for cron jobs. Please upgrade your cluster to ${TARGET_CLUSTER_VERSION} to support custom timezone configuration. Please refer to this article for details: https://access.redhat.com/solutions/7145341",
+    "description": "Your cluster version ${CURRENT_CLUSTER_VERSION} does not support custom timezone configuration for cron jobs. Please upgrade your cluster to ${TARGET_CLUSTER_VERSION} to support custom timezone configuration. Please refer to this article for details: https://access.redhat.com/solutions/7145341",
     "doc_references": ["https://access.redhat.com/solutions/7145341"],
     "internal_only": false
 }
