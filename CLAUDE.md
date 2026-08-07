@@ -79,7 +79,7 @@ osdctl servicelog post <cluster-uuid> -t <template-url>
 Example:
 
 ```bash
-osdctl servicelog post aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee \
+osdctl servicelog post -C aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee \
   -t https://raw.githubusercontent.com/openshift/managed-notifications/master/osd/aws/InstallFailed_TooManyBuckets.json
 ```
 
