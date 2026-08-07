@@ -1,5 +1,5 @@
 {
-  "severity": "Warning",
+  "severity": "Moderate",
   "service_name": "SREManualAction",
   "log_type": "cluster-security",
   "summary": "Elevated rate of failed authorization events on your Managed OpenShift cluster",

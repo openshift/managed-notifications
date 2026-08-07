@@ -1,6 +1,6 @@
 {
   "event_stream_id": "${INCIDENT_ID}",
-  "severity": "Info",
+  "severity": "Low",
   "service_name": "SREManualAction",
   "summary": "Cluster incident resolved",
   "description": "Cluster incident is resolved.",

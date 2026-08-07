@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Moderate",
     "service_name": "SREManualAction",
     "summary": "Action required: AutoNode default OpenShiftEC2NodeClass not ready due to missing subnet tags",
     "description": "Red Hat has identified that your cluster's default AutoNode OpenShiftEC2NodeClass is not ready because the required tags are missing from your VPC subnets. The default OpenShiftEC2NodeClass requires subnets to have the following tags: ${SUBNET_TAGS}. Please ensure your BYOVPC subnets have the required tags applied. Without these tags, AutoNode cannot discover subnets and will be unable to provision new nodes.",
