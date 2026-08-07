@@ -80,8 +80,7 @@ Example:
 
 ```bash
 osdctl servicelog post aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee \
-  -t https://raw.githubusercontent.com/openshift/managed-notifications/\
-master/osd/aws/InstallFailed_TooManyBuckets.json
+  -t https://raw.githubusercontent.com/openshift/managed-notifications/master/osd/aws/InstallFailed_TooManyBuckets.json
 ```
 
 ### Tag System
