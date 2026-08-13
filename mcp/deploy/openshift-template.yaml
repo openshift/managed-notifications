@@ -25,6 +25,8 @@ objects:
         labels:
           app: managed-notifications-mcp
       spec:
+        imagePullSecrets:
+        - name: quay.io
         containers:
         - name: managed-notifications-mcp
           image: quay.io/redhat-services-prod/managed-notifications-tenant/managed-notifications/managed-notifications-mcp
