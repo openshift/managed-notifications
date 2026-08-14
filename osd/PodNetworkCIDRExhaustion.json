@@ -1,0 +1,9 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "General Notification",
+  "_tags": ["t_network"],
+  "summary": "Action required: Pod network subnet exhaustion",
+  "description": "Your cluster requires you to take action because the pod network CIDR ${CLUSTER_NETWORK_CIDR} with a host prefix of /${HOST_PREFIX} only supports ${MAX_NODES} nodes, but your cluster currently has ${CURRENT_NODES} nodes, exceeding this limit. New nodes cannot be allocated a pod subnet and will fail to become schedulable. Please reduce your node count to ${MAX_NODES} or fewer, or recreate your cluster with a larger pod network CIDR. Without action, your cluster's SLA may be impacted, along with your ability to scale and upgrade. Please refer to this documentation for more information: https://docs.openshift.com/rosa/rosa_planning/rosa-limits-scalability.html.",
+  "internal_only": false
+}
