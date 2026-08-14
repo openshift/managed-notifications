@@ -1,0 +1,7 @@
+{
+    "severity": "Major",
+    "service_name": "SREManualAction",
+    "summary": "Installation blocked, action required",
+    "description": "Your cluster's installation is blocked due to insufficient IP space in subnet ${SUBNET}, preventing the default LoadBalancer from being created. The minimum number of IP addresses for internet-facing LoadBalancers is documented in: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/availability-zones.html.",
+    "internal_only": false
+}
