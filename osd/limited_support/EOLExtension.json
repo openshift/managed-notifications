@@ -1,5 +1,5 @@
 {
-  "severity": "Info",
+  "severity": "Low",
   "service_name": "SREManualAction",
   "log_type": "end-of-life-extension",
   "summary": "Cluster is fully supported and has been granted end of life cycle extension until ${EXTENSION_DATE}",

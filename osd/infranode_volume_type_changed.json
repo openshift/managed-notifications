@@ -1,5 +1,5 @@
 {
-    "severity": "Info",
+    "severity": "Low",
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Infra Node EBS Volume Type Changed",

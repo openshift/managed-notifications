@@ -1,6 +1,6 @@
 {
   "event_stream_id": "${INCIDENT_ID}",
-  "severity": "Info",
+  "severity": "Low",
   "service_name": "SREManualAction",
   "summary": "Cluster incident update",
   "description": "${INCIDENT_UPDATE_MESSAGE}. Please refer to support case ${CASE_ID} for communication with our team, where there is opportunity for ongoing dialogue.",

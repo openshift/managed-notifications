@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Moderate",
     "service_name": "SREManualAction",
     "summary": "Action required: AutoNode OpenShiftEC2NodeClass not ready due to subnet selector mismatch",
     "description": "Red Hat has identified that your cluster's AutoNode OpenShiftEC2NodeClass ${NODECLASS_NAME} is not ready because the subnet selectors defined in your custom OpenShiftEC2NodeClass do not match any subnets in your VPC. Please ensure the subnet tags in your VPC match the selectors specified in your OpenShiftEC2NodeClass. Without matching subnets, AutoNode cannot provision new nodes.",

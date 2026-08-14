@@ -1,5 +1,5 @@
 {
-  "severity": "Warning",
+  "severity": "Moderate",
   "service_name": "SREManualAction",
   "log_type": "cluster-configuration",
   "summary": "Platform protections removed by non-Red Hat user",
