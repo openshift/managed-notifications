@@ -4,6 +4,6 @@
   "log_type": "cluster-configuration",
   "summary": "Action required: Customer-managed CNI issue detected",
   "description": "Your cluster was created without a default CNI plugin and a CNI-related issue has been detected: ${REASON}. Please verify that your CNI plugin is correctly deployed and configured. Red Hat does not provide support for third-party CNI plugins. Please contact your CNI vendor for assistance if needed.",
-  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_rosa_with_hcp_clusters/rosa-hcp-cluster-no-cni"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_clusters/rosa-hcp-cluster-no-cni"],
   "internal_only": false
 }
