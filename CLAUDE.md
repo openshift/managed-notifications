@@ -48,7 +48,7 @@ Each notification is a JSON file with required fields:
 
 ```json
 {
-  "severity": "Debug|Info|Warning|Major|Critical",
+  "severity": "Debug|Low|Moderate|Important|Critical",
   "service_name": "SREManualAction|...",
   "log_type": "cluster-lifecycle|...",
   "summary": "Brief summary.",
@@ -61,7 +61,7 @@ Each notification is a JSON file with required fields:
 **Key constraints:**
 
 - `description` field MUST end with a period (enforced by `make validate`)
-- `severity` must be one of: Debug, Info, Warning, Major, Critical
+- `severity` must be one of: Debug, Low, Moderate, Important, Critical
   (enforced by `scripts/checkseverity.sh`)
 - Templates may contain variable placeholders like `${TIME}`, `${CLUSTER_ID}`,
   `${NAMESPACE}`

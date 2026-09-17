@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Moderate",
     "summary": "Cluster is in Limited Support due to unsupported cloud provider configuration",
     "log_type": "cluster-configuration",
     "details": "${CONFIGURATION}",
