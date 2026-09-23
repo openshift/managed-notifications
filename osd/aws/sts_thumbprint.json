@@ -1,5 +1,5 @@
 {
-  "severity": "Major",
+  "severity": "Important",
   "service_name": "SREManualAction",
   "log_type": "cluster-access",
   "summary": "Action required: update cluster OIDC thumbprint",

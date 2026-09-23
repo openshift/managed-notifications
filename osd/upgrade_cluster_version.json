@@ -1,5 +1,5 @@
 {
-    "severity": "Warning",
+    "severity": "Moderate",
     "service_name": "SREManualAction",
     "log_type": "cluster-updates",
     "summary": "Action Required: Upgrade cluster version",
