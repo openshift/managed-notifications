@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "log_type": "cluster-networking",
     "summary": "Action Required: Network Plugin Migration Blocked",
-    "description": "Your cluster is unable to initiate its live network plugin migration because the following pod(s) have an unsupported egress router pod annotation: ${PODS}. Please delete these pods or remove their `pod.network.openshift.io/assign-macvlan` annotations. Refer to the following OpenShift Dedicated documentation for further details: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/networking/ovn-kubernetes-network-plugin#migrate-sdn-ovn-ocm-cli_migrate-from-openshift-sdn-osd.",
+    "description": "Your cluster is unable to initiate its live network plugin migration because the following pod(s) have an unsupported egress router pod annotation: ${PODS}. Please delete these pods or remove their `pod.network.openshift.io/assign-macvlan` annotations. Refer to the following OpenShift Dedicated documentation for further details: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/ovn-kubernetes_network_plugin/migrate-from-openshift-sdn-osd.",
     "internal_only": false
 }
