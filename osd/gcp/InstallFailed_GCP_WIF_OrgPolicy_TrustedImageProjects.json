@@ -1,0 +1,11 @@
+{
+  "severity": "Important",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
+  "summary": "Installation blocked, action required: GCP organization policy restricts cluster creation",
+  "description": "Your cluster's installation failed because the GCP organization policy constraint '${GCP_CONSTRAINT_NAME}' applied to project ${GCP_PROJECT_ID}. Please refer to the product documentation for workload requirements and update the policy at the level where it is enforced (organization, folder or project).",
+  "doc_references": [
+    "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/openshift_dedicated_clusters_on_google_cloud/osd-creating-a-cluster-on-gcp-with-workload-identity-federation"
+  ],
+  "internal_only": false
+}
