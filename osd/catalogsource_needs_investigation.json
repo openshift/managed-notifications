@@ -1,0 +1,12 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-configuration",
+  "summary": "Action required: Broken Operator CatalogSource Preventing Operator Updates",
+  "description": "Your cluster requires you to take action. SRE has observed that there is a broken CatalogSource '${CATALOG_SOURCE}' which is preventing operator updates or deployments. Fix or remove the broken CatalogSource in order to ensure that both your and Red Hat managed operators can be updated/deployed. Not fixing this issue can result in the loss of Red Hat's ability to monitor your cluster and may affect the SLA.",
+  "doc_references": ["https://access.redhat.com/solutions/7052456"],
+  "internal_only": false,
+  "_tags": [
+    "t_config"
+  ]
+}
