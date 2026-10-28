@@ -1,0 +1,8 @@
+{
+    "severity": "Critical",
+    "service_name": "SREManualAction",
+    "log_type": "cluster-lifecycle",
+    "summary": "Action required: Orphaned resource blocking ${OPERATION}",
+    "description": "Your cluster has an orphaned resource that is blocking ${OPERATION}. SRE has identified ${RESOURCE_TYPE} '${RESOURCE_NAME}' in namespace '${NAMESPACE}' as orphaned and preventing normal cluster functions. Please delete the resource. If you have questions about this operation, please open a support case.",
+    "internal_only": false
+}
