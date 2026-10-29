@@ -3,7 +3,7 @@
     "service_name": "SREManualAction",
     "log_type": "capacity-management",
     "summary": "Action required: Resources overloaded",
-    "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.openshift.com/container-platform/latest/cicd/pipelines/reducing-pipelines-resource-consumption.html#.",
-    "doc_references": ["https://docs.openshift.com/pipelines/latest/resource/reducing-pipelines-resource-consumption.html#.","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/cluster_administration/index#rosa-scaling-worker-nodes_rosa-managing-worker-nodes","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/cluster_administration/index#machine-pools"],
+    "description": "Your cluster does not have enough resources and requires you to take action. SRE is aware of a condition affecting your cluster, it may be beneficial to reduce resource consumption of pipelines: https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.24/html/managing_performance_and_resource_use/reducing-pipelines-resource-consumption#.",
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/latest/html/managing_performance_and_resource_use/reducing-pipelines-resource-consumption#.","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/cluster_administration/index#rosa-scaling-worker-nodes_rosa-managing-worker-nodes","https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html-single/cluster_administration/index#managing-compute-nodes-using-machine-pools"],
     "internal_only": false
 }

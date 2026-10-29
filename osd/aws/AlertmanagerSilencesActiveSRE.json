@@ -4,6 +4,6 @@
     "log_type": "cluster-configuration",
     "summary": "Clear Alertmanager Silences",
     "description": "Your cluster's monitoring stack has silenced alerts. This prevents Red Hat SRE from monitoring this cluster. Please clear alert silences immediately.",
-    "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/monitoring/managing-alerts#expiring-silences_managing-alerts"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/monitoring/managing-alerts#expiring-silences_managing-alerts-as-a-developer"],
     "internal_only": false
 }

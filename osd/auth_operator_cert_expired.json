@@ -6,7 +6,7 @@
   "summary": "Action required: Authentication operator degraded due to expired TLS certificate",
   "description": "The authentication cluster operator on your cluster is unavailable because the TLS certificate serving the OAuth route has expired. The certificate expired at ${EXPIRY_TIME}. This prevents users from authenticating to the cluster via the OpenShift OAuth server. Please renew or replace the TLS certificate for the OAuth server route to restore authentication functionality. If you are using a custom domain with a user-provided certificate, ensure your certificate is renewed and updated in the corresponding secret.",
   "doc_references": [
-    "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/building_applications/deployments#osd-config-custom-domains-applications",
+    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/building_applications/deployments#rosa-config-custom-domains-applications",
     "https://access.redhat.com/articles/5599621"
   ],
   "internal_only": false

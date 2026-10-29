@@ -4,6 +4,6 @@
     "log_type": "cluster-configuration",
     "summary": "SRE is investigating delays in SDN to OVN migration",
     "description": "Your cluster's SDN to OVN migration is taking longer than expected. SRE is actively investigating this issue. Please see the referenced documentation for further information.",
-    "doc_references": ["https://access.redhat.com/articles/7104155"],
+    "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/ovn-kubernetes_network_plugin/migrate-from-openshift-sdn"],
     "internal_only": false
   }
