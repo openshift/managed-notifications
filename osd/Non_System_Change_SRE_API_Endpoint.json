@@ -5,7 +5,7 @@
   "summary": "Non-System Change SRE API Endpoint",
   "description": "A Non-system user changed an SRE API endpoint, ${ENDPOINT}. This event can have an impact on SLAs. Red Hat will proactively repair API endpoint changes that were made. Please refer to https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/support/troubleshooting#sd-managed-resources-overview_sd-managed-resources.",
   "doc_references": [
-    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/support/troubleshooting#sd-managed-resources-overview_sd-managed-resources"
+    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html/support/troubleshooting#sd-managed-resources"
   ],
   "internal_only": false,
   "_tags": [

@@ -4,7 +4,7 @@
   "log_type": "cluster-security",
   "summary": "There are an elevated number of failed logins on your cluster",
   "description": "The Red Hat Site Reliability Engineering (SRE) team detected a security event on your Managed OpenShift cluster. There are an elevated number of failed logins on your cluster(s) from user ${USERNAME}. Red Hat SRE is sending this notice to you for further analysis. Please review OpenShift Authentication for configuration information https://docs.openshift.com/container-platform/latest/authentication/understanding-authentication.html.",
-  "doc_references": ["https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/authentication_and_authorization/overview-of-authentication-authorization#authentication-overview"],
+  "doc_references": ["https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/authentication_and_authorization/overview-of-authentication-authorization"],
   "internal_only": false,
   "_tags": [
     "sop_SplunkFailedLogins"
