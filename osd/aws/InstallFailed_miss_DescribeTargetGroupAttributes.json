@@ -1,0 +1,8 @@
+{
+  "severity": "Critical",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
+  "summary": "Installation blocked, action required",
+  "description": "Your cluster's installation failed because a recent ROSA update requires an additional permission, 'elasticloadbalancing:DescribeTargetGroupAttributes', which is not yet included in the account-wide IAM role policies in your AWS account. To resolve this, please re-create the account role policies by running 'rosa create account-roles --classic --force-policy-creation', then delete the failed cluster and create a new cluster.",
+  "internal_only": false
+}
