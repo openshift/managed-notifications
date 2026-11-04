@@ -36,11 +36,9 @@ Each notification template is a JSON file with the following structure:
 ```
 
 Documentation links appear in these fields:
-- The `doc_references` array (explicit URL list) — 176+ templates
-- Inline within `description` text fields — 140+ templates
+- The `doc_references` array (explicit URL list)
+- Inline within `description` text fields
 - Occasionally in `details` fields
-
-**Note:** At least one template (`osd/security_update_available.json`) uses a misspelled `doc_referencs` key. The URL scan must not rely solely on the correctly spelled field name — scan all string values in each template for URLs.
 
 Templates are organized under: `osd/`, `osd/aws/`, `osd/gcp/`, `osd/limited_support/`, `rosa/`, `rosa/limited_support/`, `hcp/`, `cluster/`, `ocm/`.
 
@@ -48,13 +46,13 @@ Templates are organized under: `osd/`, `osd/aws/`, `osd/gcp/`, `osd/limited_supp
 
 ### Phase 1: Auto-Close Stale PRs
 
-Before any other work, check for open documentation PRs with the `[docs-agent]` prefix that were created more than 3 days ago and close them with an explanatory comment.
+Before any other work, check for open documentation PRs with the `[docs-agent]` prefix that were created more than 5 days ago and close them with an explanatory comment.
 
 **Implementation:**
 
 1. Get your GitHub username: `gh api user --jq .login`
 2. List open PRs: `gh pr list --repo openshift/managed-notifications --author "${GH_USER}" --state open --search "[docs-agent]" --json number,title,createdAt`
-3. For PRs older than 3 days: `gh pr close <PR-number> --repo openshift/managed-notifications --comment "Auto-closing: this documentation link update was not reviewed within 3 days. If the changes are still relevant, a new PR will be opened in a future run."`
+3. For PRs older than 5 days: `gh pr close <PR-number> --repo openshift/managed-notifications --comment "Auto-closing: this documentation link update was not reviewed within 5 days. If the changes are still relevant, a new PR will be opened in a future run."`
 
 ### Phase 2: Scan All Templates for Broken Links
 
