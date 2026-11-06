@@ -41,6 +41,6 @@ jobs:
       - name: Notify Slack on failure
         if: failure()
         run: |
-          curl -X POST -H 'Content-type: application/json' \
+          curl --fail-with-body -X POST -H 'Content-type: application/json' \
             --data "{\"text\":\"managed-notifications content-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
