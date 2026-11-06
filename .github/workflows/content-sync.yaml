@@ -1,0 +1,46 @@
+name: Content Sync
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: {}
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: content-sync-managed-notifications
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.SYNC_WRITER_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Sync content
+        env:
+          BUCKET: ${{ vars.CORA_CONTENT_BUCKET }}
+        run: |
+          set -euo pipefail
+
+          aws s3 sync . "s3://${BUCKET}/managed-notifications/" \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*"
+
+      - name: Notify Slack on failure
+        if: failure()
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"managed-notifications content-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
