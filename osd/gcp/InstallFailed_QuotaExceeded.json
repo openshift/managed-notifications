@@ -6,6 +6,6 @@
     "description": "Your cluster's installation is blocked on a GCP ${RESOURCE_QUOTA} error. Please raise the quota or free enough resources for the installation to succeed. GCP account requirements are described in this document: https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/planning_your_environment/gcp-ccs#ccs-gcp-customer-requirements_gcp-ccs.",
     "internal_only": false,
     "doc_references": [
-      "https://access.redhat.com/documentation/en-us/openshift_dedicated/4/html/planning_your_environment/gcp-ccs#ccs-gcp-customer-requirements_gcp-ccs"
+      "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/planning_your_environment/gcp-ccs#ccs-gcp-customer-requirements_gcp-ccs"
     ]
 }
