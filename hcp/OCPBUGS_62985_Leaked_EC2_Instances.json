@@ -1,0 +1,11 @@
+{
+  "severity": "Moderate",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
+  "summary": "Possible unwanted EC2 instance(s) from OCPBUGS-62985",
+  "description": "A race condition in machine creation can occasionally leave an unwanted EC2 instance in your AWS account that is not represented by a Node in your cluster. The instance may continue to incur AWS charges. Please follow the read-only diagnostic steps in the Red Hat KCS article to check for a possible extra instance. If the check identifies a possible extra instance, contact Red Hat Support and share the results before taking action.",
+  "doc_references": [
+    "https://access.redhat.com/solutions/7149557"
+  ],
+  "internal_only": false
+}
