@@ -1,13 +1,30 @@
 approvers:
+  - ajpantuso
+  - bmeng
+  - clcollins
+  - drewandersonnz
+  - evalis1
   - geowa4
   - krishvoor
-  - ahrabovs
-  - vkumar51
-  - evalis1
-reviewers:
   - makdaam
   - MitaliBhalla
-  - bdematte
-  - clcollins
+  - nreuckRH
   - ravitri
+  - rbhilare
+  - smarthall
+  - vkumar51
+reviewers:
+  - ajpantuso
   - bmeng
+  - clcollins
+  - drewandersonnz
+  - evalis1
+  - geowa4
+  - krishvoor
+  - makdaam
+  - MitaliBhalla
+  - nreuckRH
+  - ravitri
+  - rbhilare
+  - smarthall
+  - vkumar51
