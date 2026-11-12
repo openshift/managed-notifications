@@ -91,3 +91,46 @@ jobs:
           curl --fail-with-body -X POST -H 'Content-type: application/json' \
             --data "{\"text\":\"managed-notifications boundary-stage-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
+
+  boundary-prod-sync:
+    if: *authorized-publication
+    permissions:
+      id-token: write
+      contents: read
+    concurrency:
+      group: content-sync-managed-notifications-boundary-prod
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.BOUNDARY_PROD_SYNC_WRITER_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Sync content
+        env:
+          BUCKET: ${{ vars.BOUNDARY_PROD_CONTENT_BUCKET }}
+        run: |
+          set -euo pipefail
+
+          [[ -n "$BUCKET" && "$BUCKET" != */* ]] || exit 1
+          destination="s3://${BUCKET}/managed-notifications/"
+          test -d .
+          test -n "$(find . -type f ! -path './.git/*' ! -path './.github/*' -print -quit)"
+          aws s3 sync . "$destination" \
+            --delete \
+            --sse aws:kms \
+            --region us-east-1 \
+            --exclude ".git/*" \
+            --exclude ".github/*"
+
+      - name: Notify Slack on failure
+        if: failure()
+        run: |
+          curl --fail-with-body -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"managed-notifications boundary-prod-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
