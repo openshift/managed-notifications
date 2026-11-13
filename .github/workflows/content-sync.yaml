@@ -76,14 +76,19 @@ jobs:
           set -euo pipefail
 
           destination="s3://${BUCKET}/managed-notifications/"
-          test -d .
-          test -n "$(find . -type f ! -path './.git/*' ! -path './.github/*' -print -quit)"
+          for directory in hcp ocm osd rosa; do
+            test -d "$directory"
+            test -n "$(find "$directory" -type f -print -quit)"
+          done
           aws s3 sync . "$destination" \
             --delete \
             --sse aws:kms \
             --region us-east-1 \
-            --exclude ".git/*" \
-            --exclude ".github/*"
+            --exclude "*" \
+            --include "hcp/*" \
+            --include "ocm/*" \
+            --include "osd/*" \
+            --include "rosa/*"
 
       - name: Notify Slack on failure
         if: failure()
@@ -119,14 +124,19 @@ jobs:
 
           [[ -n "$BUCKET" && "$BUCKET" != */* ]] || exit 1
           destination="s3://${BUCKET}/managed-notifications/"
-          test -d .
-          test -n "$(find . -type f ! -path './.git/*' ! -path './.github/*' -print -quit)"
+          for directory in hcp ocm osd rosa; do
+            test -d "$directory"
+            test -n "$(find "$directory" -type f -print -quit)"
+          done
           aws s3 sync . "$destination" \
             --delete \
             --sse aws:kms \
             --region us-east-1 \
-            --exclude ".git/*" \
-            --exclude ".github/*"
+            --exclude "*" \
+            --include "hcp/*" \
+            --include "ocm/*" \
+            --include "osd/*" \
+            --include "rosa/*"
 
       - name: Notify Slack on failure
         if: failure()
