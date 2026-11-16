@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  cora-sync:
+  cora-stage-sync:
     if: &authorized-publication >-
       github.repository == 'openshift/managed-notifications' &&
       github.ref == 'refs/heads/master' &&
@@ -19,7 +19,7 @@ jobs:
       id-token: write
       contents: read
     concurrency:
-      group: content-sync-managed-notifications
+      group: content-sync-managed-notifications-cora-stage
       cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
@@ -29,12 +29,12 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          role-to-assume: ${{ vars.SYNC_WRITER_ROLE_ARN }}
+          role-to-assume: ${{ vars.CORA_STAGE_SYNC_WRITER_ROLE_ARN }}
           aws-region: us-east-1
 
       - name: Sync content
         env:
-          BUCKET: ${{ vars.CORA_CONTENT_BUCKET }}
+          BUCKET: ${{ vars.CORA_STAGE_CONTENT_BUCKET }}
         run: |
           set -euo pipefail
 
@@ -47,7 +47,44 @@ jobs:
         if: failure()
         run: |
           curl --fail-with-body -X POST -H 'Content-type: application/json' \
-            --data "{\"text\":\"managed-notifications cora-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            --data "{\"text\":\"managed-notifications cora-stage-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
+
+  cora-prod-sync:
+    if: *authorized-publication
+    permissions:
+      id-token: write
+      contents: read
+    concurrency:
+      group: content-sync-managed-notifications-cora-prod
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ vars.CORA_PROD_SYNC_WRITER_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Sync content
+        env:
+          BUCKET: ${{ vars.CORA_PROD_CONTENT_BUCKET }}
+        run: |
+          set -euo pipefail
+
+          aws s3 sync . "s3://${BUCKET}/managed-notifications/" \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*"
+
+      - name: Notify Slack on failure
+        if: failure()
+        run: |
+          curl --fail-with-body -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"managed-notifications cora-prod-sync failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             "${{ secrets.TRUST_OBS_INT_BOT_WEBHOOK_URL }}"
 
   boundary-stage-sync:
