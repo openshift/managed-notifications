@@ -1,0 +1,11 @@
+{
+  "severity": "Important",
+  "service_name": "SREManualAction",
+  "log_type": "cluster-lifecycle",
+  "summary": "Installation blocked, action required",
+  "description": "Your ROSA HCP cluster's installation is blocked due to missing or insufficient privileges on the AWS account used to provision the cluster. ${USER} is not authorized to perform ${REASON}. Please review and validate the pre-requisites required on your AWS account for the installation to succeed, including any service control policies (SCPs) or permissions boundaries applied to the account roles. Prerequisites are described in the product documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-hcp-prereqs.",
+  "doc_references": [
+    "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-hcp-prereqs"
+  ],
+  "internal_only": false
+}
