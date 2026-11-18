@@ -38,7 +38,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          aws s3 sync . "s3://${BUCKET}/managed-notifications/" \
+          aws s3 sync . "s3://${BUCKET}/servicelogs/" \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*"
@@ -75,7 +75,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          aws s3 sync . "s3://${BUCKET}/managed-notifications/" \
+          aws s3 sync . "s3://${BUCKET}/servicelogs/" \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*"
